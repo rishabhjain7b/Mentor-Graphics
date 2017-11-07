@@ -1,0 +1,9 @@
+//full subtractor, d=difference, bo=borrow
+
+module fullsubtractor
+(input a,b,bin,
+ output d,bo);
+
+assign d=a^b^bin,
+       bo=~a&b|~a&c|b&c;
+endmodule

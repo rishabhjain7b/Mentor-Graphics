@@ -1,0 +1,7 @@
+//latch
+module latch
+(input d,en,
+ output y);
+
+assign y=en?d:z;
+endmodule

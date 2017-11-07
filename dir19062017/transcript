@@ -1,0 +1,236 @@
+# //  Questa Sim-64
+# //  Version 10.6a linux_x86_64 Mar 16 2017
+# //
+# //  Copyright 1991-2017 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# Loading project alu
+do halfadder
+# Cannot open macro file: halfadder
+do halfadder.do
+# QuestaSim-64 vlog 10.6a Compiler 2017.03 Mar 16 2017
+# Start time: 06:37:14 on Jun 19,2017
+# vlog -reportprogress 300 halfadder.v 
+# -- Compiling module halfadder
+# 
+# Top level modules:
+# 	halfadder
+# End time: 06:37:14 on Jun 19,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim halfadder 
+# Start time: 06:37:14 on Jun 19,2017
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading work.halfadder(fast)
+do mux2to1.do
+# QuestaSim-64 vlog 10.6a Compiler 2017.03 Mar 16 2017
+# Start time: 06:46:20 on Jun 19,2017
+# vlog -reportprogress 300 mux2to1.v 
+# -- Compiling module mux2to1
+# 
+# Top level modules:
+# 	mux2to1
+# End time: 06:46:20 on Jun 19,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 06:46:20 on Jun 19,2017, Elapsed time: 0:09:06
+# Errors: 0, Warnings: 0
+# vsim mux2to1 
+# Start time: 06:46:20 on Jun 19,2017
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading work.mux2to1(fast)
+do halfsubtractor.do
+# QuestaSim-64 vlog 10.6a Compiler 2017.03 Mar 16 2017
+# Start time: 06:51:26 on Jun 19,2017
+# vlog -reportprogress 300 halfsubtractor.v 
+# -- Compiling module halfsubtractor
+# 
+# Top level modules:
+# 	halfsubtractor
+# End time: 06:51:26 on Jun 19,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 06:51:27 on Jun 19,2017, Elapsed time: 0:05:07
+# Errors: 0, Warnings: 0
+# vsim halfsubtractor 
+# Start time: 06:51:27 on Jun 19,2017
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading work.halfsubtractor(fast)
+do fullsubtractor.do
+# QuestaSim-64 vlog 10.6a Compiler 2017.03 Mar 16 2017
+# Start time: 06:55:49 on Jun 19,2017
+# vlog -reportprogress 300 fullbinubtractor.v 
+# ** Error: (vlog-7) Failed to open design unit file "fullbinubtractor.v" in read mode.
+# No such file or directory. (errno = ENOENT)
+# End time: 06:55:49 on Jun 19,2017, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# ** Error: /opt/Questa/questasim/linux_x86_64/vlog failed.
+# Error in macro ./fullsubtractor.do line 1
+# /opt/Questa/questasim/linux_x86_64/vlog failed.
+#     while executing
+# "vlog fullbinubtractor.v"
+do fullsubtractor.do
+# QuestaSim-64 vlog 10.6a Compiler 2017.03 Mar 16 2017
+# Start time: 06:56:05 on Jun 19,2017
+# vlog -reportprogress 300 fullbinubtractor.v 
+# ** Error: (vlog-7) Failed to open design unit file "fullbinubtractor.v" in read mode.
+# No such file or directory. (errno = ENOENT)
+# End time: 06:56:05 on Jun 19,2017, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# ** Error: /opt/Questa/questasim/linux_x86_64/vlog failed.
+# Error in macro ./fullsubtractor.do line 1
+# /opt/Questa/questasim/linux_x86_64/vlog failed.
+#     while executing
+# "vlog fullbinubtractor.v"
+do fullsubtractor.do
+# QuestaSim-64 vlog 10.6a Compiler 2017.03 Mar 16 2017
+# Start time: 06:56:46 on Jun 19,2017
+# vlog -reportprogress 300 fullsubtractor.v 
+# -- Compiling module fullsubtractor
+# ** Error: fullsubtractor.v(8): (vlog-2730) Undefined variable: 'c'.
+# End time: 06:56:46 on Jun 19,2017, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# ** Error: /opt/Questa/questasim/linux_x86_64/vlog failed.
+# Error in macro ./fullsubtractor.do line 1
+# /opt/Questa/questasim/linux_x86_64/vlog failed.
+#     while executing
+# "vlog fullsubtractor.v"
+do fullsubtractor.do
+# QuestaSim-64 vlog 10.6a Compiler 2017.03 Mar 16 2017
+# Start time: 06:57:24 on Jun 19,2017
+# vlog -reportprogress 300 fullsubtractor.v 
+# -- Compiling module fullsubtractor
+# ** Error: fullsubtractor.v(8): (vlog-2730) Undefined variable: 'c'.
+# End time: 06:57:24 on Jun 19,2017, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# ** Error: /opt/Questa/questasim/linux_x86_64/vlog failed.
+# Error in macro ./fullsubtractor.do line 1
+# /opt/Questa/questasim/linux_x86_64/vlog failed.
+#     while executing
+# "vlog fullsubtractor.v"
+do fullsubtractor.do
+# QuestaSim-64 vlog 10.6a Compiler 2017.03 Mar 16 2017
+# Start time: 06:58:07 on Jun 19,2017
+# vlog -reportprogress 300 fullsubtractor.v 
+# -- Compiling module fullsubtractor
+# 
+# Top level modules:
+# 	fullsubtractor
+# End time: 06:58:07 on Jun 19,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 06:58:08 on Jun 19,2017, Elapsed time: 0:06:41
+# Errors: 16, Warnings: 0
+# vsim fullsubtractor 
+# Start time: 06:58:08 on Jun 19,2017
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading work.fullsubtractor(fast)
+do inverter.do
+# QuestaSim-64 vlog 10.6a Compiler 2017.03 Mar 16 2017
+# Start time: 07:02:01 on Jun 19,2017
+# vlog -reportprogress 300 inverter.v 
+# -- Compiling module inverter
+# 
+# Top level modules:
+# 	inverter
+# End time: 07:02:01 on Jun 19,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 07:02:02 on Jun 19,2017, Elapsed time: 0:03:54
+# Errors: 0, Warnings: 0
+# vsim inverter 
+# Start time: 07:02:02 on Jun 19,2017
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading work.inverter(fast)
+do buffer.do
+# QuestaSim-64 vlog 10.6a Compiler 2017.03 Mar 16 2017
+# Start time: 07:04:28 on Jun 19,2017
+# vlog -reportprogress 300 buffer.v 
+# -- Compiling module buffer
+# 
+# Top level modules:
+# 	buffer
+# End time: 07:04:28 on Jun 19,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 07:04:29 on Jun 19,2017, Elapsed time: 0:02:27
+# Errors: 0, Warnings: 0
+# vsim buffer 
+# Start time: 07:04:30 on Jun 19,2017
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading work.buffer(fast)
+do latch.do
+# QuestaSim-64 vlog 10.6a Compiler 2017.03 Mar 16 2017
+# Start time: 07:08:03 on Jun 19,2017
+# vlog -reportprogress 300 latch.v 
+# -- Compiling module latch
+# ** Error: latch.v(6): (vlog-2730) Undefined variable: 'z'.
+# End time: 07:08:03 on Jun 19,2017, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# ** Error: /opt/Questa/questasim/linux_x86_64/vlog failed.
+# Error in macro ./latch.do line 1
+# /opt/Questa/questasim/linux_x86_64/vlog failed.
+#     while executing
+# "vlog latch.v"
+do latch.do
+# QuestaSim-64 vlog 10.6a Compiler 2017.03 Mar 16 2017
+# Start time: 07:08:13 on Jun 19,2017
+# vlog -reportprogress 300 latch.v 
+# -- Compiling module latch
+# ** Error: latch.v(6): (vlog-2730) Undefined variable: 'z'.
+# End time: 07:08:13 on Jun 19,2017, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# ** Error: /opt/Questa/questasim/linux_x86_64/vlog failed.
+# Error in macro ./latch.do line 1
+# /opt/Questa/questasim/linux_x86_64/vlog failed.
+#     while executing
+# "vlog latch.v"
+do latch.do
+# QuestaSim-64 vlog 10.6a Compiler 2017.03 Mar 16 2017
+# Start time: 07:09:10 on Jun 19,2017
+# vlog -reportprogress 300 latch.v 
+# -- Compiling module latch
+# 
+# Top level modules:
+# 	latch
+# End time: 07:09:10 on Jun 19,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 07:09:12 on Jun 19,2017, Elapsed time: 0:04:42
+# Errors: 8, Warnings: 0
+# vsim latch 
+# Start time: 07:09:12 on Jun 19,2017
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading work.latch(fast)
+# ** Error: invalid command name "ddd"
+# Error in macro ./latch.do line 3
+# invalid command name "ddd"
+#     while executing
+# "ddd wdve *"
+do latch.do
+# QuestaSim-64 vlog 10.6a Compiler 2017.03 Mar 16 2017
+# Start time: 07:09:48 on Jun 19,2017
+# vlog -reportprogress 300 latch.v 
+# -- Compiling module latch
+# 
+# Top level modules:
+# 	latch
+# End time: 07:09:48 on Jun 19,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 07:09:50 on Jun 19,2017, Elapsed time: 0:00:38
+# Errors: 3, Warnings: 0
+# vsim latch 
+# Start time: 07:09:50 on Jun 19,2017
+# ** Note: (vsim-8009) Loading existing optimized design _opt1
+# Loading work.latch(fast)
+# ** Error: Invalid radix for based number: e.
+# ** Error: (vsim-4011) Invalid force value: 1'en0.
+# Error in macro ./latch.do line 4
+# Invalid radix for based number: e.
+# ** Error: (vsim-4011) Invalid force value: 1'en0.
+# 
+#     while executing
+# "force d 1'en0"
+# End time: 07:19:24 on Jun 19,2017, Elapsed time: 0:09:34
+# Errors: 2, Warnings: 0

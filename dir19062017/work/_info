@@ -1,0 +1,502 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/home/student/Rishabh/dir19062017
+T_opt
+!s110 1497881070
+Vc8HAGiO1V^Yc@Z_h:^X]Q3
+04 6 4 work buffer fast 0
+=1-000c2947149a-5947d9ee-a1e5f-7c5d
+Z1 o-quiet -auto_acc_if_foreign -work work
+Z2 tCvgOpt 0
+n@_opt
+Z3 OL;O;10.6a;65
+R0
+T_opt1
+!s110 1497881352
+VRf^E2KJ]he`[P@jBMLnH;2
+04 5 4 work latch fast 0
+=1-000c2947149a-5947db08-7a476-7c6a
+R1
+R2
+n@_opt1
+R3
+R0
+T_opt2
+!s110 1497880922
+Vh:Xjmj<7=zb:aVl=ZY<Wo2
+04 8 4 work inverter fast 0
+=1-000c2947149a-5947d95a-83ffb-7c52
+R1
+R2
+n@_opt2
+R3
+R0
+valu
+!s110 1497872799
+!i10b 1
+!s100 Q4]?>9Bjo692_gn3dYYC83
+IJ>JnZPZW6Fb;zm;j9LNB_0
+Z4 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1497871698
+8alu.v
+Falu.v
+L0 1
+Z5 OL;L;10.6a;65
+r1
+!s85 0
+31
+!s108 1497872799.000000
+!s107 alu.v|
+!s90 -reportprogress|300|alu.v|
+!i113 0
+Z6 o-L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R2
+vb2g_nbit
+!s110 1498319401
+!i10b 1
+!s100 NYjTTVYXTU^mbY9l[AgD92
+I@AEJYFX@Ka^R;zDNOEn3A3
+R4
+R0
+w1498319392
+8b2g_nbit.v
+Fb2g_nbit.v
+L0 3
+R5
+r1
+!s85 0
+31
+!s108 1498319400.000000
+!s107 b2g_nbit.v|
+!s90 b2g_nbit.v|
+!i113 0
+R6
+R2
+vbcdto_xs3
+!s110 1498321712
+!i10b 1
+!s100 8Vag0a7b[`R6Oc7PRVmg<3
+IF;gSS`GXY?Z>OS_iLF4FC0
+R4
+R0
+w1498321703
+8bcdto_xs3.v
+Fbcdto_xs3.v
+L0 3
+R5
+r1
+!s85 0
+31
+!s108 1498321712.000000
+!s107 bcdto_xs3.v|
+!s90 bcdto_xs3.v|
+!i113 0
+R6
+R2
+vbuffer
+!s110 1497881068
+!i10b 1
+!s100 ?W0nk4EXT_mDcYoJm^?g83
+I;1kC4:Uck5z5R1Bc2Ykc@2
+R4
+R0
+w1497880977
+8buffer.v
+Fbuffer.v
+L0 2
+R5
+r1
+!s85 0
+31
+!s108 1497881068.000000
+!s107 buffer.v|
+!s90 -reportprogress|300|buffer.v|
+!i113 0
+R6
+R2
+vdec_bit
+!s110 1498330409
+!i10b 1
+!s100 LHc6hc?hD3nTW0EL]3X_M3
+I4F^[Uo<I=Q@GmiXbRK0f]3
+R4
+R0
+w1498330406
+8dec_nbit.v
+Fdec_nbit.v
+L0 3
+R5
+r1
+!s85 0
+31
+!s108 1498330409.000000
+!s107 dec_nbit.v|
+!s90 dec_nbit.v|
+!i113 0
+R6
+R2
+vfa_using_ha
+!s110 1498322455
+!i10b 1
+!s100 1=[`^mK<Y`1^J;]O[fG_91
+I;bm50n3RkZmoBle6kj?Rz1
+R4
+R0
+w1498322448
+8fa_using_ha.v
+Ffa_using_ha.v
+L0 3
+R5
+r1
+!s85 0
+31
+!s108 1498322455.000000
+!s107 fa_using_ha.v|
+!s90 fa_using_ha.v|
+!i113 0
+R6
+R2
+vfs_using_hs
+!s110 1498322604
+!i10b 1
+!s100 oWcBC:W6TXXJB[c=gTFm@1
+I<b8==>oHC18Dfd`@WHJX@3
+R4
+R0
+w1498322596
+8fs_using_hs.v
+Ffs_using_hs.v
+L0 3
+R5
+r1
+!s85 0
+31
+!s108 1498322604.000000
+!s107 fs_using_hs.v|
+!s90 fs_using_hs.v|
+!i113 0
+R6
+R2
+vfullsubtractor
+!s110 1497880687
+!i10b 1
+!s100 jmDRBG>c:LYJHd5aehWaT3
+I7l8fJo0^6:JoEEkmn9S8]2
+R4
+R0
+w1497880683
+8fullsubtractor.v
+Ffullsubtractor.v
+L0 3
+R5
+r1
+!s85 0
+31
+!s108 1497880687.000000
+!s107 fullsubtractor.v|
+!s90 -reportprogress|300|fullsubtractor.v|
+!i113 0
+R6
+R2
+vhalfadder
+!s110 1497879434
+!i10b 1
+!s100 IS::XZ_f3N_BU`YIbdl6L2
+I_KI=D6Uh9E52Z1;>PL@>_3
+R4
+R0
+w1497879118
+8halfadder.v
+Fhalfadder.v
+L0 3
+R5
+r1
+!s85 0
+31
+!s108 1497879434.000000
+!s107 halfadder.v|
+!s90 -reportprogress|300|halfadder.v|
+!i113 0
+R6
+R2
+vhalfsubtractor
+!s110 1497880286
+!i10b 1
+!s100 :A1@zJfklVzL1<2:RW:7o2
+IMBQebVn?VKjnY8ARjSz@21
+R4
+R0
+w1497880185
+8halfsubtractor.v
+Fhalfsubtractor.v
+L0 3
+R5
+r1
+!s85 0
+31
+!s108 1497880286.000000
+!s107 halfsubtractor.v|
+!s90 -reportprogress|300|halfsubtractor.v|
+!i113 0
+R6
+R2
+vinverter
+!s110 1497880921
+!i10b 1
+!s100 ;30M>V^FfH^iNiePk66mm0
+IC@?dTZH41^LTQ>:jDe>HI1
+R4
+R0
+w1497880803
+8inverter.v
+Finverter.v
+L0 3
+R5
+r1
+!s85 0
+31
+!s108 1497880921.000000
+!s107 inverter.v|
+!s90 -reportprogress|300|inverter.v|
+!i113 0
+R6
+R2
+vlatch
+!s110 1497881388
+!i10b 1
+!s100 ZMg1Cla_K;NkHZ]:IzojT3
+IibD=e?9;_CTdIJ^:8MT^D0
+R4
+R0
+w1497881347
+8latch.v
+Flatch.v
+L0 2
+R5
+r1
+!s85 0
+31
+!s108 1497881388.000000
+!s107 latch.v|
+!s90 -reportprogress|300|latch.v|
+!i113 0
+R6
+R2
+vmul2x2
+!s110 1498334156
+!i10b 1
+!s100 X7=3hUPA_TgVb]<I7kX<]0
+I07nc1`^T`4_Rm@SeRzEb@1
+R4
+R0
+w1498333440
+8mul2x2.v
+Fmul2x2.v
+L0 3
+R5
+r1
+!s85 0
+31
+!s108 1498334156.000000
+!s107 mul2x2.v|
+!s90 mul2x2.v|
+!i113 0
+R6
+R2
+vmux2to1
+!s110 1497879980
+!i10b 1
+!s100 ]hiQSi6d7bY8BJM_N_oY90
+IgcgM:De3k`oY3jzT5b5]E0
+R4
+R0
+w1497879572
+8mux2to1.v
+Fmux2to1.v
+L0 3
+R5
+r1
+!s85 0
+31
+!s108 1497879980.000000
+!s107 mux2to1.v|
+!s90 -reportprogress|300|mux2to1.v|
+!i113 0
+R6
+R2
+vmux4to1
+!s110 1498317896
+!i10b 1
+!s100 YGBn?:[QgFbQP`R2d:AO41
+I^GAJlkgHoXWL:QJQXCBSi1
+R4
+R0
+w1498317888
+8mux4to1.v
+Fmux4to1.v
+L0 3
+R5
+r1
+!s85 0
+31
+!s108 1498317896.000000
+!s107 mux4to1.v|
+!s90 mux4to1.v|
+!i113 0
+R6
+R2
+vmux_nbit
+!s110 1498332749
+!i10b 1
+!s100 aW6>F4EfY;fd]>XAfT<EF3
+IBRn7FLbG6I<mIZ8_UKWP83
+R4
+R0
+w1498332746
+8mux_nbit.v
+Fmux_nbit.v
+L0 3
+R5
+r1
+!s85 0
+31
+!s108 1498332749.000000
+!s107 mux_nbit.v|
+!s90 mux_nbit.v|
+!i113 0
+R6
+R2
+vnbit_fa
+!s110 1498321106
+!i10b 1
+!s100 54jE?joG3VXTLQJ]j3:X72
+I<4SU2AYzF5ScZY5fL0L[f2
+R4
+R0
+w1498321099
+8nbit_fa.v
+Fnbit_fa.v
+L0 3
+R5
+r1
+!s85 0
+31
+!s108 1498321106.000000
+!s107 nbit_fa.v|
+!s90 nbit_fa.v|
+!i113 0
+R6
+R2
+vno_of_ones
+!s110 1498318742
+!i10b 1
+!s100 C5^KBGb;Xg2YRMF>@P8g:2
+IKlFMNF4m@JiX@D?AG_:]D3
+R4
+R0
+w1498318735
+8no_of_ones.v
+Fno_of_ones.v
+L0 3
+R5
+r1
+!s85 0
+31
+!s108 1498318742.000000
+!s107 no_of_ones.v|
+!s90 no_of_ones.v|
+!i113 0
+R6
+R2
+voneifones
+!s110 1498320963
+!i10b 1
+!s100 8BU>i_VoiHjjmmW^OWioH2
+IkI?jN[Fc2S?oN8M^MkC`N1
+R4
+R0
+w1498320956
+8oneif2ones.v
+Foneif2ones.v
+L0 3
+R5
+r1
+!s85 0
+31
+!s108 1498320963.000000
+!s107 oneif2ones.v|
+!s90 oneif2ones.v|
+!i113 0
+R6
+R2
+vparity4bit
+!s110 1498319235
+!i10b 1
+!s100 UFoz0g7UFaEd<[:EdQ11f1
+I;e8[mjDgYe82UFh`mFEN63
+R4
+R0
+w1498319228
+8parity4bit.v
+Fparity4bit.v
+L0 3
+R5
+r1
+!s85 0
+31
+!s108 1498319235.000000
+!s107 parity4bit.v|
+!s90 parity4bit.v|
+!i113 0
+R6
+R2
+vpri_enc
+!s110 1498321348
+!i10b 1
+!s100 5filffOKah5HEeizN<g6i3
+I5DlJlPGl[F`HDn1bT;`i?3
+R4
+R0
+w1498321338
+8pri_enc.v
+Fpri_enc.v
+L0 3
+R5
+r1
+!s85 0
+31
+!s108 1498321348.000000
+!s107 pri_enc.v|
+!s90 pri_enc.v|
+!i113 0
+R6
+R2
+vsquare_3bit
+!s110 1498320786
+!i10b 1
+!s100 KiK>e^kMFaI<hTYMB1fR]0
+IgRC^LV<3J=3ThHE9SC6<42
+R4
+R0
+w1498320784
+8square_3bit.v
+Fsquare_3bit.v
+L0 3
+R5
+r1
+!s85 0
+31
+!s108 1498320786.000000
+!s107 square_3bit.v|
+!s90 square_3bit.v|
+!i113 0
+R6
+R2

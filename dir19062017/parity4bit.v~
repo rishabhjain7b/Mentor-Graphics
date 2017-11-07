@@ -1,0 +1,8 @@
+// 4bit parity checker and generator
+
+module parity4bit
+(input [3:0]a,
+ input g,
+ output ep,od);
+ 
+ assign ep=g?(^
