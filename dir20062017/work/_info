@@ -1,0 +1,334 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/home/student/Rishabh/dir20062017
+T_opt
+!s110 1497956726
+VfbJ0DBegV86OgcUb:NhAJ1
+04 4 4 work test fast 0
+=1-000c2947149a-59490176-8d9df-f3a
+Z1 o-quiet -auto_acc_if_foreign -work work
+Z2 tCvgOpt 0
+n@_opt
+Z3 OL;O;10.6a;65
+R0
+T_opt1
+!s110 1497951885
+VcPi2VTNGhO=ImH:R1o9Oh2
+04 19 4 work mux16to1_using_4to1 fast 0
+=1-000c2947149a-5948ee8d-c14ac-dba
+R1
+R2
+n@_opt1
+R3
+R0
+T_opt2
+!s110 1497953768
+V3BMTnmQH5AA3D5HI0EZhR1
+04 7 4 work dec3to8 fast 0
+=1-000c2947149a-5948f5e8-6806d-ef2
+R1
+R2
+n@_opt2
+R3
+R0
+vaddsub4bit
+!s110 1497948143
+!i10b 1
+!s100 XE09FeR^=b18P3Ibn57Ta0
+IY<Xh@=g6dP>aEJJ=DQ=@L1
+Z4 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1497948121
+8addsub4bit.v
+Faddsub4bit.v
+L0 3
+Z5 OL;L;10.6a;65
+r1
+!s85 0
+31
+!s108 1497948143.000000
+!s107 addsub4bit.v|
+!s90 -reportprogress|300|addsub4bit.v|
+!i113 0
+Z6 o-L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R2
+vdec3to8
+!s110 1497953759
+!i10b 1
+!s100 ITz1Fen0zCg60nD9SUR^>2
+IkHdag@K`e@;ecobFfYeMM2
+R4
+R0
+w1497953755
+8dec3to8.v
+Fdec3to8.v
+L0 3
+R5
+r1
+!s85 0
+31
+!s108 1497953759.000000
+!s107 dec3to8.v|
+!s90 -reportprogress|300|dec3to8.v|
+!i113 0
+R6
+R2
+vdec4to16
+!s110 1498336208
+!i10b 1
+!s100 TL5Nj_ach;]T[AJ=7FB=@1
+ILI<:KR0IkPcPBjRHAA=Wh2
+R4
+R0
+w1498336204
+8dec4to16.v
+Fdec4to16.v
+L0 3
+R5
+r1
+!s85 0
+31
+!s108 1498336208.000000
+!s107 dec4to16.v|
+!s90 dec4to16.v|
+!i113 0
+R6
+R2
+vdemux1to4
+!s110 1497946587
+!i10b 1
+!s100 ;EIE_[dBY@IfPK>;R>LEU1
+IoiHVgcadm]oVg=P<]V53D0
+R4
+R0
+w1497946568
+8/home/student/Rishabh/dir20062017/demux1to4.v
+F/home/student/Rishabh/dir20062017/demux1to4.v
+L0 3
+R5
+r1
+!s85 0
+31
+!s108 1497946587.000000
+!s107 /home/student/Rishabh/dir20062017/demux1to4.v|
+!s90 -reportprogress|300|-work|work|/home/student/Rishabh/dir20062017/demux1to4.v|
+!i113 0
+Z7 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R2
+vfourbitadder
+!s110 1497945157
+!i10b 1
+!s100 ACO9j0U?L<>NC13z6Rnjo3
+Ibd_Ml6ZMOfmiCV^]FXi4H3
+R4
+R0
+w1497941655
+8/home/student/Rishabh/dir20062017/fourbitadder.v
+F/home/student/Rishabh/dir20062017/fourbitadder.v
+L0 3
+R5
+r1
+!s85 0
+31
+!s108 1497945157.000000
+!s107 /home/student/Rishabh/dir20062017/fourbitadder.v|
+!s90 -reportprogress|300|-work|work|/home/student/Rishabh/dir20062017/fourbitadder.v|
+!i113 0
+R7
+R2
+vfulladder
+!s110 1497939581
+!i10b 1
+!s100 DcD1SZ]4]A9K0]Kan82T52
+Il_?PWWKhMB:2^i?K?DXGL0
+R4
+R0
+w1497939577
+8fulladder.v
+Ffulladder.v
+L0 3
+R5
+r1
+!s85 0
+31
+!s108 1497939581.000000
+!s107 fulladder.v|
+!s90 -reportprogress|300|fulladder.v|
+!i113 0
+R6
+R2
+vha_using_nand
+!s110 1497939853
+!i10b 1
+!s100 9zI;;X7djYezNZ[?k;`4B1
+IS4fZ4bl@JG727[?WBn;P33
+R4
+R0
+w1497934674
+8ha_using_nand.v
+Fha_using_nand.v
+L0 3
+R5
+r1
+!s85 0
+31
+!s108 1497939853.000000
+!s107 ha_using_nand.v|
+!s90 -reportprogress|300|ha_using_nand.v|
+!i113 0
+R6
+R2
+vmux16to1_using_4to1
+!s110 1497951880
+!i10b 1
+!s100 :_aU:d5VVm^oP6MfE6UP10
+I9loDE2A]lRVlRXQQ1G]G;1
+R4
+R0
+w1497951522
+8/home/student/Rishabh/dir20062017/mux16to1_using_4to1.v
+F/home/student/Rishabh/dir20062017/mux16to1_using_4to1.v
+L0 3
+R5
+r1
+!s85 0
+31
+!s108 1497951880.000000
+!s107 /home/student/Rishabh/dir20062017/mux16to1_using_4to1.v|
+!s90 -reportprogress|300|-work|work|/home/student/Rishabh/dir20062017/mux16to1_using_4to1.v|
+!i113 0
+R7
+R2
+vmux1to4
+!s110 1498336925
+!i10b 1
+!s100 2m;MzICneEi4?6HiS8a2=2
+IS3Nd7k]z`c^M6L@S=ekCg1
+R4
+R0
+w1498336921
+8mux1to4.v
+Fmux1to4.v
+L0 3
+R5
+r1
+!s85 0
+31
+!s108 1498336925.000000
+!s107 mux1to4.v|
+!s90 mux1to4.v|
+!i113 0
+R6
+R2
+vmux1to8
+!s110 1498337900
+!i10b 1
+!s100 LhG16OJg4g8Fe>ObZY3Yo1
+IinIdLb;;]<MGM><KUNOS_1
+R4
+R0
+w1498337892
+8mux1to8.v
+Fmux1to8.v
+L0 3
+R5
+r1
+!s85 0
+31
+!s108 1498337900.000000
+!s107 mux1to8.v|
+!s90 mux1to8.v|
+!i113 0
+R6
+R2
+vmux2to1
+!s110 1497944876
+!i10b 1
+!s100 ]hiQSi6d7bY8BJM_N_oY90
+II5Pf0M`H;P4jgII_f7`@_0
+R4
+R0
+w1497879572
+8/home/student/Rishabh/dir20062017/mux2to1.v
+F/home/student/Rishabh/dir20062017/mux2to1.v
+L0 3
+R5
+r1
+!s85 0
+31
+!s108 1497944876.000000
+!s107 /home/student/Rishabh/dir20062017/mux2to1.v|
+!s90 -reportprogress|300|-work|work|/home/student/Rishabh/dir20062017/mux2to1.v|
+!i113 0
+R7
+R2
+vmux4to1_using_2to1
+!s110 1497951369
+!i10b 1
+!s100 ZAoHEL=nMLV<Qh;O5ORbk2
+I0SG22UiF7J8^6d?cQ7=9^3
+R4
+R0
+w1497949157
+8/home/student/Rishabh/dir20062017/mux4to1_using_2to1.v
+F/home/student/Rishabh/dir20062017/mux4to1_using_2to1.v
+L0 3
+R5
+r1
+!s85 0
+31
+!s108 1497951369.000000
+!s107 /home/student/Rishabh/dir20062017/mux4to1_using_2to1.v|
+!s90 -reportprogress|300|-work|work|/home/student/Rishabh/dir20062017/mux4to1_using_2to1.v|
+!i113 0
+R7
+R2
+vmux8to1_using_4to1
+!s110 1497942931
+!i10b 1
+!s100 WLe8A>0ibU:6ogP_7PNa<3
+IUDZ];XUg4UQhcF:XCYKEf0
+R4
+R0
+w1497942925
+8/home/student/Rishabh/dir20062017/mux8to1_using_4to1.v
+F/home/student/Rishabh/dir20062017/mux8to1_using_4to1.v
+L0 3
+R5
+r1
+!s85 0
+31
+!s108 1497942931.000000
+!s107 /home/student/Rishabh/dir20062017/mux8to1_using_4to1.v|
+!s90 -reportprogress|300|-work|work|/home/student/Rishabh/dir20062017/mux8to1_using_4to1.v|
+!i113 0
+R7
+R2
+vtest
+!s110 1497956716
+!i10b 1
+!s100 0UBBXP83YFakVm=H^o<SE0
+I0gVdFK5?;W]oe?8RIAAal3
+R4
+R0
+w1497956709
+8test.v
+Ftest.v
+L0 1
+R5
+r1
+!s85 0
+31
+!s108 1497956716.000000
+!s107 test.v|
+!s90 -reportprogress|300|test.v|
+!i113 0
+R6
+R2

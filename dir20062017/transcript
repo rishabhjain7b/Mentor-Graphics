@@ -1,0 +1,385 @@
+# //  Questa Sim-64
+# //  Version 10.6a linux_x86_64 Mar 16 2017
+# //
+# //  Copyright 1991-2017 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+vlog -reportprogress 300 -work work /home/student/Rishabh/dir20062017/demux1to4.v
+# QuestaSim-64 vlog 10.6a Compiler 2017.03 Mar 16 2017
+# Start time: 01:16:27 on Jun 20,2017
+# vlog -reportprogress 300 -work work /home/student/Rishabh/dir20062017/demux1to4.v 
+# -- Compiling module demux1to4
+# 
+# Top level modules:
+# 	demux1to4
+# End time: 01:16:27 on Jun 20,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog addsub4bit.v
+# QuestaSim-64 vlog 10.6a Compiler 2017.03 Mar 16 2017
+# Start time: 01:42:23 on Jun 20,2017
+# vlog -reportprogress 300 addsub4bit.v 
+# -- Compiling module addsub4bit
+# 
+# Top level modules:
+# 	addsub4bit
+# End time: 01:42:23 on Jun 20,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim addsub4bit
+# vsim addsub4bit 
+# Start time: 01:42:40 on Jun 20,2017
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading work.addsub4bit(fast)
+add wave *
+force a 4'b0011
+force b 4'b0111
+# ** Error (suppressible): (vsim-4008) Object 'b' not found.
+# 
+force bo 4'b0111
+force cin 1'b1
+run
+vlog mux4to1_using_2to1.v
+# QuestaSim-64 vlog 10.6a Compiler 2017.03 Mar 16 2017
+# Start time: 02:00:02 on Jun 20,2017
+# vlog -reportprogress 300 mux4to1_using_2to1.v 
+# -- Compiling module mux4to1_using_2to1
+# 
+# Top level modules:
+# 	mux4to1_using_2to1
+# End time: 02:00:02 on Jun 20,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim mux4to1_using_2to1
+# End time: 02:00:15 on Jun 20,2017, Elapsed time: 0:17:35
+# Errors: 1, Warnings: 0
+# vsim mux4to1_using_2to1 
+# Start time: 02:00:15 on Jun 20,2017
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading work.mux4to1_using_2to1(fast)
+add wave *
+force a 4'b0011
+force s 2'b01
+run
+force s 2'b11
+run
+force s 2'b10
+run
+force s 2'b00
+run
+vlog mux16to1_using_4to1.v
+# QuestaSim-64 vlog 10.6a Compiler 2017.03 Mar 16 2017
+# Start time: 02:28:48 on Jun 20,2017
+# vlog -reportprogress 300 mux16to1_using_4to1.v 
+# -- Compiling module mux16to1_using_4to1
+# ** Error: (vlog-13069) mux16to1_using_4to1.v(11): near "[": syntax error, unexpected '['.
+# End time: 02:28:48 on Jun 20,2017, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# /opt/Questa/questasim/linux_x86_64/vlog failed.
+vlog mux16to1_using_4to1.v
+# QuestaSim-64 vlog 10.6a Compiler 2017.03 Mar 16 2017
+# Start time: 02:30:04 on Jun 20,2017
+# vlog -reportprogress 300 mux16to1_using_4to1.v 
+# -- Compiling module mux16to1_using_4to1
+# ** Error: (vlog-3373) mux16to1_using_4to1.v(11): Range of part-select [4:6] into 'a' [15:0] is reversed.
+# ** Error: (vlog-3373) mux16to1_using_4to1.v(12): Range of part-select [7:9] into 'a' [15:0] is reversed.
+# ** Error: (vlog-3373) mux16to1_using_4to1.v(13): Range of part-select [10:12] into 'a' [15:0] is reversed.
+# ** Error: (vlog-3373) mux16to1_using_4to1.v(14): Range of part-select [13:15] into 'a' [15:0] is reversed.
+# End time: 02:30:04 on Jun 20,2017, Elapsed time: 0:00:00
+# Errors: 4, Warnings: 0
+# /opt/Questa/questasim/linux_x86_64/vlog failed.
+vlog mux16to1_using_4to1.v
+# QuestaSim-64 vlog 10.6a Compiler 2017.03 Mar 16 2017
+# Start time: 02:31:46 on Jun 20,2017
+# vlog -reportprogress 300 mux16to1_using_4to1.v 
+# -- Compiling module mux16to1_using_4to1
+# ** Error: (vlog-13069) mux16to1_using_4to1.v(11): near "[": syntax error, unexpected '['.
+# End time: 02:31:46 on Jun 20,2017, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# /opt/Questa/questasim/linux_x86_64/vlog failed.
+vlog mux16to1_using_4to1.v
+# QuestaSim-64 vlog 10.6a Compiler 2017.03 Mar 16 2017
+# Start time: 02:34:38 on Jun 20,2017
+# vlog -reportprogress 300 mux16to1_using_4to1.v 
+# -- Compiling module mux16to1_using_4to1
+# 
+# Top level modules:
+# 	mux16to1_using_4to1
+# End time: 02:34:38 on Jun 20,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim mux16to1_using_4to1
+# End time: 02:35:08 on Jun 20,2017, Elapsed time: 0:34:53
+# Errors: 9, Warnings: 0
+# vsim mux16to1_using_4to1 
+# Start time: 02:35:08 on Jun 20,2017
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Error: mux16to1_using_4to1.v(10): (vopt-2912) Port 'y' not found in module 'mux4to1_using_2to1' (3rd connection).
+# ** Error: mux16to1_using_4to1.v(11): (vopt-2912) Port 'y' not found in module 'mux4to1_using_2to1' (3rd connection).
+# ** Error: mux16to1_using_4to1.v(12): (vopt-2912) Port 'y' not found in module 'mux4to1_using_2to1' (3rd connection).
+# ** Error: mux16to1_using_4to1.v(13): (vopt-2912) Port 'y' not found in module 'mux4to1_using_2to1' (3rd connection).
+# ** Error: mux16to1_using_4to1.v(14): (vopt-2912) Port 'y' not found in module 'mux4to1_using_2to1' (3rd connection).
+# Optimization failed
+# Error loading design
+# End time: 02:35:09 on Jun 20,2017, Elapsed time: 0:00:01
+# Errors: 5, Warnings: 0
+vlog -reportprogress 300 -work work /home/student/Rishabh/dir20062017/mux4to1_using_2to1.v
+# QuestaSim-64 vlog 10.6a Compiler 2017.03 Mar 16 2017
+# Start time: 02:36:09 on Jun 20,2017
+# vlog -reportprogress 300 -work work /home/student/Rishabh/dir20062017/mux4to1_using_2to1.v 
+# -- Compiling module mux4to1_using_2to1
+# 
+# Top level modules:
+# 	mux4to1_using_2to1
+# End time: 02:36:09 on Jun 20,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim mux16to1_using_4to1
+# vsim mux16to1_using_4to1 
+# Start time: 02:36:19 on Jun 20,2017
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Error: mux16to1_using_4to1.v(10): (vopt-2912) Port 'y' not found in module 'mux4to1_using_2to1' (3rd connection).
+# ** Error: mux16to1_using_4to1.v(11): (vopt-2912) Port 'y' not found in module 'mux4to1_using_2to1' (3rd connection).
+# ** Error: mux16to1_using_4to1.v(12): (vopt-2912) Port 'y' not found in module 'mux4to1_using_2to1' (3rd connection).
+# ** Error: mux16to1_using_4to1.v(13): (vopt-2912) Port 'y' not found in module 'mux4to1_using_2to1' (3rd connection).
+# ** Error: mux16to1_using_4to1.v(14): (vopt-2912) Port 'y' not found in module 'mux4to1_using_2to1' (3rd connection).
+# Optimization failed
+# Error loading design
+# End time: 02:36:19 on Jun 20,2017, Elapsed time: 0:00:00
+# Errors: 5, Warnings: 0
+vlog -reportprogress 300 -work work /home/student/Rishabh/dir20062017/mux16to1_using_4to1.v
+# QuestaSim-64 vlog 10.6a Compiler 2017.03 Mar 16 2017
+# Start time: 02:37:29 on Jun 20,2017
+# vlog -reportprogress 300 -work work /home/student/Rishabh/dir20062017/mux16to1_using_4to1.v 
+# -- Compiling module mux16to1_using_4to1
+# 
+# Top level modules:
+# 	mux16to1_using_4to1
+# End time: 02:37:29 on Jun 20,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim mux16to1_using_4to1
+# vsim mux16to1_using_4to1 
+# Start time: 02:37:38 on Jun 20,2017
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Error: /home/student/Rishabh/dir20062017/mux16to1_using_4to1.v(10): (vopt-2912) Port 'y' not found in module 'mux4to1_using_2to1' (3rd connection).
+# ** Error: /home/student/Rishabh/dir20062017/mux16to1_using_4to1.v(11): (vopt-2912) Port 'y' not found in module 'mux4to1_using_2to1' (3rd connection).
+# ** Error: /home/student/Rishabh/dir20062017/mux16to1_using_4to1.v(12): (vopt-2912) Port 'y' not found in module 'mux4to1_using_2to1' (3rd connection).
+# ** Error: /home/student/Rishabh/dir20062017/mux16to1_using_4to1.v(13): (vopt-2912) Port 'y' not found in module 'mux4to1_using_2to1' (3rd connection).
+# ** Error: /home/student/Rishabh/dir20062017/mux16to1_using_4to1.v(14): (vopt-2912) Port 'y' not found in module 'mux4to1_using_2to1' (3rd connection).
+# Optimization failed
+# Error loading design
+# End time: 02:37:38 on Jun 20,2017, Elapsed time: 0:00:00
+# Errors: 5, Warnings: 0
+vsim mux16to1_using_4to1
+# vsim mux16to1_using_4to1 
+# Start time: 02:38:45 on Jun 20,2017
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Error: /home/student/Rishabh/dir20062017/mux16to1_using_4to1.v(10): (vopt-2912) Port 'y' not found in module 'mux4to1_using_2to1' (3rd connection).
+# ** Error: /home/student/Rishabh/dir20062017/mux16to1_using_4to1.v(11): (vopt-2912) Port 'y' not found in module 'mux4to1_using_2to1' (3rd connection).
+# ** Error: /home/student/Rishabh/dir20062017/mux16to1_using_4to1.v(12): (vopt-2912) Port 'y' not found in module 'mux4to1_using_2to1' (3rd connection).
+# ** Error: /home/student/Rishabh/dir20062017/mux16to1_using_4to1.v(13): (vopt-2912) Port 'y' not found in module 'mux4to1_using_2to1' (3rd connection).
+# ** Error: /home/student/Rishabh/dir20062017/mux16to1_using_4to1.v(14): (vopt-2912) Port 'y' not found in module 'mux4to1_using_2to1' (3rd connection).
+# Optimization failed
+# Error loading design
+# End time: 02:38:45 on Jun 20,2017, Elapsed time: 0:00:00
+# Errors: 5, Warnings: 0
+vsim mux16to1_using_4to1
+# vsim mux16to1_using_4to1 
+# Start time: 02:38:55 on Jun 20,2017
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Error: /home/student/Rishabh/dir20062017/mux16to1_using_4to1.v(10): (vopt-2912) Port 'y' not found in module 'mux4to1_using_2to1' (3rd connection).
+# ** Error: /home/student/Rishabh/dir20062017/mux16to1_using_4to1.v(11): (vopt-2912) Port 'y' not found in module 'mux4to1_using_2to1' (3rd connection).
+# ** Error: /home/student/Rishabh/dir20062017/mux16to1_using_4to1.v(12): (vopt-2912) Port 'y' not found in module 'mux4to1_using_2to1' (3rd connection).
+# ** Error: /home/student/Rishabh/dir20062017/mux16to1_using_4to1.v(13): (vopt-2912) Port 'y' not found in module 'mux4to1_using_2to1' (3rd connection).
+# ** Error: /home/student/Rishabh/dir20062017/mux16to1_using_4to1.v(14): (vopt-2912) Port 'y' not found in module 'mux4to1_using_2to1' (3rd connection).
+# Optimization failed
+# Error loading design
+# End time: 02:38:56 on Jun 20,2017, Elapsed time: 0:00:01
+# Errors: 5, Warnings: 0
+vsim mux16to1_using_4to1
+# vsim mux16to1_using_4to1 
+# Start time: 02:42:06 on Jun 20,2017
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Error: /home/student/Rishabh/dir20062017/mux16to1_using_4to1.v(10): (vopt-2912) Port 'y' not found in module 'mux4to1_using_2to1' (3rd connection).
+# ** Error: /home/student/Rishabh/dir20062017/mux16to1_using_4to1.v(11): (vopt-2912) Port 'y' not found in module 'mux4to1_using_2to1' (3rd connection).
+# ** Error: /home/student/Rishabh/dir20062017/mux16to1_using_4to1.v(12): (vopt-2912) Port 'y' not found in module 'mux4to1_using_2to1' (3rd connection).
+# ** Error: /home/student/Rishabh/dir20062017/mux16to1_using_4to1.v(13): (vopt-2912) Port 'y' not found in module 'mux4to1_using_2to1' (3rd connection).
+# ** Error: /home/student/Rishabh/dir20062017/mux16to1_using_4to1.v(14): (vopt-2912) Port 'y' not found in module 'mux4to1_using_2to1' (3rd connection).
+# Optimization failed
+# Error loading design
+# End time: 02:42:07 on Jun 20,2017, Elapsed time: 0:00:01
+# Errors: 5, Warnings: 0
+vlog -reportprogress 300 -work work /home/student/Rishabh/dir20062017/mux16to1_using_4to1.v
+# QuestaSim-64 vlog 10.6a Compiler 2017.03 Mar 16 2017
+# Start time: 02:44:40 on Jun 20,2017
+# vlog -reportprogress 300 -work work /home/student/Rishabh/dir20062017/mux16to1_using_4to1.v 
+# -- Compiling module mux16to1_using_4to1
+# 
+# Top level modules:
+# 	mux16to1_using_4to1
+# End time: 02:44:40 on Jun 20,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim mux16to1_using_4to1
+# vsim mux16to1_using_4to1 
+# Start time: 02:44:45 on Jun 20,2017
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading work.mux16to1_using_4to1(fast)
+add wave *
+force a 16'haaaa
+force s 4'ha
+run
+vlog dec3to8.v
+# QuestaSim-64 vlog 10.6a Compiler 2017.03 Mar 16 2017
+# Start time: 03:07:51 on Jun 20,2017
+# vlog -reportprogress 300 dec3to8.v 
+# -- Compiling module dec3to8
+# ** Warning: dec3to8.v(8): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# ** Warning: dec3to8.v(9): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# ** Warning: dec3to8.v(10): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# ** Warning: dec3to8.v(11): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# ** Warning: dec3to8.v(12): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# ** Warning: dec3to8.v(13): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# ** Warning: dec3to8.v(14): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# ** Warning: dec3to8.v(15): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# ** Error: (vlog-13069) dec3to8.v(15): near ";": syntax error, unexpected ';'.
+# End time: 03:07:52 on Jun 20,2017, Elapsed time: 0:00:01
+# Errors: 1, Warnings: 8
+# /opt/Questa/questasim/linux_x86_64/vlog failed.
+vlog dec3to8.v
+# QuestaSim-64 vlog 10.6a Compiler 2017.03 Mar 16 2017
+# Start time: 03:12:15 on Jun 20,2017
+# vlog -reportprogress 300 dec3to8.v 
+# -- Compiling module dec3to8
+# ** Warning: dec3to8.v(9): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# ** Warning: dec3to8.v(10): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# ** Warning: dec3to8.v(11): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# ** Warning: dec3to8.v(12): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# ** Warning: dec3to8.v(13): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# ** Warning: dec3to8.v(14): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# ** Warning: dec3to8.v(15): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# ** Warning: dec3to8.v(16): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# ** Error: (vlog-13069) dec3to8.v(16): near ";": syntax error, unexpected ';'.
+# End time: 03:12:15 on Jun 20,2017, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 8
+# /opt/Questa/questasim/linux_x86_64/vlog failed.
+vlog dec3to8.v
+# QuestaSim-64 vlog 10.6a Compiler 2017.03 Mar 16 2017
+# Start time: 03:12:41 on Jun 20,2017
+# vlog -reportprogress 300 dec3to8.v 
+# -- Compiling module dec3to8
+# ** Warning: dec3to8.v(9): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# ** Warning: dec3to8.v(10): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# ** Warning: dec3to8.v(11): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# ** Warning: dec3to8.v(12): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# ** Warning: dec3to8.v(13): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# ** Warning: dec3to8.v(14): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# ** Warning: dec3to8.v(15): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# ** Warning: dec3to8.v(16): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# ** Error: (vlog-13069) dec3to8.v(16): near ";": syntax error, unexpected ';'.
+# End time: 03:12:41 on Jun 20,2017, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 8
+# /opt/Questa/questasim/linux_x86_64/vlog failed.
+vlog dec3to8.v
+# QuestaSim-64 vlog 10.6a Compiler 2017.03 Mar 16 2017
+# Start time: 03:14:30 on Jun 20,2017
+# vlog -reportprogress 300 dec3to8.v 
+# -- Compiling module dec3to8
+# ** Warning: dec3to8.v(9): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# ** Warning: dec3to8.v(10): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# ** Warning: dec3to8.v(11): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# ** Warning: dec3to8.v(12): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# ** Warning: dec3to8.v(13): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# ** Warning: dec3to8.v(14): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# ** Warning: dec3to8.v(15): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# ** Warning: dec3to8.v(16): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# 
+# Top level modules:
+# 	dec3to8
+# End time: 03:14:30 on Jun 20,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 8
+vlog dec3to8.v
+# QuestaSim-64 vlog 10.6a Compiler 2017.03 Mar 16 2017
+# Start time: 03:15:59 on Jun 20,2017
+# vlog -reportprogress 300 dec3to8.v 
+# -- Compiling module dec3to8
+# ** Warning: dec3to8.v(9): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# ** Warning: dec3to8.v(10): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# ** Warning: dec3to8.v(11): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# ** Warning: dec3to8.v(12): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# ** Warning: dec3to8.v(13): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# ** Warning: dec3to8.v(14): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# ** Warning: dec3to8.v(15): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# ** Warning: dec3to8.v(15): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# 
+# Top level modules:
+# 	dec3to8
+# End time: 03:15:59 on Jun 20,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 8
+vsim dec3to8
+# End time: 03:16:08 on Jun 20,2017, Elapsed time: 0:31:23
+# Errors: 6, Warnings: 40
+# vsim dec3to8 
+# Start time: 03:16:08 on Jun 20,2017
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading work.dec3to8(fast)
+vlog -reportprogress 300 -work work /home/student/Rishabh/dir20062017/Untitled-1.v
+# QuestaSim-64 vlog 10.6a Compiler 2017.03 Mar 16 2017
+# Start time: 04:03:19 on Jun 20,2017
+# vlog -reportprogress 300 -work work /home/student/Rishabh/dir20062017/Untitled-1.v 
+# -- Compiling module test
+# 
+# Top level modules:
+# 	test
+# End time: 04:03:19 on Jun 20,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vim Untitled-1.v
+# [?1049h[?1h=[1;24r[?12;25h[?12l[?25h[27m[m[H[2J[?25l[24;1H"Untitled-1.v" [noeol] 7L, 68C[1;1H[33mmodule[m test
+# [35m([m[33minput[m a[35m,[mb[35m,[m
+#  [33moutput[m y[35m);[m
+# 
+# [33massign[m y[35m=[ma[35m&[mb[35m,[m[6;9Hy[35m=[ma[35m|[mb[35m;[m
+# [33mendmodule[m
+# [1m[34m~                                                                               [9;1H~                                                                               [10;1H~                                                                               [11;1H~                                                                               [12;1H~                                                                               [13;1H~                                                                               [14;1H~                                                                               [15;1H~                                                                               [16;1H~                                                                               [17;1H~                                                                               [18;1H~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [23;1H~                                                                               [m[24;63H1,1[11CAll[1;1H[?12l[?25h[24;1H[?1l>[?1049lVim: Error reading input, exiting...
+# Vim: Finished.
+# [24;1HVim: Warning: Output is not to a terminal
+# Vim: Warning: Input is not from a terminal
+# 
+vsim Untitled-1.v
+# OpenFile Untitled-1.v
+vsim test
+# End time: 04:04:43 on Jun 20,2017, Elapsed time: 0:48:35
+# Errors: 1, Warnings: 0
+# vsim test 
+# Start time: 04:04:43 on Jun 20,2017
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading work.test(fast)
+vlog test.v
+# QuestaSim-64 vlog 10.6a Compiler 2017.03 Mar 16 2017
+# Start time: 04:05:16 on Jun 20,2017
+# vlog -reportprogress 300 test.v 
+# -- Compiling module test
+# 
+# Top level modules:
+# 	test
+# End time: 04:05:16 on Jun 20,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim test
+# End time: 04:05:26 on Jun 20,2017, Elapsed time: 0:00:43
+# Errors: 0, Warnings: 0
+# vsim test 
+# Start time: 04:05:26 on Jun 20,2017
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.test(fast)
+add wave *
+force a 1'b0
+force b 1'b0
+run
+force b 1'b1
+run
+force a 1'b1
+run
+# End time: 05:40:30 on Jun 20,2017, Elapsed time: 1:35:04
+# Errors: 0, Warnings: 0

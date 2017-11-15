@@ -1,0 +1,17 @@
+// 1:4 mux using SM
+
+module mux1to4
+( input [1:0]s,
+  input d,
+  output [3:0]y);
+
+//wire y1,y2,y3,y4;
+
+and g1(y[0],d,~s[1],~s[0]),
+    g2(y[1],d,~s[1],s[0]), 
+    g3(y[2],d,s[1],~s[0]), 
+    g4(y[3],d,s[1],s[0]);
+
+//or g5(y,y1,y2,y3,y4);
+
+endmodule
