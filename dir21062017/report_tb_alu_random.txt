@@ -1,0 +1,23 @@
+Coverage Report Summary Data by file
+
+=================================================================================
+=== File: /home/student/Rishabh/dir21062017/alu.v
+=================================================================================
+    Enabled Coverage            Active      Hits    Misses % Covered
+    ----------------            ------      ----    ------ ---------
+    Stmts                           12         8         4      66.6
+    Branches                         9         5         4      55.5
+    Toggle Bins                     10        10         0     100.0
+
+=================================================================================
+=== File: /home/student/Rishabh/dir21062017/tb_alu_random.v
+=================================================================================
+    Enabled Coverage            Active      Hits    Misses % Covered
+    ----------------            ------      ----    ------ ---------
+    Stmts                           10        10         0     100.0
+    Branches                         0         0         0     100.0
+    Toggle Bins                    160        45       115      28.1
+
+
+Total Coverage By File (code coverage only, filtered view): 56.5%
+

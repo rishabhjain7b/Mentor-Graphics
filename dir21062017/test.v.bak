@@ -1,0 +1,13 @@
+// and gate using bm
+
+module test
+(input a,b,
+ output reg y);
+
+always @ (a,b)
+begin
+y=a&b;
+//always @ (a,b)
+y=a|b;
+end
+endmodule

@@ -1,0 +1,425 @@
+# //  Questa Sim-64
+# //  Version 10.6a linux_x86_64 Mar 16 2017
+# //
+# //  Copyright 1991-2017 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# vsim -novopt tb_alu_iterative 
+# Start time: 04:19:02 on Jul 01,2017
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# Loading work.tb_alu_iterative
+# Loading work.alu
+vlog -reportprogress 300 -work work /home/student/Rishabh/dir21062017/tb_alu_iterative.v
+# QuestaSim-64 vlog 10.6a Compiler 2017.03 Mar 16 2017
+# Start time: 04:19:26 on Jul 01,2017
+# vlog -reportprogress 300 -work work /home/student/Rishabh/dir21062017/tb_alu_iterative.v 
+# -- Compiling module tb_alu_iterative
+# 
+# Top level modules:
+# 	tb_alu_iterative
+# End time: 04:19:26 on Jul 01,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work /home/student/Rishabh/dir21062017/alu.v
+# QuestaSim-64 vlog 10.6a Compiler 2017.03 Mar 16 2017
+# Start time: 04:19:26 on Jul 01,2017
+# vlog -reportprogress 300 -work work /home/student/Rishabh/dir21062017/alu.v 
+# -- Compiling module alu
+# 
+# Top level modules:
+# 	alu
+# End time: 04:19:26 on Jul 01,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim -novopt work.tb_alu_iterative
+# End time: 04:19:49 on Jul 01,2017, Elapsed time: 0:00:47
+# Errors: 0, Warnings: 1
+# vsim -novopt work.tb_alu_iterative 
+# Start time: 04:19:49 on Jul 01,2017
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# Refreshing /home/student/Rishabh/dir21062017/work.tb_alu_iterative
+# Loading sv_std.std
+# Loading work.tb_alu_iterative
+# Refreshing /home/student/Rishabh/dir21062017/work.alu
+# Loading work.alu
+vsim -coverage work.tb_alu_iterative
+# End time: 04:20:06 on Jul 01,2017, Elapsed time: 0:00:17
+# Errors: 0, Warnings: 1
+# vsim -coverage work.tb_alu_iterative 
+# Start time: 04:20:06 on Jul 01,2017
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading sv_std.std
+# Loading work.tb_alu_iterative(fast)
+run -all
+#                    0a=xxxx b=xxxx sel=000 s=xxxx co=x
+#                   10a=0000 b=0000 sel=000 s=0000 co=0
+#                   20a=0001 b=0001 sel=000 s=0010 co=0
+#                   30a=0010 b=0010 sel=000 s=0100 co=0
+#                   40a=0011 b=0011 sel=000 s=0110 co=0
+#                   50a=0100 b=0100 sel=000 s=1000 co=0
+#                   60a=0101 b=0101 sel=000 s=1010 co=0
+#                   70a=0110 b=0110 sel=000 s=1100 co=0
+#                   80a=0111 b=0111 sel=000 s=1110 co=0
+#                   90a=1000 b=1000 sel=000 s=0000 co=1
+#                  100a=1001 b=1001 sel=001 s=0000 co=0
+#                  110a=0000 b=0000 sel=001 s=0000 co=0
+#                  120a=0001 b=0001 sel=001 s=0000 co=0
+#                  130a=0010 b=0010 sel=001 s=0000 co=0
+#                  140a=0011 b=0011 sel=001 s=0000 co=0
+#                  150a=0100 b=0100 sel=001 s=0000 co=0
+#                  160a=0101 b=0101 sel=001 s=0000 co=0
+#                  170a=0110 b=0110 sel=001 s=0000 co=0
+#                  180a=0111 b=0111 sel=001 s=0000 co=0
+#                  190a=1000 b=1000 sel=001 s=0000 co=0
+#                  200a=1001 b=1001 sel=010 s=1010 co=0
+#                  210a=0000 b=0000 sel=010 s=0001 co=0
+#                  220a=0001 b=0001 sel=010 s=0010 co=0
+#                  230a=0010 b=0010 sel=010 s=0011 co=0
+#                  240a=0011 b=0011 sel=010 s=0100 co=0
+#                  250a=0100 b=0100 sel=010 s=0101 co=0
+#                  260a=0101 b=0101 sel=010 s=0110 co=0
+#                  270a=0110 b=0110 sel=010 s=0111 co=0
+#                  280a=0111 b=0111 sel=010 s=1000 co=0
+#                  290a=1000 b=1000 sel=010 s=1001 co=0
+#                  300a=1001 b=1001 sel=011 s=1000 co=0
+#                  310a=0000 b=0000 sel=011 s=1111 co=1
+#                  320a=0001 b=0001 sel=011 s=0000 co=0
+#                  330a=0010 b=0010 sel=011 s=0001 co=0
+#                  340a=0011 b=0011 sel=011 s=0010 co=0
+#                  350a=0100 b=0100 sel=011 s=0011 co=0
+#                  360a=0101 b=0101 sel=011 s=0100 co=0
+#                  370a=0110 b=0110 sel=011 s=0101 co=0
+#                  380a=0111 b=0111 sel=011 s=0110 co=0
+#                  390a=1000 b=1000 sel=011 s=0111 co=0
+#                  400a=1001 b=1001 sel=100 s=1001 co=0
+#                  410a=0000 b=0000 sel=100 s=0000 co=0
+#                  420a=0001 b=0001 sel=100 s=0001 co=0
+#                  430a=0010 b=0010 sel=100 s=0010 co=0
+#                  440a=0011 b=0011 sel=100 s=0011 co=0
+#                  450a=0100 b=0100 sel=100 s=0100 co=0
+#                  460a=0101 b=0101 sel=100 s=0101 co=0
+#                  470a=0110 b=0110 sel=100 s=0110 co=0
+#                  480a=0111 b=0111 sel=100 s=0111 co=0
+#                  490a=1000 b=1000 sel=100 s=1000 co=0
+#                  500a=1001 b=1001 sel=101 s=1001 co=0
+#                  510a=0000 b=0000 sel=101 s=0000 co=0
+#                  520a=0001 b=0001 sel=101 s=0001 co=0
+#                  530a=0010 b=0010 sel=101 s=0010 co=0
+#                  540a=0011 b=0011 sel=101 s=0011 co=0
+#                  550a=0100 b=0100 sel=101 s=0100 co=0
+#                  560a=0101 b=0101 sel=101 s=0101 co=0
+#                  570a=0110 b=0110 sel=101 s=0110 co=0
+#                  580a=0111 b=0111 sel=101 s=0111 co=0
+#                  590a=1000 b=1000 sel=101 s=1000 co=0
+#                  600a=1001 b=1001 sel=110 s=0000 co=0
+#                  610a=0000 b=0000 sel=110 s=0000 co=0
+#                  620a=0001 b=0001 sel=110 s=0000 co=0
+#                  630a=0010 b=0010 sel=110 s=0000 co=0
+#                  640a=0011 b=0011 sel=110 s=0000 co=0
+#                  650a=0100 b=0100 sel=110 s=0000 co=0
+#                  660a=0101 b=0101 sel=110 s=0000 co=0
+#                  670a=0110 b=0110 sel=110 s=0000 co=0
+#                  680a=0111 b=0111 sel=110 s=0000 co=0
+#                  690a=1000 b=1000 sel=110 s=0000 co=0
+#                  700a=1001 b=1001 sel=111 s=0110 co=0
+#                  710a=0000 b=0000 sel=111 s=1111 co=0
+#                  720a=0001 b=0001 sel=111 s=1110 co=0
+#                  730a=0010 b=0010 sel=111 s=1101 co=0
+#                  740a=0011 b=0011 sel=111 s=1100 co=0
+#                  750a=0100 b=0100 sel=111 s=1011 co=0
+#                  760a=0101 b=0101 sel=111 s=1010 co=0
+#                  770a=0110 b=0110 sel=111 s=1001 co=0
+#                  780a=0111 b=0111 sel=111 s=1000 co=0
+#                  790a=1000 b=1000 sel=111 s=0111 co=0
+#                  800a=1001 b=1001 sel=111 s=0110 co=0
+coverage report -html -htmldir covhtmlreport -details -assert -directive -cvg -code bcefst -threshL 50 -threshH 90
+# Report created in covhtmlreport/index.html
+coverage report -file /home/student/Rishabh/dir21062017/report_tb_alu_iterative.txt -byfile -assert -directive -cvg -codeAll
+vlog -reportprogress 300 -work work /home/student/Rishabh/dir21062017/tb_alu_random.v
+# QuestaSim-64 vlog 10.6a Compiler 2017.03 Mar 16 2017
+# Start time: 04:23:37 on Jul 01,2017
+# vlog -reportprogress 300 -work work /home/student/Rishabh/dir21062017/tb_alu_random.v 
+# -- Compiling module tb_alu_random
+# 
+# Top level modules:
+# 	tb_alu_random
+# End time: 04:23:37 on Jul 01,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work /home/student/Rishabh/dir21062017/alu.v
+# QuestaSim-64 vlog 10.6a Compiler 2017.03 Mar 16 2017
+# Start time: 04:23:37 on Jul 01,2017
+# vlog -reportprogress 300 -work work /home/student/Rishabh/dir21062017/alu.v 
+# -- Compiling module alu
+# 
+# Top level modules:
+# 	alu
+# End time: 04:23:37 on Jul 01,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim -coverage work.tb_alu_random
+# End time: 04:23:56 on Jul 01,2017, Elapsed time: 0:03:50
+# Errors: 0, Warnings: 0
+# vsim -coverage work.tb_alu_random 
+# Start time: 04:23:56 on Jul 01,2017
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading sv_std.std
+# Loading work.tb_alu_random(fast)
+vsim -coverage work.tb_alu_random
+# End time: 04:24:13 on Jul 01,2017, Elapsed time: 0:00:17
+# Errors: 0, Warnings: 0
+# vsim -coverage work.tb_alu_random 
+# Start time: 04:24:13 on Jul 01,2017
+# ** Note: (vsim-8009) Loading existing optimized design _opt2
+# Loading sv_std.std
+# Loading work.tb_alu_random(fast)
+run -all
+#                    0a=xxxx b=xxxx sel=100 s=xxxx co=0
+#                   10a=0001 b=1001 sel=100 s=0001 co=0
+#                   20a=0011 b=1101 sel=100 s=0001 co=0
+#                   30a=1101 b=0101 sel=100 s=0101 co=0
+#                   40a=0010 b=0001 sel=100 s=0000 co=0
+#                   50a=1101 b=0110 sel=100 s=0100 co=0
+#                   60a=1101 b=1101 sel=100 s=1101 co=0
+#                   70a=1100 b=1001 sel=100 s=1000 co=0
+#                   80a=0110 b=0101 sel=100 s=0100 co=0
+#                   90a=1010 b=0101 sel=100 s=0000 co=0
+#                  100a=0111 b=0010 sel=100 s=0010 co=0
+#                  110a=0111 b=0010 sel=111 s=1101 co=0
+#                  120a=0010 b=1110 sel=111 s=0001 co=0
+#                  130a=1000 b=0101 sel=111 s=1010 co=0
+#                  140a=1100 b=1101 sel=111 s=0010 co=0
+#                  150a=1101 b=0101 sel=111 s=1010 co=0
+#                  160a=0011 b=1010 sel=111 s=0101 co=0
+#                  170a=0000 b=0000 sel=111 s=1111 co=0
+#                  180a=1010 b=1101 sel=111 s=0010 co=0
+#                  190a=0110 b=0011 sel=111 s=1100 co=0
+#                  200a=1101 b=0011 sel=111 s=1100 co=0
+#                  210a=1011 b=0101 sel=111 s=1010 co=0
+#                  220a=1011 b=0101 sel=010 s=1100 co=0
+#                  230a=1110 b=1101 sel=010 s=1111 co=0
+#                  240a=1111 b=0011 sel=010 s=0000 co=1
+#                  250a=1010 b=1010 sel=010 s=1011 co=0
+#                  260a=1100 b=0010 sel=010 s=1101 co=0
+#                  270a=1010 b=0001 sel=010 s=1011 co=0
+#                  280a=1000 b=1000 sel=010 s=1001 co=0
+#                  290a=1001 b=1011 sel=010 s=1010 co=0
+#                  300a=0110 b=0110 sel=010 s=0111 co=0
+#                  310a=1110 b=1100 sel=010 s=1111 co=0
+#                  320a=1010 b=1011 sel=010 s=1011 co=0
+#                  330a=1010 b=1011 sel=001 s=1111 co=1
+#                  340a=0101 b=1111 sel=001 s=0110 co=1
+#                  350a=1011 b=1010 sel=001 s=0001 co=0
+#                  360a=1110 b=0101 sel=001 s=1001 co=0
+#                  370a=0001 b=1001 sel=001 s=1000 co=1
+#                  380a=0010 b=1100 sel=001 s=0110 co=1
+#                  390a=1111 b=1111 sel=001 s=0000 co=0
+#                  400a=1000 b=0111 sel=001 s=0001 co=0
+#                  410a=1111 b=1100 sel=001 s=0011 co=0
+#                  420a=1011 b=1001 sel=001 s=0010 co=0
+#                  430a=1001 b=0000 sel=001 s=1001 co=0
+#                  440a=1001 b=0000 sel=111 s=1111 co=0
+#                  450a=0001 b=0110 sel=111 s=1001 co=0
+#                  460a=1100 b=0010 sel=111 s=1101 co=0
+#                  470a=1000 b=0111 sel=111 s=1000 co=0
+#                  480a=1101 b=0010 sel=111 s=1101 co=0
+#                  490a=1110 b=1101 sel=111 s=0010 co=0
+#                  500a=1001 b=1111 sel=111 s=0000 co=0
+#                  510a=0011 b=0101 sel=111 s=1010 co=0
+#                  520a=1000 b=1011 sel=111 s=0100 co=0
+#                  530a=1001 b=1111 sel=111 s=0000 co=0
+#                  540a=1010 b=1000 sel=111 s=0111 co=0
+#                  550a=1010 b=1000 sel=110 s=0010 co=0
+#                  560a=1110 b=1100 sel=110 s=0010 co=0
+#                  570a=1010 b=0110 sel=110 s=1100 co=0
+#                  580a=0011 b=0011 sel=110 s=0000 co=0
+#                  590a=1111 b=0011 sel=110 s=1100 co=0
+#                  600a=1111 b=0100 sel=110 s=1011 co=0
+#                  610a=0111 b=1011 sel=110 s=1100 co=0
+#                  620a=0110 b=1010 sel=110 s=1100 co=0
+#                  630a=1001 b=1101 sel=110 s=0100 co=0
+#                  640a=1010 b=0101 sel=110 s=1111 co=0
+#                  650a=0101 b=1111 sel=110 s=1010 co=0
+#                  660a=0101 b=1111 sel=001 s=0110 co=1
+#                  670a=0100 b=0000 sel=001 s=0100 co=0
+#                  680a=1010 b=1011 sel=001 s=1111 co=1
+#                  690a=1110 b=1100 sel=001 s=0010 co=0
+#                  700a=1010 b=1101 sel=001 s=1101 co=1
+#                  710a=0011 b=0110 sel=001 s=1101 co=1
+#                  720a=1110 b=0111 sel=001 s=0111 co=0
+#                  730a=1010 b=0110 sel=001 s=0100 co=0
+#                  740a=1000 b=1001 sel=001 s=1111 co=1
+#                  750a=1000 b=0100 sel=001 s=0100 co=0
+#                  760a=0011 b=0100 sel=001 s=1111 co=1
+#                  780a=1011 b=1101 sel=001 s=1110 co=1
+#                  790a=1001 b=1101 sel=001 s=1100 co=1
+#                  800a=0110 b=1010 sel=001 s=1100 co=1
+#                  810a=0110 b=0101 sel=001 s=0001 co=0
+#                  820a=0110 b=0100 sel=001 s=0010 co=0
+#                  830a=0111 b=1001 sel=001 s=1110 co=1
+#                  840a=0100 b=1000 sel=001 s=1100 co=1
+#                  850a=1000 b=1101 sel=001 s=1011 co=1
+#                  860a=0111 b=1110 sel=001 s=1001 co=1
+#                  870a=1000 b=1100 sel=001 s=1100 co=1
+coverage report -html -htmldir covhtmlreport -details -assert -directive -cvg -code bcefst -threshL 50 -threshH 90
+# Report created in covhtmlreport/index.html
+coverage report -file /home/student/Rishabh/dir21062017/report_tb_alu_random.txt -byfile -assert -directive -cvg -codeAll
+coverage report -file report_tb_alu_random.txt -byfile -assert -directive -cvg -codeAll
+vlog -reportprogress 300 -work work /home/student/Rishabh/dir21062017/tb_alu_random.v
+# QuestaSim-64 vlog 10.6a Compiler 2017.03 Mar 16 2017
+# Start time: 04:29:19 on Jul 01,2017
+# vlog -reportprogress 300 -work work /home/student/Rishabh/dir21062017/tb_alu_random.v 
+# -- Compiling module tb_alu_random
+# 
+# Top level modules:
+# 	tb_alu_random
+# End time: 04:29:19 on Jul 01,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work /home/student/Rishabh/dir21062017/alu.v
+# QuestaSim-64 vlog 10.6a Compiler 2017.03 Mar 16 2017
+# Start time: 04:29:19 on Jul 01,2017
+# vlog -reportprogress 300 -work work /home/student/Rishabh/dir21062017/alu.v 
+# -- Compiling module alu
+# 
+# Top level modules:
+# 	alu
+# End time: 04:29:20 on Jul 01,2017, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work /home/student/Rishabh/dir21062017/alu.v
+# QuestaSim-64 vlog 10.6a Compiler 2017.03 Mar 16 2017
+# Start time: 04:29:20 on Jul 01,2017
+# vlog -reportprogress 300 -work work /home/student/Rishabh/dir21062017/alu.v 
+# -- Compiling module alu
+# 
+# Top level modules:
+# 	alu
+# End time: 04:29:20 on Jul 01,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work /home/student/Rishabh/dir21062017/tb_alu_const_random.sv
+# QuestaSim-64 vlog 10.6a Compiler 2017.03 Mar 16 2017
+# Start time: 04:29:20 on Jul 01,2017
+# vlog -reportprogress 300 -work work /home/student/Rishabh/dir21062017/tb_alu_const_random.sv 
+# -- Compiling module tb_alu_const_random
+# 
+# Top level modules:
+# 	tb_alu_const_random
+# End time: 04:29:20 on Jul 01,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim -coverage work.tb_alu_const_random
+# End time: 04:29:34 on Jul 01,2017, Elapsed time: 0:05:21
+# Errors: 0, Warnings: 0
+# vsim -coverage work.tb_alu_const_random 
+# Start time: 04:29:34 on Jul 01,2017
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading sv_std.std
+# Loading work.tb_alu_const_random(fast)
+vsim work.tb_alu_random
+# End time: 04:29:42 on Jul 01,2017, Elapsed time: 0:00:08
+# Errors: 0, Warnings: 0
+# vsim work.tb_alu_random 
+# Start time: 04:29:42 on Jul 01,2017
+# ** Note: (vsim-8009) Loading existing optimized design _opt2
+# Loading sv_std.std
+# Loading work.tb_alu_random(fast)
+vsim -coverage work.tb_alu_const_random
+# End time: 04:29:50 on Jul 01,2017, Elapsed time: 0:00:08
+# Errors: 0, Warnings: 0
+# vsim -coverage work.tb_alu_const_random 
+# Start time: 04:29:50 on Jul 01,2017
+# ** Note: (vsim-8009) Loading existing optimized design _opt1
+# Loading sv_std.std
+# Loading work.tb_alu_const_random(fast)
+run -all
+#                    0a=xxxx b=xxxx sel=000 s=xxxx co=x
+#                   10a=1000 b=0100 sel=000 s=1100 co=0
+#                   20a=0011 b=0000 sel=000 s=0011 co=0
+#                   30a=0010 b=1101 sel=000 s=1111 co=0
+#                   40a=1011 b=0010 sel=000 s=1101 co=0
+#                   50a=1110 b=1001 sel=000 s=0111 co=1
+#                   60a=0110 b=0000 sel=000 s=0110 co=0
+#                   70a=0100 b=0000 sel=000 s=0100 co=0
+#                   80a=0001 b=0010 sel=000 s=0011 co=0
+#                   90a=0001 b=1100 sel=000 s=1101 co=0
+#                  100a=0100 b=0111 sel=000 s=1011 co=0
+#                  120a=0111 b=1101 sel=000 s=0100 co=1
+#                  130a=1000 b=1110 sel=000 s=0110 co=1
+#                  140a=1000 b=1101 sel=000 s=0101 co=1
+#                  150a=0010 b=1010 sel=000 s=1100 co=0
+#                  160a=1110 b=1111 sel=000 s=1101 co=1
+#                  170a=0011 b=0111 sel=000 s=1010 co=0
+#                  180a=1101 b=1011 sel=000 s=1000 co=1
+#                  190a=1000 b=0000 sel=000 s=1000 co=0
+#                  200a=0001 b=0100 sel=000 s=0101 co=0
+#                  210a=1110 b=1010 sel=000 s=1000 co=1
+#                  220a=1110 b=1010 sel=111 s=0101 co=0
+#                  230a=1000 b=0110 sel=111 s=1001 co=0
+#                  240a=0111 b=0000 sel=111 s=1111 co=0
+#                  250a=1001 b=1001 sel=111 s=0110 co=0
+#                  260a=0101 b=1000 sel=111 s=0111 co=0
+#                  270a=1111 b=0011 sel=111 s=1100 co=0
+#                  280a=1101 b=1000 sel=111 s=0111 co=0
+#                  290a=1101 b=0111 sel=111 s=1000 co=0
+#                  300a=0110 b=1010 sel=111 s=0101 co=0
+#                  310a=1011 b=0011 sel=111 s=1100 co=0
+#                  320a=1010 b=1010 sel=111 s=0101 co=0
+#                  330a=1010 b=1010 sel=100 s=1010 co=0
+#                  340a=0000 b=1011 sel=100 s=0000 co=0
+#                  350a=1010 b=1000 sel=100 s=1000 co=0
+#                  360a=0110 b=1010 sel=100 s=0010 co=0
+#                  370a=0110 b=0010 sel=100 s=0010 co=0
+#                  380a=1001 b=1100 sel=100 s=1000 co=0
+#                  390a=1010 b=1011 sel=100 s=1010 co=0
+#                  400a=0011 b=0111 sel=100 s=0011 co=0
+#                  410a=0100 b=0101 sel=100 s=0100 co=0
+#                  420a=0101 b=0000 sel=100 s=0000 co=0
+#                  430a=1000 b=0010 sel=100 s=0000 co=0
+#                  450a=0100 b=0100 sel=100 s=0100 co=0
+#                  460a=0100 b=1000 sel=100 s=0000 co=0
+#                  470a=1001 b=0011 sel=100 s=0001 co=0
+#                  480a=0111 b=1001 sel=100 s=0001 co=0
+#                  490a=0001 b=0111 sel=100 s=0001 co=0
+#                  500a=1110 b=0110 sel=100 s=0110 co=0
+#                  510a=1011 b=1100 sel=100 s=1000 co=0
+#                  520a=1101 b=0010 sel=100 s=0000 co=0
+#                  530a=0111 b=0110 sel=100 s=0110 co=0
+#                  540a=0110 b=0001 sel=100 s=0000 co=0
+#                  550a=0110 b=0001 sel=000 s=0111 co=0
+#                  560a=1110 b=1010 sel=000 s=1000 co=1
+#                  570a=0011 b=0100 sel=000 s=0111 co=0
+#                  580a=1101 b=0000 sel=000 s=1101 co=0
+#                  590a=1111 b=0011 sel=000 s=0010 co=1
+#                  600a=0110 b=0110 sel=000 s=1100 co=0
+#                  610a=1001 b=1000 sel=000 s=0001 co=1
+#                  620a=0100 b=1011 sel=000 s=1111 co=0
+#                  630a=1100 b=1110 sel=000 s=1010 co=1
+#                  640a=1111 b=1000 sel=000 s=0111 co=1
+#                  650a=1010 b=1100 sel=000 s=0110 co=1
+#                  660a=1010 b=1100 sel=110 s=0110 co=0
+#                  670a=0001 b=0110 sel=110 s=0111 co=0
+#                  680a=0110 b=1111 sel=110 s=1001 co=0
+#                  690a=0000 b=1100 sel=110 s=1100 co=0
+#                  700a=0011 b=1110 sel=110 s=1101 co=0
+#                  710a=0010 b=0001 sel=110 s=0011 co=0
+#                  720a=1100 b=1100 sel=110 s=0000 co=0
+#                  730a=1101 b=0000 sel=110 s=1101 co=0
+#                  750a=0000 b=1101 sel=110 s=1101 co=0
+#                  760a=0101 b=1010 sel=110 s=1111 co=0
+#                  770a=0101 b=1010 sel=000 s=1111 co=0
+#                  780a=0110 b=1110 sel=000 s=0100 co=1
+#                  790a=0000 b=1010 sel=000 s=1010 co=0
+#                  800a=0001 b=1111 sel=000 s=0000 co=1
+#                  810a=1101 b=0110 sel=000 s=0011 co=1
+#                  820a=1110 b=0001 sel=000 s=1111 co=0
+#                  830a=1010 b=0001 sel=000 s=1011 co=0
+#                  840a=0111 b=1110 sel=000 s=0101 co=1
+#                  850a=1010 b=1011 sel=000 s=0101 co=1
+#                  860a=1011 b=0010 sel=000 s=1101 co=0
+#                  870a=0000 b=1111 sel=000 s=1111 co=0
+coverage report -html -htmldir covhtmlreport -details -assert -directive -cvg -code bcefst -threshL 50 -threshH 90
+# Report created in covhtmlreport/index.html
+# End time: 04:31:38 on Jul 01,2017, Elapsed time: 0:01:48
+# Errors: 0, Warnings: 0
