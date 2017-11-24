@@ -1,0 +1,60 @@
+var g_data = {
+b3:[{dummy:0},
+{anchor:'cvg10',items:[{z:'	if(!rst)',f:'seq_det_mealy_1011.v',l:'16',c:'G',p:'100.00'}
+,{cr:'c',t:'I',z:'	if(!rst)',f:'seq_det_mealy_1011.v',l:'16',h:'2',c:'g'}
+,{cr:'c',t:'E',z:'	else',f:'seq_det_mealy_1011.v',l:'18',h:'16',c:'g'}
+]},
+{anchor:'cvg11',items:[{z:'	case(pr_state)',f:'seq_det_mealy_1011.v',l:'25',c:'G',p:'100.00'}
+,{cr:'c',t:'T',z:'	GN: if(x)',f:'seq_det_mealy_1011.v',l:'26',h:'3',c:'g'}
+,{cr:'c',t:'T',z:'	GOT1: if(x)',f:'seq_det_mealy_1011.v',l:'36',h:'9',c:'g'}
+,{cr:'c',t:'T',z:'	GOT10:if(x)',f:'seq_det_mealy_1011.v',l:'46',h:'7',c:'g'}
+,{cr:'c',t:'T',z:'	GOT101: if(x)',f:'seq_det_mealy_1011.v',l:'56',h:'7',c:'g'}
+,{cr:'c',t:'A',z:'	case(pr_state)',f:'seq_det_mealy_1011.v',l:'25',h:'2',c:'g'}
+]},
+{anchor:'cvg12',items:[{z:'	GN: if(x)',f:'seq_det_mealy_1011.v',l:'26',c:'G',p:'100.00'}
+,{cr:'c',t:'I',z:'	GN: if(x)',f:'seq_det_mealy_1011.v',l:'26',h:'2',c:'g'}
+,{cr:'c',t:'E',z:'	    else',f:'seq_det_mealy_1011.v',l:'31',h:'1',c:'g'}
+]},
+{anchor:'cvg13',items:[{z:'	GOT1: if(x)',f:'seq_det_mealy_1011.v',l:'36',c:'G',p:'100.00'}
+,{cr:'c',t:'I',z:'	GOT1: if(x)',f:'seq_det_mealy_1011.v',l:'36',h:'5',c:'g'}
+,{cr:'c',t:'E',z:'	      else',f:'seq_det_mealy_1011.v',l:'41',h:'4',c:'g'}
+]},
+{anchor:'cvg14',items:[{z:'	GOT10:if(x)',f:'seq_det_mealy_1011.v',l:'46',c:'G',p:'100.00'}
+,{cr:'c',t:'I',z:'	GOT10:if(x)',f:'seq_det_mealy_1011.v',l:'46',h:'5',c:'g'}
+,{cr:'c',t:'E',z:'	      else',f:'seq_det_mealy_1011.v',l:'51',h:'2',c:'g'}
+]},
+{anchor:'cvg15',items:[{z:'	GOT101: if(x)',f:'seq_det_mealy_1011.v',l:'56',c:'G',p:'100.00'}
+,{cr:'c',t:'I',z:'	GOT101: if(x)',f:'seq_det_mealy_1011.v',l:'56',h:'4',c:'g'}
+,{cr:'c',t:'E',z:'	    	else',f:'seq_det_mealy_1011.v',l:'61',h:'3',c:'g'}
+]}],
+b9:[{dummy:0},
+{anchor:'cvg10',items:[{z:'	if(!rst)',f:'seq_det_mealy_1011.v',l:'16',c:'G',p:'100.00'}
+,{cr:'c',t:'I',z:'	if(!rst)',f:'seq_det_mealy_1011.v',l:'16',h:'2',c:'g'}
+,{cr:'c',t:'E',z:'	else',f:'seq_det_mealy_1011.v',l:'18',h:'16',c:'g'}
+]},
+{anchor:'cvg11',items:[{z:'	case(pr_state)',f:'seq_det_mealy_1011.v',l:'25',c:'G',p:'100.00'}
+,{cr:'c',t:'T',z:'	GN: if(x)',f:'seq_det_mealy_1011.v',l:'26',h:'3',c:'g'}
+,{cr:'c',t:'T',z:'	GOT1: if(x)',f:'seq_det_mealy_1011.v',l:'36',h:'9',c:'g'}
+,{cr:'c',t:'T',z:'	GOT10:if(x)',f:'seq_det_mealy_1011.v',l:'46',h:'7',c:'g'}
+,{cr:'c',t:'T',z:'	GOT101: if(x)',f:'seq_det_mealy_1011.v',l:'56',h:'7',c:'g'}
+,{cr:'c',t:'A',z:'	case(pr_state)',f:'seq_det_mealy_1011.v',l:'25',h:'2',c:'g'}
+]},
+{anchor:'cvg12',items:[{z:'	GN: if(x)',f:'seq_det_mealy_1011.v',l:'26',c:'G',p:'100.00'}
+,{cr:'c',t:'I',z:'	GN: if(x)',f:'seq_det_mealy_1011.v',l:'26',h:'2',c:'g'}
+,{cr:'c',t:'E',z:'	    else',f:'seq_det_mealy_1011.v',l:'31',h:'1',c:'g'}
+]},
+{anchor:'cvg13',items:[{z:'	GOT1: if(x)',f:'seq_det_mealy_1011.v',l:'36',c:'G',p:'100.00'}
+,{cr:'c',t:'I',z:'	GOT1: if(x)',f:'seq_det_mealy_1011.v',l:'36',h:'5',c:'g'}
+,{cr:'c',t:'E',z:'	      else',f:'seq_det_mealy_1011.v',l:'41',h:'4',c:'g'}
+]},
+{anchor:'cvg14',items:[{z:'	GOT10:if(x)',f:'seq_det_mealy_1011.v',l:'46',c:'G',p:'100.00'}
+,{cr:'c',t:'I',z:'	GOT10:if(x)',f:'seq_det_mealy_1011.v',l:'46',h:'5',c:'g'}
+,{cr:'c',t:'E',z:'	      else',f:'seq_det_mealy_1011.v',l:'51',h:'2',c:'g'}
+]},
+{anchor:'cvg15',items:[{z:'	GOT101: if(x)',f:'seq_det_mealy_1011.v',l:'56',c:'G',p:'100.00'}
+,{cr:'c',t:'I',z:'	GOT101: if(x)',f:'seq_det_mealy_1011.v',l:'56',h:'4',c:'g'}
+,{cr:'c',t:'E',z:'	    	else',f:'seq_det_mealy_1011.v',l:'61',h:'3',c:'g'}
+]}],
+dummyEnd:0
+};
+processBranchesData(g_data);

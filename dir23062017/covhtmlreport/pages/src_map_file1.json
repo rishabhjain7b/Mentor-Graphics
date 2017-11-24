@@ -1,0 +1,3 @@
+var g_data = {'dummy':null,
+'1':'seq_det_mealy_1011.v',
+'2':'tb_seq_det_mealy_1011.v'};

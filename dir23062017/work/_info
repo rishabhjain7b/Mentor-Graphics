@@ -1,0 +1,187 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/home/student/Rishabh/dir23062017
+T_opt
+!s110 1498212815
+VkN6aW`G^ZPO7OmGSZ4LLP0
+04 18 4 work seq_det_moore_1101 fast 0
+=1-000c2947149a-594ce9cf-e306d-da1
+Z1 o-quiet -auto_acc_if_foreign -work work
+Z2 tCvgOpt 0
+n@_opt
+Z3 OL;O;10.6a;65
+R0
+T_opt1
+!s110 1498309884
+VjJ`K]XUd9@E3@7_FRl4X23
+04 11 4 work tb_mach_det fast 0
+=1-000c2947149a-594e64fc-b65a1-18ab
+R1
+R2
+n@_opt1
+R3
+R0
+T_opt2
+!s110 1499060488
+V4`cO[NSk>Fc]B@[^m5R5V3
+04 21 4 work tb_seq_det_mealy_1011 fast 0
+=1-000c2947149a-5959d908-9ce9a-4172
+R1
+R2
+n@_opt2
+R3
+vmach_det
+Z4 VDg1SIo80bB@j0V0VzS_@n1
+r1
+!s85 0
+31
+!i10b 1
+!s100 L?7X_:B[RlZl:ERdO1_ID0
+IDY^BXA3d_^U<BXkS1IOSF0
+R0
+w1498305714
+8mach_det.v
+Fmach_det.v
+L0 3
+Z5 OL;L;10.6a;65
+!s108 1498306068.000000
+!s107 mach_det.v|
+!s90 mach_det.v|
+!i113 0
+Z6 o-L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R2
+vseq_det_mealy_1011
+Z7 DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
+R4
+r1
+!s85 0
+31
+!i10b 1
+!s100 RjUbS1IEco6SeCTd3:S;N0
+IOj11ZT2jkfFSEmXGBX`D51
+!s105 seq_det_mealy_1011_v_unit
+S1
+R0
+w1498286681
+8/home/student/Rishabh/dir23062017/seq_det_mealy_1011.v
+F/home/student/Rishabh/dir23062017/seq_det_mealy_1011.v
+L0 3
+R5
+!s108 1499059380.000000
+!s107 /home/student/Rishabh/dir23062017/seq_det_mealy_1011.v|
+!s90 -##implicit##push_minusfile_path##|/home/student/Rishabh/dir23062017/vlog.opt|-##implicit##pop_minusfile_path##|-reportprogress|300|-work|work|/home/student/Rishabh/dir23062017/seq_det_mealy_1011.v|
+!i113 0
+o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z8 tCoverage 63 Svlog 1 CvgOpt 0
+vseq_det_mealy_111
+!s110 1498294922
+!i10b 1
+!s100 PO8L8EMa42J:JIalK2W5h0
+I47X`zNoHkFV1aiPO[WY3l0
+R4
+R0
+w1498294919
+8seq_det_111.v
+Fseq_det_111.v
+L0 3
+R5
+r1
+!s85 0
+31
+!s108 1498294922.000000
+!s107 seq_det_111.v|
+!s90 seq_det_111.v|
+!i113 0
+R6
+R2
+vseq_det_moore_1101
+R4
+r1
+!s85 0
+31
+!i10b 1
+!s100 ::W6Wzz<0nP[^F95[Lm6a1
+IXBL[B5JXMEoU20?[=^D;10
+R0
+w1498212796
+8seq_det_moore_1101.v
+Fseq_det_moore_1101.v
+L0 3
+R5
+!s108 1498212798.000000
+!s107 seq_det_moore_1101.v|
+!s90 seq_det_moore_1101.v|
+!i113 0
+R6
+R2
+vtb_mach_det
+!s110 1498309879
+!i10b 1
+!s100 g==8gzP2kg6CmlHiB0ToO2
+I3>FFX5=Lhh:efnah;Wkm30
+R4
+R0
+w1498309876
+8tb_mach_det.v
+Ftb_mach_det.v
+L0 3
+R5
+r1
+!s85 0
+31
+!s108 1498309879.000000
+!s107 tb_mach_det.v|
+!s90 tb_mach_det.v|
+!i113 0
+R6
+R2
+vtb_seq_det_mealy_1011
+R7
+R4
+r1
+!s85 0
+31
+!i10b 1
+!s100 IYgH[Rf`z3N`2o=LcBXoS3
+I]FAz]G2m0RRHAg=1hAN[C2
+!s105 tb_seq_det_mealy_1011_v_unit
+S1
+R0
+w1499060456
+8tb_seq_det_mealy_1011.v
+Ftb_seq_det_mealy_1011.v
+L0 3
+R5
+!s108 1499060461.000000
+!s107 tb_seq_det_mealy_1011.v|
+!s90 -##implicit##push_minusfile_path##|/home/student/Rishabh/dir23062017/vlog.opt|-##implicit##pop_minusfile_path##|tb_seq_det_mealy_1011.v|
+!i113 0
+R6
+R8
+vtest
+R4
+r1
+!s85 0
+31
+!i10b 1
+!s100 BCH0`hIa^HRVI0d<V9i083
+I49:mMAIldDQ8[gUK<e?a10
+R0
+w1498300005
+8test.v
+Ftest.v
+L0 1
+R5
+!s108 1498300009.000000
+!s107 test.v|
+!s90 test.v|
+!i113 0
+R6
+R2

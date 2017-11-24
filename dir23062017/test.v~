@@ -1,0 +1,15 @@
+module test;
+
+reg a;
+
+initial
+begin
+	a=0;
+	a<=1;
+	$write("In write a=%b",a);
+	$strobe("In strobe a=%b",a);
+	$display("In display a=%b",a);
+	$monitor("In monitor a=%b",a);
+end
+
+endmodule
