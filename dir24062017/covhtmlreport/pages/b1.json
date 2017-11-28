@@ -1,0 +1,26 @@
+var g_data = {
+b3:[{dummy:0},
+{anchor:'cvg27',items:[{z:' 	if(!rst)',f:'booth.v',l:'17',c:'G',p:'100.00'}
+,{cr:'c',t:'I',z:' 	if(!rst)',f:'booth.v',l:'17',h:'12',c:'g'}
+,{cr:'c',t:'T',z:' 	else if(x==4)',f:'booth.v',l:'25',h:'5',c:'g'}
+,{cr:'c',t:'E',z:'	else',f:'booth.v',l:'27',h:'20',c:'g'}
+]},
+{anchor:'cvg28',items:[{z:' 		if(w1[1:0]==2\'b01)',f:'booth.v',l:'30',c:'G',p:'100.00'}
+,{cr:'c',t:'I',z:' 		if(w1[1:0]==2\'b01)',f:'booth.v',l:'30',h:'7',c:'g'}
+,{cr:'c',t:'T',z:' 		else if(w1[1:0]==2\'b10)',f:'booth.v',l:'32',h:'7',c:'g'}
+,{cr:'c',t:'E',z:' 		else',f:'booth.v',l:'34',h:'6',c:'g'}
+]}],
+b26:[{dummy:0},
+{anchor:'cvg27',items:[{z:' 	if(!rst)',f:'booth.v',l:'17',c:'G',p:'100.00'}
+,{cr:'c',t:'I',z:' 	if(!rst)',f:'booth.v',l:'17',h:'12',c:'g'}
+,{cr:'c',t:'T',z:' 	else if(x==4)',f:'booth.v',l:'25',h:'5',c:'g'}
+,{cr:'c',t:'E',z:'	else',f:'booth.v',l:'27',h:'20',c:'g'}
+]},
+{anchor:'cvg28',items:[{z:' 		if(w1[1:0]==2\'b01)',f:'booth.v',l:'30',c:'G',p:'100.00'}
+,{cr:'c',t:'I',z:' 		if(w1[1:0]==2\'b01)',f:'booth.v',l:'30',h:'7',c:'g'}
+,{cr:'c',t:'T',z:' 		else if(w1[1:0]==2\'b10)',f:'booth.v',l:'32',h:'7',c:'g'}
+,{cr:'c',t:'E',z:' 		else',f:'booth.v',l:'34',h:'6',c:'g'}
+]}],
+dummyEnd:0
+};
+processBranchesData(g_data);

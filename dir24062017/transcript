@@ -1,0 +1,43 @@
+# //  Questa Sim-64
+# //  Version 10.6a linux_x86_64 Mar 16 2017
+# //
+# //  Copyright 1991-2017 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# vsim -novopt tb_booth 
+# Start time: 22:37:45 on Jul 05,2017
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# Refreshing /home/student/Rishabh/dir24062017/work.tb_booth
+# Loading sv_std.std
+# Loading work.tb_booth
+# Loading work.booth
+add wave *
+run -all
+#                    0 a=  x,b=  x,y=   x,rst=0 
+#                   10 a=  2,b=  5,y=   x,rst=0 
+#                   20 a=  2,b=  5,y=   x,rst=1 
+#                   65 a=  2,b=  5,y=  10,rst=1 
+#                   70 a=  6,b=  5,y=  10,rst=0 
+#                   80 a=  6,b=  5,y=  10,rst=1 
+#                  125 a=  6,b=  5,y=  30,rst=1 
+#                  130 a= -6,b=  5,y=  30,rst=0 
+#                  140 a= -6,b=  5,y=  30,rst=1 
+#                  185 a= -6,b=  5,y= -30,rst=1 
+#                  190 a= -6,b= -3,y= -30,rst=0 
+#                  200 a= -6,b= -3,y= -30,rst=1 
+#                  245 a= -6,b= -3,y=  18,rst=1 
+#                  250 a=  2,b= -3,y=  18,rst=0 
+#                  260 a=  2,b= -3,y=  18,rst=1 
+#                  305 a=  2,b= -3,y=  -6,rst=1 
+# Break key hit
+# Simulation stop requested.
+# End time: 22:39:52 on Jul 05,2017, Elapsed time: 0:02:07
+# Errors: 0, Warnings: 1

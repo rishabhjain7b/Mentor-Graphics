@@ -1,0 +1,9 @@
+                   0a=x b=x cin=x s=x c=x
+                  10a=0 b=0 cin=0 s=0 c=0
+                  20a=0 b=0 cin=1 s=1 c=0
+                  30a=0 b=1 cin=0 s=1 c=0
+                  40a=0 b=1 cin=1 s=0 c=1
+                  50a=1 b=0 cin=0 s=1 c=0
+                  60a=1 b=0 cin=1 s=0 c=1
+                  70a=1 b=1 cin=0 s=0 c=1
+                  80a=1 b=1 cin=1 s=1 c=1
