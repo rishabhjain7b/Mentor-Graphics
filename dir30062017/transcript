@@ -1,0 +1,32 @@
+# //  Questa Sim-64
+# //  Version 10.6a linux_x86_64 Mar 16 2017
+# //
+# //  Copyright 1991-2017 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# vsim -novopt ques5 
+# Start time: 05:33:51 on Jun 30,2017
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# Refreshing /home/student/Rishabh/dir30062017/work.ques5
+# Loading sv_std.std
+# Loading work.ques5
+run
+# 
+# original queue
+# 
+# '{-6, -14, 16, 30, 4, 1, -3, 21, -23, -14, 30, 0, -15, 13, -10, -7, 9, -13, -4, 2, -4, -16, -2, -9, 17, 12, 5, -10, -11, -1, 9, -13, -9, 2, -21, 2, 2, 21, -26, -18, -22, 5, 20, -26, -4, 6, -26, 30, -14, 24}
+# positive queue
+# 
+# '{16, 30, 4, 1, 21, 30, 0, 13, 9, 2, 17, 12, 5, 9, 2, 2, 2, 21, 5, 20, 6, 30, 24}
+# negative queue 
+# 
+'{-6, -14, -3, -23, -14, -15, -10, -7, -13, -4, -4, -16, -2, -9, -10, -11, -1, -13, -9, -21, -26, -18, -22, -26, -4, -26, -14}# End time: 06:12:49 on Jun 30,2017, Elapsed time: 0:38:58
+# Errors: 0, Warnings: 1
