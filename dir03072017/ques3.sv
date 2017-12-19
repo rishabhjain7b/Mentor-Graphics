@@ -1,0 +1,54 @@
+
+module ques3;
+integer mem[*];
+int i,k;
+
+initial
+begin
+	while(mem.num!=50)
+	begin
+		k=$urandom_range(1,100);
+		if(!(mem.exists(k)))
+		mem[k]=$urandom_range(500);
+	end
+	
+	$display("size = %d",mem.num);
+	
+	$display("%p ",mem);
+	
+	if(mem.exists(2))
+	$display("index 2 exists");
+	else
+	$display("index 2 not found");
+	
+	if(mem.exists(45))
+	$display("index 45 found");
+	else
+	$display("index 45 not found");
+	
+	mem.first(i);
+	$display("first index is %d and value is %d",i,mem[i]);
+	
+	mem.last(i);
+	$display("last index is %d and value is %d",i,mem[i]);
+	
+	if(mem.exists(5))
+	mem.delete(5);
+	else
+	$display("index 5 not found");
+	
+	if(mem.exists(10))
+	mem.delete(10);
+	else
+	$display("index 10 not found");
+	
+	if(mem.exists(15))
+	mem.delete(15);
+	else
+	$display("index 15 not found");
+
+	$display("size = %d",mem.num);
+	$display("array is %p",mem);
+
+	end
+endmodule

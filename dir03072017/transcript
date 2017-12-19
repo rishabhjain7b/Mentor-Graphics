@@ -1,0 +1,29 @@
+# //  Questa Sim-64
+# //  Version 10.6a linux_x86_64 Mar 16 2017
+# //
+# //  Copyright 1991-2017 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# vsim -novopt ques2 
+# Start time: 05:28:35 on Jul 03,2017
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# Refreshing /home/student/Rishabh/dir03072017/work.ques2
+# Loading sv_std.std
+# Loading work.ques2
+run
+# queue array
+# '{3, 268, 16, 104, 427, 487, 115, 403, 398, 226}
+# associative array
+# '{21:115, 23:268, 27:104, 32:403, 59:398, 66:16, 132:427, 150:3, 302:487, 361:226 }
+# queue array
+# '{115, 268, 104, 403, 398, 16, 427, 3, 487, 226}
+# End time: 05:29:37 on Jul 03,2017, Elapsed time: 0:01:02
+# Errors: 0, Warnings: 1
