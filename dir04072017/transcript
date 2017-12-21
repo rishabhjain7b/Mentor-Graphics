@@ -1,0 +1,25 @@
+# //  Questa Sim-64
+# //  Version 10.6a linux_x86_64 Mar 16 2017
+# //
+# //  Copyright 1991-2017 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# vsim -novopt ques6 
+# Start time: 06:17:56 on Jul 04,2017
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# Refreshing /home/student/Rishabh/dir04072017/work.ques6
+# Loading sv_std.std
+# Loading work.ques6
+run
+# first:                    -2                    -3
+# last:   9223372036854775806   9223372036854775805
+                   -2                    -3	                    2                     1	                    6                     5	                   14                    13	                   30                    29	                   62                    61	                  126                   125	                  254                   253	                  510                   509	                 1022                  1021	                 2046                  2045	                 4094                  4093	                 8190                  8189	                16382                 16381	                32766                 32765	                65534                 65533	               131070                131069	               262142                262141	               524286                524285	              1048574               1048573	              2097150               2097149	              4194302               4194301	              8388606               8388605	             16777214              16777213	             33554430              33554429	             67108862              67108861	            134217726             134217725	            268435454             268435453	            536870910             536870909	           1073741822            1073741821	           2147483646            2147483645	           4294967294            4294967293	           8589934590            8589934589	          17179869182           17179869181	          34359738366           34359738365	          68719476734           68719476733	         137438953470          137438953469	         274877906942          274877906941	         549755813886          549755813885	        1099511627774         1099511627773	        2199023255550         2199023255549	        4398046511102         4398046511101	        8796093022206         8796093022205	       17592186044414        17592186044413	       35184372088830        35184372088829	       70368744177662        70368744177661	      140737488355326       140737488355325	      281474976710654       281474976710653	      562949953421310       562949953421309	     1125899906842622      1125899906842621	     2251799813685246      2251799813685245	     4503599627370494      4503599627370493	     9007199254740990      9007199254740989	    18014398509481982     18014398509481981	    36028797018963966     36028797018963965	    72057594037927934     72057594037927933	   144115188075855870    144115188075855869	   288230376151711742    288230376151711741	   576460752303423486    576460752303423485	  1152921504606846974   1152921504606846973	  2305843009213693950   2305843009213693949	  4611686018427387902   4611686018427387901	  9223372036854775806   9223372036854775805	# End time: 06:18:09 on Jul 04,2017, Elapsed time: 0:00:13
+# Errors: 0, Warnings: 1
