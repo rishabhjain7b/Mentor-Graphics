@@ -1,0 +1,33 @@
+
+module randtest2;
+byte a,b,x;
+function byte select(byte a,byte b);
+	return(a*2*(b**2));
+endfunction
+
+initial
+begin
+	a=1;b=2;
+	for(int i=1;i<100;i++)
+	begin
+		randcase
+		1: begin
+		   x=$urandom_range(10,5); 
+		   end
+		1: begin
+		   x=$urandom_range(19,10); 
+		   end
+		select(a,b): begin
+		   		x=$urandom_range(100,50); 
+		   		end
+		1: begin
+		   x=$urandom_range(10,5); 
+		   end
+
+		endcase
+		$write("%0d \t",x);
+	end
+	$display();
+end
+endmodule
+
