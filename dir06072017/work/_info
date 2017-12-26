@@ -1,0 +1,275 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/home/student/Rishabh/dir06072017
+T_opt
+!s110 1499336600
+Vh69Y3f3meB55FFjjRWiVj3
+04 12 4 work tb_fulladder fast 0
+=1-000c2947149a-595e0f98-6954-1dd3
+o-quiet -auto_acc_if_foreign -work work
+Z1 tCvgOpt 0
+n@_opt
+OL;O;10.6a;65
+R0
+var_loc
+Z2 DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+r1
+!s85 0
+31
+!i10b 1
+!s100 9NK>[N1C4QVohM5IgHgR60
+ILSimMn16A2@:S82_58@:23
+!s105 ar_loc_sv_unit
+S1
+R0
+w1499326291
+8ar_loc.sv
+Far_loc.sv
+L0 1
+Z4 OL;L;10.6a;65
+!s108 1499326305.000000
+!s107 ar_loc.sv|
+!s90 -sv|ar_loc.sv|
+!i113 0
+Z5 o-sv -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R1
+venum_test
+R2
+DXx4 work 17 enum_test_sv_unit 0 22 3f_a7QL1WG9k9YGRfi5e71
+R3
+r1
+!s85 0
+31
+!i10b 1
+!s100 Vz;?=3@NdX0J=A?=zoSIG0
+IN4Qd1]7IQjN7oJE:Pb0O30
+!s105 enum_test_sv_unit
+S1
+R0
+Z6 w1499340595
+Z7 8enum_test.sv
+Z8 Fenum_test.sv
+L0 4
+R4
+Z9 !s108 1499340601.000000
+Z10 !s107 enum_test.sv|
+Z11 !s90 -##implicit##push_minusfile_path##|/home/student/Rishabh/dir06072017/vlog.opt|-##implicit##pop_minusfile_path##|-sv|enum_test.sv|
+!i113 0
+R5
+Z12 tCoverage 47 Svlog 1 CvgOpt 0
+Xenum_test_sv_unit
+R2
+V3f_a7QL1WG9k9YGRfi5e71
+r1
+!s85 0
+31
+!i10b 1
+!s100 2J9TB@S4e_fC18m<`:jJ;0
+I3f_a7QL1WG9k9YGRfi5e71
+!i103 1
+S1
+R0
+R6
+R7
+R8
+L0 2
+R4
+R9
+R10
+R11
+!i113 0
+R5
+R12
+vfa
+R2
+R3
+r1
+!s85 0
+31
+!i10b 1
+!s100 4FcC2Ak64<aS7[<OIkUl03
+I1Q^kKn>G>2D]B]RfQO=2<3
+!s105 fa_sv_unit
+S1
+R0
+w1499334813
+8/home/student/Rishabh/dir06072017/fa.sv
+F/home/student/Rishabh/dir06072017/fa.sv
+L0 1
+R4
+Z13 !s108 1499336511.000000
+!s107 /home/student/Rishabh/dir06072017/fa.sv|
+!s90 -##implicit##push_minusfile_path##|/home/student/Rishabh/dir06072017/vlog.opt|-##implicit##pop_minusfile_path##|-reportprogress|300|-work|work|/home/student/Rishabh/dir06072017/fa.sv|
+!i113 0
+Z14 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R12
+vmux4to1
+R2
+R3
+r1
+!s85 0
+31
+!i10b 1
+!s100 ^64Kh1hElOH3MT`TZ9dJY0
+IkB2;j8Te1<68zaTBJAzXH0
+!s105 mux4to1_sv_unit
+S1
+R0
+w1499317933
+8mux4to1.sv
+Fmux4to1.sv
+L0 1
+R4
+!s108 1499317937.000000
+!s107 mux4to1.sv|
+!s90 -sv|mux4to1.sv|
+!i113 0
+R5
+R1
+vregister
+R2
+R3
+r1
+!s85 0
+31
+!i10b 1
+!s100 ChzaHKo0gP_aG<`Ud;BOO1
+IOe2>T?z18]9MJdG3eHkVG3
+!s105 register_sv_unit
+S1
+R0
+w1499331162
+8register.sv
+Fregister.sv
+L0 1
+R4
+!s108 1499331172.000000
+!s107 register.sv|
+!s90 -sv|register.sv|
+!i113 0
+R5
+R1
+vtb_fulladder
+R2
+R3
+r1
+!s85 0
+31
+!i10b 1
+!s100 2lTgnJ[M0Ijo;F5V28bQ;0
+I:B=mP5b0cgmT6XPinen4=0
+!s105 tb_fulladder_sv_unit
+S1
+R0
+w1499336482
+8/home/student/Rishabh/dir06072017/tb_fulladder.sv
+F/home/student/Rishabh/dir06072017/tb_fulladder.sv
+L0 1
+R4
+R13
+!s107 /home/student/Rishabh/dir06072017/tb_fulladder.sv|
+!s90 -##implicit##push_minusfile_path##|/home/student/Rishabh/dir06072017/vlog.opt|-##implicit##pop_minusfile_path##|-reportprogress|300|-work|work|/home/student/Rishabh/dir06072017/tb_fulladder.sv|
+!i113 0
+R14
+R12
+vtest
+R2
+!s110 1499342613
+!i10b 1
+!s100 dKNg?QFmOk0gDA9Q3D65e2
+IWm;Z<27hQe^m4fLn?7X3H3
+R3
+!s105 test_sv_unit
+S1
+R0
+w1499342607
+8test.sv
+Ftest.sv
+L0 1
+R4
+r1
+!s85 0
+31
+!s108 1499342613.000000
+!s107 test.sv|
+!s90 -##implicit##push_minusfile_path##|/home/student/Rishabh/dir06072017/vlog.opt|-##implicit##pop_minusfile_path##|-sv|test.sv|
+!i113 0
+R5
+R12
+vtest1
+R2
+R3
+r1
+!s85 0
+31
+!i10b 1
+!s100 CTe?]LiO]5eGlaMC;2XEN1
+INA<mOQelO=mf5S9NVRDHW0
+!s105 test1_sv_unit
+S1
+R0
+w1499343103
+8test1.sv
+Ftest1.sv
+L0 1
+R4
+!s108 1499343109.000000
+!s107 test1.sv|
+!s90 -##implicit##push_minusfile_path##|/home/student/Rishabh/dir06072017/vlog.opt|-##implicit##pop_minusfile_path##|-sv|test1.sv|
+!i113 0
+R5
+R12
+vtiming
+R2
+R3
+r1
+!s85 0
+31
+!i10b 1
+!s100 ogd2gfWJKP9mzS2]UGL4^0
+IBf@OJL4VW==0N7OzLOV<<1
+!s105 timing_sv_unit
+S1
+R0
+w1499341218
+8timing.sv
+Ftiming.sv
+L0 1
+R4
+!s108 1499341224.000000
+!s107 timing.sv|
+!s90 -##implicit##push_minusfile_path##|/home/student/Rishabh/dir06072017/vlog.opt|-##implicit##pop_minusfile_path##|-sv|timing.sv|
+!i113 0
+R5
+R12
+vtwo_regs
+R2
+R3
+r1
+!s85 0
+31
+!i10b 1
+!s100 kVSMLn]T;k4;89m27GACc0
+IP:9DEkAhNa?1XPUI4WRE:2
+!s105 two_regs_sv_unit
+S1
+R0
+w1499330919
+8two_regs.sv
+Ftwo_regs.sv
+L0 1
+R4
+!s108 1499331174.000000
+!s107 two_regs.sv|
+!s90 -sv|two_regs.sv|
+!i113 0
+R5
+R1

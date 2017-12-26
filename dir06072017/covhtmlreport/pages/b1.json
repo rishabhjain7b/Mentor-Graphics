@@ -1,0 +1,28 @@
+var g_data = {
+b3:[{dummy:0},
+{anchor:'cvg11',items:[{z:' 	if(a==0 && b==0 && cin==0)',f:'fa.sv',l:'7',c:'Y',p:'88.88'}
+,{cr:'c',t:'I',z:' 	if(a==0 && b==0 && cin==0)',f:'fa.sv',l:'7',h:'1001',c:'g'}
+,{cr:'c',t:'T',z:'	else if(a==0 && b==0 && cin==1)',f:'fa.sv',l:'10',h:'1139',c:'g'}
+,{cr:'c',t:'T',z:'	else if(a==0 && b==1 && cin==0)',f:'fa.sv',l:'13',h:'1126',c:'g'}
+,{cr:'c',t:'T',z:' 	else if(a==0 && b==1 && cin==1)',f:'fa.sv',l:'16',h:'1129',c:'g'}
+,{cr:'c',t:'T',z:' 	else if(a==1 && b==0 && cin==0)',f:'fa.sv',l:'19',h:'1125',c:'g'}
+,{cr:'c',t:'T',z:' 	else if(a==1 && b==0 && cin==1)',f:'fa.sv',l:'22',h:'1137',c:'g'}
+,{cr:'c',t:'T',z:' 	else if(a==1 && b==1 && cin==0)',f:'fa.sv',l:'25',h:'1109',c:'g'}
+,{cr:'c',t:'T',z:' 	else if(a==1 && b==1 && cin==1)',f:'fa.sv',l:'28',h:'1000',c:'g'}
+,{cr:'m',t:'A',z:' 	if(a==0 && b==0 && cin==0)',f:'fa.sv',l:'7',h:'0',c:'r'}
+]}],
+b10:[{dummy:0},
+{anchor:'cvg11',items:[{z:' 	if(a==0 && b==0 && cin==0)',f:'fa.sv',l:'7',c:'Y',p:'88.88'}
+,{cr:'c',t:'I',z:' 	if(a==0 && b==0 && cin==0)',f:'fa.sv',l:'7',h:'1001',c:'g'}
+,{cr:'c',t:'T',z:'	else if(a==0 && b==0 && cin==1)',f:'fa.sv',l:'10',h:'1139',c:'g'}
+,{cr:'c',t:'T',z:'	else if(a==0 && b==1 && cin==0)',f:'fa.sv',l:'13',h:'1126',c:'g'}
+,{cr:'c',t:'T',z:' 	else if(a==0 && b==1 && cin==1)',f:'fa.sv',l:'16',h:'1129',c:'g'}
+,{cr:'c',t:'T',z:' 	else if(a==1 && b==0 && cin==0)',f:'fa.sv',l:'19',h:'1125',c:'g'}
+,{cr:'c',t:'T',z:' 	else if(a==1 && b==0 && cin==1)',f:'fa.sv',l:'22',h:'1137',c:'g'}
+,{cr:'c',t:'T',z:' 	else if(a==1 && b==1 && cin==0)',f:'fa.sv',l:'25',h:'1109',c:'g'}
+,{cr:'c',t:'T',z:' 	else if(a==1 && b==1 && cin==1)',f:'fa.sv',l:'28',h:'1000',c:'g'}
+,{cr:'m',t:'A',z:' 	if(a==0 && b==0 && cin==0)',f:'fa.sv',l:'7',h:'0',c:'r'}
+]}],
+dummyEnd:0
+};
+processBranchesData(g_data);
