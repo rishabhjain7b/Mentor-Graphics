@@ -1,0 +1,17 @@
+program p;
+logic [7:0]a[string];
+string string_var;
+
+initial
+begin
+	a["sa"]=8;
+	a["bb"]=15;
+	a["ec"]=29;
+	a["d"]=32;
+	a["e"]=45;
+	a[string_var]=1;
+	
+	foreach(a[i])
+	$display(a[i]);
+end
+endprogram
