@@ -1,0 +1,21 @@
+
+class test;
+rand reg [6:0]u,v;
+reg [6:0]w=70;
+endclass
+
+module ques2;
+test t1=new();
+initial
+begin
+	t1.w=80;
+	repeat(10)
+	begin
+	if(t1.randomize())
+	$display("%p",t1);
+	else
+	$display("randomization failed");
+	end
+end
+endmodule
+

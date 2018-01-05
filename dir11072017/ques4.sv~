@@ -1,0 +1,22 @@
+
+class test;
+rand reg [2:0]a,b;
+endclass
+
+module ques4;
+test t1=new();
+initial
+begin
+	repeat(10)
+	begin
+	if(t1.randomize() with t1.a>0)
+	begin
+		if(t1.b==4||t1.b==5)t1.a=0;
+		$display("%p",t1);
+	end
+	else
+	$display("randomization failed");
+	end
+end
+endmodule
+
