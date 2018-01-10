@@ -1,0 +1,135 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/home/student/Rishabh/dir12072017
+T_opt
+!s110 1499836408
+V8WPD@20VY5HRIz6Yb2Z:g1
+04 8 4 work tb_count fast 0
+=1-000c2947149a-5965aff8-bafd1-1ab2
+o-quiet -auto_acc_if_foreign -work work
+tCvgOpt 0
+n@_opt
+OL;O;10.6a;65
+R0
+vcount
+Z1 DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+r1
+!s85 0
+31
+!i10b 1
+!s100 U=a];BBB6=;ZR>NECa3do0
+I599kccTDUZSBdBRSDHQmk0
+!s105 count_sv_unit
+S1
+R0
+w1499834927
+8count.sv
+Fcount.sv
+L0 3
+Z3 OL;L;10.6a;65
+Z4 !s108 1499836327.000000
+Z5 !s107 tb_count.sv|count.sv|count_assert.sv|
+Z6 !s90 -##implicit##push_minusfile_path##|/home/student/Rishabh/dir12072017/vlog.opt|-##implicit##pop_minusfile_path##|-sv|count_assert.sv|count.sv|tb_count.sv|
+!i113 0
+Z7 o-sv -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z8 tCoverage 39 Svlog 1 CvgOpt 0
+vcount_assert
+R1
+R2
+r1
+!s85 0
+31
+!i10b 1
+!s100 7A;78QF?K:oifAXYEg6;U2
+IFUSKjX68b8zjezAiLkXVz3
+!s105 count_assert_sv_unit
+S1
+R0
+w1499836320
+8count_assert.sv
+Fcount_assert.sv
+L0 5
+R3
+R4
+R5
+R6
+!i113 0
+R7
+R8
+Xmy_package
+R1
+V5:J6=N8lG2]gP?niM`3XF1
+r1
+!s85 0
+31
+!i10b 1
+!s100 70EGfU=O]PeFzi3koEW6X3
+I5:J6=N8lG2]gP?niM`3XF1
+S1
+R0
+w1499848325
+8my_package.sv
+Fmy_package.sv
+L0 1
+R3
+!s108 1499848370.000000
+!s107 my_package.sv|
+!s90 -##implicit##push_minusfile_path##|/home/student/Rishabh/dir12072017/vlog.opt|-##implicit##pop_minusfile_path##|-sv|my_package.sv|
+!i113 0
+R7
+R8
+vpackage_ex
+R1
+DXx4 work 10 my_package 0 22 5:J6=N8lG2]gP?niM`3XF1
+R2
+r1
+!s85 0
+31
+!i10b 1
+!s100 LzzZgS:cc`1ZNS<<cB5[71
+I@9F?6TOWS`^7b7g=9MY821
+!s105 package_ex_sv_unit
+S1
+R0
+w1499848095
+8package_ex.sv
+Fpackage_ex.sv
+L0 1
+R3
+!s108 1499848589.000000
+!s107 package_ex.sv|
+!s90 -##implicit##push_minusfile_path##|/home/student/Rishabh/dir12072017/vlog.opt|-##implicit##pop_minusfile_path##|-sv|package_ex.sv|
+!i113 0
+R7
+R8
+vtb_count
+R1
+R2
+r1
+!s85 0
+31
+!i10b 1
+!s100 NSRV3LFOQKUARbSLUQ2600
+IaeQjgXXil=?F1[l=H?zHA2
+!s105 tb_count_sv_unit
+S1
+R0
+w1499836054
+8tb_count.sv
+Ftb_count.sv
+L0 3
+R3
+R4
+R5
+R6
+!i113 0
+R7
+R8
