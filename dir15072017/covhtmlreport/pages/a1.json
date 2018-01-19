@@ -1,0 +1,24 @@
+var g_data = {
+a56:{
+scopes:[{s:'52',b:'1',val:'alu_top_sv_unit'},{val:'generator'},{link:'z.htm?f=0&s=56',val:'run'}]
+,assertions:[{dummy:0},{cr:'c',c:'g',z:'immed__11',fc:'Gr',pc:'Gr',h0:'0',h1:'1'}
+],
+},
+a75:{
+scopes:[{s:'52',b:'1',val:'alu_top_sv_unit'},{val:'scoreboard'},{link:'z.htm?f=0&s=75',val:'run'}]
+,assertions:[{dummy:0},{cr:'c',c:'g',z:'immed__48',fc:'Gr',pc:'Gr',h0:'0',h1:'1'}
+],
+},
+a107:{
+scopes:[{s:'103',b:'1',val:'work.alu_top_sv_unit'},{val:'generator'},{link:'z.htm?f=0&s=107',val:'run'}]
+,assertions:[{dummy:0},{cr:'c',c:'g',z:'immed__11',fc:'Gr',pc:'Gr',h0:'0',h1:'1'}
+],
+},
+a126:{
+scopes:[{s:'103',b:'1',val:'work.alu_top_sv_unit'},{val:'scoreboard'},{link:'z.htm?f=0&s=126',val:'run'}]
+,assertions:[{dummy:0},{cr:'c',c:'g',z:'immed__48',fc:'Gr',pc:'Gr',h0:'0',h1:'1'}
+],
+},
+dummyEnd:0
+};
+processAssertionsData(g_data,1);

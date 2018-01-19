@@ -1,0 +1,9 @@
+// driver class
+
+class driver;
+packet pkt;
+mailbox #(packet)gen_drv;
+mailbox #(packet)drv_sb;
+virtual intf i;
+function new(mailbox #(packet)gen_drv,mailbox
+

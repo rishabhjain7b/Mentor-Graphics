@@ -1,0 +1,52 @@
+var g_data = {
+b3:[{dummy:0},
+{anchor:'cvg30',items:[{z:'	case(sel)',f:'alu.sv',l:'20',c:'Y',p:'88.88'}
+,{cr:'c',t:'T',z:'	ADD: {co,s}=a+b;',f:'alu.sv',l:'21',h:'18',c:'g'}
+,{cr:'c',t:'T',z:'	SUB: {co,s}=a-b;',f:'alu.sv',l:'22',h:'11',c:'g'}
+,{cr:'c',t:'T',z:'	INR: {co,s}=a+1\'b1;',f:'alu.sv',l:'23',h:'11',c:'g'}
+,{cr:'c',t:'T',z:'	DCR: {co,s}=a-1\'b1;',f:'alu.sv',l:'24',h:'17',c:'g'}
+,{cr:'c',t:'T',z:'	AND: begin',f:'alu.sv',l:'25',h:'15',c:'g'}
+,{cr:'c',t:'T',z:'	OR: begin',f:'alu.sv',l:'29',h:'12',c:'g'}
+,{cr:'c',t:'T',z:'	XOR: begin',f:'alu.sv',l:'33',h:'7',c:'g'}
+,{cr:'c',t:'T',z:'	CMP: {co,s}={1\'b0,~b};',f:'alu.sv',l:'37',h:'10',c:'g'}
+,{cr:'m',t:'A',z:'	case(sel)',f:'alu.sv',l:'20',h:'0',c:'r'}
+]}],
+b29:[{dummy:0},
+{anchor:'cvg30',items:[{z:'	case(sel)',f:'alu.sv',l:'20',c:'Y',p:'88.88'}
+,{cr:'c',t:'T',z:'	ADD: {co,s}=a+b;',f:'alu.sv',l:'21',h:'18',c:'g'}
+,{cr:'c',t:'T',z:'	SUB: {co,s}=a-b;',f:'alu.sv',l:'22',h:'11',c:'g'}
+,{cr:'c',t:'T',z:'	INR: {co,s}=a+1\'b1;',f:'alu.sv',l:'23',h:'11',c:'g'}
+,{cr:'c',t:'T',z:'	DCR: {co,s}=a-1\'b1;',f:'alu.sv',l:'24',h:'17',c:'g'}
+,{cr:'c',t:'T',z:'	AND: begin',f:'alu.sv',l:'25',h:'15',c:'g'}
+,{cr:'c',t:'T',z:'	OR: begin',f:'alu.sv',l:'29',h:'12',c:'g'}
+,{cr:'c',t:'T',z:'	XOR: begin',f:'alu.sv',l:'33',h:'7',c:'g'}
+,{cr:'c',t:'T',z:'	CMP: {co,s}={1\'b0,~b};',f:'alu.sv',l:'37',h:'10',c:'g'}
+,{cr:'m',t:'A',z:'	case(sel)',f:'alu.sv',l:'20',h:'0',c:'r'}
+]}],
+b75:[{dummy:0},
+{anchor:'cvg77',items:[{z:'case(pkt2.sel)',f:'alu_scoreboard.sv',l:'27',c:'Y',p:'88.88'}
+,{cr:'c',t:'T',z:'	`ADD: {pkt2.co,pkt2.s}=pkt2.a+pkt2.b;',f:'alu_scoreboard.sv',l:'28',h:'17',c:'g'}
+,{cr:'c',t:'T',z:'	`SUB: {pkt2.co,pkt2.s}=pkt2.a-pkt2.b;',f:'alu_scoreboard.sv',l:'29',h:'11',c:'g'}
+,{cr:'c',t:'T',z:'	`INR: {pkt2.co,pkt2.s}=pkt2.a+1\'b1;',f:'alu_scoreboard.sv',l:'30',h:'11',c:'g'}
+,{cr:'c',t:'T',z:'	`DCR: {pkt2.co,pkt2.s}=pkt2.a-1\'b1;',f:'alu_scoreboard.sv',l:'31',h:'17',c:'g'}
+,{cr:'c',t:'T',z:'	`AND: begin',f:'alu_scoreboard.sv',l:'32',h:'15',c:'g'}
+,{cr:'c',t:'T',z:'	`OR: begin',f:'alu_scoreboard.sv',l:'36',h:'12',c:'g'}
+,{cr:'c',t:'T',z:'	`XOR: begin',f:'alu_scoreboard.sv',l:'40',h:'7',c:'g'}
+,{cr:'c',t:'T',z:'	`CMP: {pkt2.co,pkt2.s}={1\'b0,~pkt2.b};',f:'alu_scoreboard.sv',l:'44',h:'10',c:'g'}
+,{cr:'m',t:'A',z:'case(pkt2.sel)',f:'alu_scoreboard.sv',l:'27',h:'0',c:'r'}
+]}],
+b126:[{dummy:0},
+{anchor:'cvg127',items:[{z:'case(pkt2.sel)',f:'alu_scoreboard.sv',l:'27',c:'Y',p:'88.88'}
+,{cr:'c',t:'T',z:'	`ADD: {pkt2.co,pkt2.s}=pkt2.a+pkt2.b;',f:'alu_scoreboard.sv',l:'28',h:'17',c:'g'}
+,{cr:'c',t:'T',z:'	`SUB: {pkt2.co,pkt2.s}=pkt2.a-pkt2.b;',f:'alu_scoreboard.sv',l:'29',h:'11',c:'g'}
+,{cr:'c',t:'T',z:'	`INR: {pkt2.co,pkt2.s}=pkt2.a+1\'b1;',f:'alu_scoreboard.sv',l:'30',h:'11',c:'g'}
+,{cr:'c',t:'T',z:'	`DCR: {pkt2.co,pkt2.s}=pkt2.a-1\'b1;',f:'alu_scoreboard.sv',l:'31',h:'17',c:'g'}
+,{cr:'c',t:'T',z:'	`AND: begin',f:'alu_scoreboard.sv',l:'32',h:'15',c:'g'}
+,{cr:'c',t:'T',z:'	`OR: begin',f:'alu_scoreboard.sv',l:'36',h:'12',c:'g'}
+,{cr:'c',t:'T',z:'	`XOR: begin',f:'alu_scoreboard.sv',l:'40',h:'7',c:'g'}
+,{cr:'c',t:'T',z:'	`CMP: {pkt2.co,pkt2.s}={1\'b0,~pkt2.b};',f:'alu_scoreboard.sv',l:'44',h:'10',c:'g'}
+,{cr:'m',t:'A',z:'case(pkt2.sel)',f:'alu_scoreboard.sv',l:'27',h:'0',c:'r'}
+]}],
+dummyEnd:0
+};
+processBranchesData(g_data);

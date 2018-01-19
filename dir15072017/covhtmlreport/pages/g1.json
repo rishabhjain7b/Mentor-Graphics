@@ -1,0 +1,20 @@
+var g_data = {
+g61:[{dummy:0},
+{name:'cg',f:1,type:1,id:63,tb:'29',h:'29',m:'0',hp:'100.00%',cov:['100.00%','G'],g:'100.00%',gp:['100.00%','G'],opts:[[],['merge_instance','auto(true)']],parent:'61'}],
+c63:{name:'cg',type:1,pHash:'61',pPath:'/alu_top_sv_unit/coverage',totals:[29,29,'100.00%','G',0,0,'0.00%','R'],cvp:[{dummy:0},
+{name:'A',f:1,type:4,id:64,tb:'1',h:'1',m:'0',hp:'100.00%',cov:['100.00%','G'],g:'100.00%',gp:['100.00%','G'],hasb:1,parent:'63'},
+{name:'B',f:1,type:4,id:65,tb:'16',h:'16',m:'0',hp:'100.00%',cov:['100.00%','G'],g:'100.00%',gp:['100.00%','G'],hasb:1,parent:'63'},
+{name:'S',f:1,type:4,id:66,tb:'8',h:'8',m:'0',hp:'100.00%',cov:['100.00%','G'],g:'100.00%',gp:['100.00%','G'],hasb:1,parent:'63'},
+{name:'R',f:1,type:4,id:67,tb:'2',h:'2',m:'0',hp:'100.00%',cov:['100.00%','G'],g:'100.00%',gp:['100.00%','G'],hasb:1,parent:'63'},
+{name:'D',f:1,type:4,id:68,tb:'2',h:'2',m:'0',hp:'100.00%',cov:['100.00%','G'],g:'100.00%',gp:['100.00%','G'],hasb:1,parent:'63'}],crx:[{dummy:0}]},
+g112:[{dummy:0},
+{name:'cg',f:1,type:1,id:114,tb:'29',h:'29',m:'0',hp:'100.00%',cov:['100.00%','G'],g:'100.00%',gp:['100.00%','G'],opts:[[],['merge_instance','true']],parent:'112'}],
+c114:{name:'cg',type:1,pHash:'112',pPath:'work.alu_top_sv_unit::coverage',totals:[29,29,'100.00%','G',0,0,'0.00%','R'],cvp:[{dummy:0},
+{name:'A',f:1,type:4,id:115,tb:'1',h:'1',m:'0',hp:'100.00%',cov:['100.00%','G'],g:'100.00%',gp:['100.00%','G'],hasb:1,parent:'114'},
+{name:'B',f:1,type:4,id:116,tb:'16',h:'16',m:'0',hp:'100.00%',cov:['100.00%','G'],g:'100.00%',gp:['100.00%','G'],hasb:1,parent:'114'},
+{name:'S',f:1,type:4,id:117,tb:'8',h:'8',m:'0',hp:'100.00%',cov:['100.00%','G'],g:'100.00%',gp:['100.00%','G'],hasb:1,parent:'114'},
+{name:'R',f:1,type:4,id:118,tb:'2',h:'2',m:'0',hp:'100.00%',cov:['100.00%','G'],g:'100.00%',gp:['100.00%','G'],hasb:1,parent:'114'},
+{name:'D',f:1,type:4,id:119,tb:'2',h:'2',m:'0',hp:'100.00%',cov:['100.00%','G'],g:'100.00%',gp:['100.00%','G'],hasb:1,parent:'114'}],crx:[{dummy:0}]},
+dummyEnd:0
+};
+processCovergroupsData(g_data);

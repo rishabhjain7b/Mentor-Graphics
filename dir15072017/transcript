@@ -1,0 +1,235 @@
+# //  Questa Sim-64
+# //  Version 10.6a linux_x86_64 Mar 16 2017
+# //
+# //  Copyright 1991-2017 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# vsim -novopt -coverage alu_top 
+# Start time: 00:18:57 on Jul 17,2017
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# Refreshing /home/student/Rishabh/dir15072017/work.alu_top
+# Refreshing /home/student/Rishabh/dir15072017/work.alu_top_sv_unit
+# Loading sv_std.std
+# Loading work.alu_top_sv_unit
+# Loading work.alu_top
+# Refreshing /home/student/Rishabh/dir15072017/work.intf
+# Loading work.intf
+# Refreshing /home/student/Rishabh/dir15072017/work.alu
+# Loading work.alu
+# Refreshing /home/student/Rishabh/dir15072017/work.alu_test
+# Loading work.alu_test
+run -all
+#  design is ok
+#                    1sel=101 a=0011 b=1000 s=1011 co=0
+#  design is ok
+#                    2sel=001 a=1101 b=0101 s=1000 co=0
+#  design is ok
+#                    3sel=001 a=0011 b=0010 s=0001 co=0
+#  design is ok
+#                    4sel=000 a=1110 b=1001 s=0111 co=1
+#  design is ok
+#                    5sel=000 a=0111 b=0101 s=1100 co=0
+#  design is ok
+#                    6sel=101 a=1110 b=1111 s=1111 co=0
+#  design is ok
+#                    7sel=001 a=0101 b=1111 s=0110 co=1
+#  design is ok
+#                    8sel=100 a=1000 b=0001 s=0000 co=0
+#  design is ok
+#                    9sel=110 a=0111 b=0011 s=0100 co=0
+#  design is ok
+#                   10sel=111 a=1000 b=0101 s=1010 co=0
+#  design is ok
+#                   11sel=100 a=0001 b=1111 s=0001 co=0
+#  design is ok
+#                   12sel=000 a=0000 b=1101 s=1101 co=0
+#  design is ok
+#                   13sel=100 a=0110 b=1100 s=0100 co=0
+#  design is ok
+#                   14sel=000 a=1010 b=0111 s=0001 co=1
+#  design is ok
+#                   15sel=100 a=1010 b=1100 s=1000 co=0
+#  design is ok
+#                   16sel=011 a=0100 b=1011 s=0011 co=0
+#  design is ok
+#                   17sel=000 a=0000 b=1110 s=1110 co=0
+#  design is ok
+#                   18sel=001 a=0000 b=1111 s=0001 co=1
+#  design is ok
+#                   19sel=001 a=1110 b=1100 s=0010 co=0
+#  design is ok
+#                   20sel=001 a=0001 b=0000 s=0001 co=0
+#  design is ok
+#                   21sel=111 a=1101 b=0111 s=1000 co=0
+#  design is ok
+#                   22sel=101 a=0101 b=1000 s=1101 co=0
+#  design is ok
+#                   23sel=110 a=1000 b=1110 s=0110 co=0
+#  design is ok
+#                   24sel=101 a=0000 b=1100 s=1100 co=0
+#  design is ok
+#                   25sel=111 a=0000 b=0110 s=1001 co=0
+#  design is ok
+#                   26sel=111 a=0101 b=1101 s=0010 co=0
+#  design is ok
+#                   27sel=100 a=0100 b=0100 s=0100 co=0
+#  design is ok
+#                   28sel=101 a=1111 b=1111 s=1111 co=0
+#  design is ok
+#                   29sel=011 a=0011 b=0111 s=0010 co=0
+#  design is ok
+#                   30sel=010 a=1000 b=0010 s=1001 co=0
+#  design is ok
+#                   31sel=100 a=0110 b=1111 s=0110 co=0
+#  design is ok
+#                   32sel=001 a=0111 b=1001 s=1110 co=1
+#  design is ok
+#                   33sel=000 a=1001 b=0000 s=1001 co=0
+#  design is ok
+#                   34sel=011 a=0010 b=1001 s=0001 co=0
+#  design is ok
+#                   35sel=100 a=1011 b=1101 s=1001 co=0
+#  design is ok
+#                   36sel=100 a=0100 b=1111 s=0100 co=0
+#  design is ok
+#                   37sel=010 a=0000 b=0111 s=0001 co=0
+#  design is ok
+#                   38sel=000 a=0001 b=1100 s=1101 co=0
+#  design is ok
+#                   39sel=010 a=0000 b=0000 s=0001 co=0
+#  design is ok
+#                   40sel=001 a=1000 b=1001 s=1111 co=1
+#  design is ok
+#                   41sel=001 a=0101 b=0001 s=0100 co=0
+#  design is ok
+#                   42sel=000 a=0111 b=0001 s=1000 co=0
+#  design is ok
+#                   43sel=000 a=0101 b=0001 s=0110 co=0
+#  design is ok
+#                   44sel=100 a=0001 b=1110 s=0000 co=0
+#  design is ok
+#                   45sel=111 a=1011 b=0001 s=1110 co=0
+#  design is ok
+#                   46sel=010 a=1111 b=1000 s=0000 co=1
+#  design is ok
+#                   47sel=100 a=1011 b=0001 s=0001 co=0
+#  design is ok
+#                   48sel=011 a=0100 b=1010 s=0011 co=0
+#  design is ok
+#                   49sel=101 a=1101 b=1100 s=1101 co=0
+#  design is ok
+#                   50sel=011 a=1110 b=0011 s=1101 co=0
+#  design is ok
+#                   51sel=101 a=1011 b=1110 s=1111 co=0
+#  design is ok
+#                   52sel=011 a=1010 b=1111 s=1001 co=0
+#  design is ok
+#                   53sel=010 a=0001 b=1100 s=0010 co=0
+#  design is ok
+#                   54sel=100 a=1101 b=0010 s=0000 co=0
+#  design is ok
+#                   55sel=111 a=0000 b=0100 s=1011 co=0
+#  design is ok
+#                   56sel=101 a=0010 b=0010 s=0010 co=0
+#  design is ok
+#                   57sel=011 a=1011 b=0101 s=1010 co=0
+#  design is ok
+#                   58sel=010 a=1001 b=1100 s=1010 co=0
+#  design is ok
+#                   59sel=011 a=1011 b=0111 s=1010 co=0
+#  design is ok
+#                   60sel=000 a=1101 b=0100 s=0001 co=1
+#  design is ok
+#                   61sel=000 a=1011 b=0111 s=0010 co=1
+#  design is ok
+#                   62sel=110 a=1110 b=0001 s=1111 co=0
+#  design is ok
+#                   63sel=011 a=1010 b=0001 s=1001 co=0
+#  design is ok
+#                   64sel=011 a=1111 b=1010 s=1110 co=0
+#  design is ok
+#                   65sel=011 a=0100 b=1111 s=0011 co=0
+#  design is ok
+#                   66sel=000 a=1011 b=1011 s=0110 co=1
+#  design is ok
+#                   67sel=101 a=0000 b=0000 s=0000 co=0
+#  design is ok
+#                   68sel=110 a=1011 b=1000 s=0011 co=0
+#  design is ok
+#                   69sel=111 a=1100 b=1111 s=0000 co=0
+#  design is ok
+#                   70sel=100 a=0010 b=1110 s=0010 co=0
+#  design is ok
+#                   71sel=011 a=0000 b=0010 s=1111 co=1
+#  design is ok
+#                   72sel=000 a=1011 b=0010 s=1101 co=0
+#  design is ok
+#                   73sel=110 a=0000 b=1000 s=1000 co=0
+#  design is ok
+#                   74sel=001 a=0010 b=1100 s=0110 co=1
+#  design is ok
+#                   75sel=010 a=1101 b=0110 s=1110 co=0
+#  design is ok
+#                   76sel=011 a=1001 b=1101 s=1000 co=0
+#  design is ok
+#                   77sel=010 a=0100 b=0101 s=0101 co=0
+#  design is ok
+#                   78sel=100 a=0111 b=1001 s=0001 co=0
+#  design is ok
+#                   79sel=011 a=0101 b=1011 s=0100 co=0
+#  design is ok
+#                   80sel=100 a=1100 b=0001 s=0000 co=0
+#  design is ok
+#                   81sel=100 a=0110 b=1000 s=0000 co=0
+#  design is ok
+#                   82sel=000 a=1100 b=1110 s=1010 co=1
+#  design is ok
+#                   83sel=010 a=0001 b=0001 s=0010 co=0
+#  design is ok
+#                   84sel=001 a=0000 b=0000 s=0000 co=0
+#  design is ok
+#                   85sel=011 a=0101 b=0101 s=0100 co=0
+#  design is ok
+#                   86sel=111 a=1101 b=0010 s=1101 co=0
+#  design is ok
+#                   87sel=000 a=0111 b=1001 s=0000 co=1
+#  design is ok
+#                   88sel=000 a=1100 b=1011 s=0111 co=1
+#  design is ok
+#                   89sel=111 a=0001 b=0101 s=1010 co=0
+#  design is ok
+#                   90sel=101 a=1111 b=0001 s=1111 co=0
+#  design is ok
+#                   91sel=110 a=1000 b=1000 s=0000 co=0
+#  design is ok
+#                   92sel=010 a=1001 b=0100 s=1010 co=0
+#  design is ok
+#                   93sel=010 a=0100 b=1110 s=0101 co=0
+#  design is ok
+#                   94sel=101 a=1001 b=0000 s=1001 co=0
+#  design is ok
+#                   95sel=011 a=1000 b=1100 s=0111 co=0
+#  design is ok
+#                   96sel=101 a=1010 b=0001 s=1011 co=0
+#  design is ok
+#                   97sel=000 a=0010 b=0101 s=0111 co=0
+#  design is ok
+#                   98sel=111 a=1111 b=1001 s=0110 co=0
+#  design is ok
+#                   99sel=110 a=1110 b=1010 s=0100 co=0
+#  design is ok
+#                  100sel=011 a=0010 b=0000 s=0001 co=0
+# ** Note: implicit $finish from program    : alu_scoreboard.sv(51)
+#    Time: 100 ns  Iteration: 0  Instance: /alu_top/t
+# 1
+# Simulation stop requested.
+# End time: 00:20:39 on Jul 17,2017, Elapsed time: 0:01:42
+# Errors: 0, Warnings: 1

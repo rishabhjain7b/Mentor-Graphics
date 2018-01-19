@@ -1,0 +1,22 @@
+// question 1
+
+class imp1;
+rand bit x;
+rand bit [1:0] y;
+constraint c_xy {(x==0) <--> (y==0);}
+constraint c {solve y before x;}
+endclass
+
+module ques1;
+imp1 p=new();
+initial 
+begin
+	repeat(10)
+	begin
+	if(p.randomize())
+	$display("%p",p);
+	else
+	$display("fail");
+	end
+end
+endmodule
