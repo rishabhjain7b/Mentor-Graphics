@@ -1,0 +1,19 @@
+// sequence with edge definition
+
+module test1;
+bit clk;
+bit a,b;
+/*
+always @(posedge clk)
+begin
+	a=1;
+	#10 a=0;
+end */
+	
+assert property
+	(@(posedge clk) a |=> b)
+	$display("pass"); 
+else
+$info("fail");
+
+endmodule
