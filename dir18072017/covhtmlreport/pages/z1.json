@@ -1,0 +1,22 @@
+var g_data = {
+z2:{prod:'Questa',reporttype:'du',duname:'work.binsof_test',lang:'SystemVerilog',src:{z:'binsof_test.sv'},summaryTables:{loctable:{
+headers:['Coverage Type', 'Bins', 'Hits', 'Misses', 'Weight', '% Hit', 'Coverage'],
+totalhits:{class:'odd_r', val:'100.00%'},avgw:{class:'bgGreen', val:'100.00%'},
+data:[
+{link:{class:'odd',val:'g.htm?f=1&s=2,Covergroups'},tb:{class:'odd_r', val:'15'},cb:{class:'odd_r', val:'15'},ms:{class:'odd_r', val:'0'},wt:{class:'odd_r', val:'1'},hp:{class:'odd_r', val:'100.00%'},cp:{class:'bgGreen', val:'100.00%'}}
+]
+}
+}
+},
+z3:{prod:'Questa',reporttype:'in',scopes:[{link:'z.htm?f=1&s=3',val:'binsof_test'}],du:{val:'work.binsof_test',link:'z.htm?f=1&s=3'},lang:'SystemVerilog',src:{z:'binsof_test.sv'},summaryTables:{loctable:{
+headers:['Coverage Type', 'Bins', 'Hits', 'Misses', 'Weight', '% Hit', 'Coverage'],
+totalhits:{class:'odd_r', val:'100.00%'},avgw:{class:'bgGreen', val:'100.00%'},
+data:[
+{link:{class:'odd',val:'g.htm?f=1&s=3,Covergroups'},tb:{class:'odd_r', val:'15'},cb:{class:'odd_r', val:'15'},ms:{class:'odd_r', val:'0'},wt:{class:'odd_r', val:'1'},hp:{class:'odd_r', val:'100.00%'},cp:{class:'bgGreen', val:'100.00%'}}
+]
+}
+}
+},
+dummyEnd:0
+};
+processSummaryData(g_data);

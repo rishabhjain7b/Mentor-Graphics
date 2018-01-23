@@ -1,0 +1,5 @@
+var g_db_data = [
+{dummy:0},
+{name:'cg',f:1,type:6,id:4,tb:'15',h:'15',m:'0',hp:'100.00%',cov:['100.00%','G'],g:'100.00%',gp:['100.00%','G'],hdlPath:'/binsof_test',parent:'3'},
+{name:'cg',f:1,type:6,id:4,tb:'15',h:'15',m:'0',hp:'100.00%',cov:['100.00%','G'],g:'100.00%',gp:['100.00%','G'],hdlPath:'/binsof_test',parent:'3'}];
+processConsCovergroupsData(g_db_data);
