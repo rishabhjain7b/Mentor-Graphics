@@ -1,0 +1,12 @@
+module case3;
+int a,b;
+initial
+begin
+	a=4;
+	b=3;
+	b<=b+a;
+	a<=a+b;
+	a=a-1;
+	$display("%d %d",a,b);
+end 
+endmodule

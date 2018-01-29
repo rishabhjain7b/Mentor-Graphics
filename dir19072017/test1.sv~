@@ -1,0 +1,20 @@
+module test1;
+class parcel;
+	static int count=2;
+	function new();
+	count++;
+	endfunction
+endclass
+
+initial
+begin
+	parcel pk3=new;
+	$display("%d parcel",pk3.count);
+	
+	parcel pk2=new;
+	$display("%d parcel",pk2.count);
+	
+	parcel pk1=new;
+	$display("%d parcel",pk1.count);
+end
+endmodule
