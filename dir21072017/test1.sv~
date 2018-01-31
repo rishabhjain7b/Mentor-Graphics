@@ -1,0 +1,46 @@
+
+
+program test1;
+class frame_t;
+rand bit [7:0]src_addr;
+rand bit [7:0]dst_addr;
+task print();
+begin
+	$write("Source address %2x \n",src_addr);
+	$write("Destination address %2x \n",dst_addr);
+end
+endtask
+endclass
+
+initial 
+begin
+	//frame_t frame=new();
+	integer j=0;
+	$write("Without Randomize value \n");
+	frame_t::print();
+	
+	$write("With Randomize value \n");
+	j=frame_t::randomize();
+	frame_t::print();
+	
+	$write("With Randomize OFF & Randomize \n");
+	frame_t::rand_mode(0);
+	j=frame_t::randomize();
+	frame_t::print();
+	
+	$write("With Randomize ON & Randomize \n");
+	frame_t::rand_mode(1);
+	j=frame_t::randomize();
+	frame_t::print();
+
+	$write("With Randomize OFF on dst_addr & Randomize \n");
+	frame_t::dst_addr.rand_mode(0);
+	j=frame_t::randomize();
+	frame_t::print();
+
+	$write("With Randomize OFF on src_addr & Randomize \n");
+	frame_t::src_addr.rand_mode(0);
+	j=frame_t::randomize();
+	frame_t::print();
+end
+endprogram
