@@ -1,0 +1,43 @@
+# //  Questa Sim-64
+# //  Version 10.6a linux_x86_64 Mar 16 2017
+# //
+# //  Copyright 1991-2017 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# vsim -novopt random_seed 
+# Start time: 00:30:50 on Jul 20,2017
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# Refreshing /home/student/Rishabh/dir20072017/work.random_seed
+# Loading sv_std.std
+# Loading work.random_seed
+run
+# seed is 9
+# |num= 9||num= 7||num= 0||num= 6||num= 2||num= 3||num= 4||num= 6||num= 5||num= 7|
+# seed is 9
+# |num= 9||num= 7||num= 0||num= 6||num= 2||num= 3||num= 4||num= 6||num= 5||num= 7|
+# seed is 9
+# |num= 9||num= 7||num= 0||num= 6||num= 2||num= 3||num= 4||num= 6||num= 5||num= 7|
+# seed is 9
+# |num= 9||num= 7||num= 0||num= 6||num= 2||num= 3||num= 4||num= 6||num= 5||num= 7|
+# seed is 9
+# |num= 9||num= 7||num= 0||num= 6||num= 2||num= 3||num= 4||num= 6||num= 5||num= 7|
+# seed is 9
+# |num= 9||num= 7||num= 0||num= 6||num= 2||num= 3||num= 4||num= 6||num= 5||num= 7|
+# seed is 9
+# |num= 9||num= 7||num= 0||num= 6||num= 2||num= 3||num= 4||num= 6||num= 5||num= 7|
+# seed is 9
+# |num= 9||num= 7||num= 0||num= 6||num= 2||num= 3||num= 4||num= 6||num= 5||num= 7|
+# seed is 9
+# |num= 9||num= 7||num= 0||num= 6||num= 2||num= 3||num= 4||num= 6||num= 5||num= 7|
+# seed is 9
+# |num= 9||num= 7||num= 0||num= 6||num= 2||num= 3||num= 4||num= 6||num= 5||num= 7|
+# End time: 02:11:35 on Jul 20,2017, Elapsed time: 1:40:45
+# Errors: 0, Warnings: 1

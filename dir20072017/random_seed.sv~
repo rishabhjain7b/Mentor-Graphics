@@ -1,0 +1,18 @@
+module random_seed;
+integer num,seed,j,i;
+initial
+begin
+	for(j=0;j<10;j++)
+	begin
+		seed=j;
+		$display("seed is %0d",seed);
+		void '($urandom(seed));
+		for(i=0;i<10;i++)
+		begin
+			num=$urandom()%10;
+			$write("|num=%2d|",num);
+		end
+		$display("");
+	end
+end
+endmodule
