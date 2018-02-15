@@ -1,0 +1,23 @@
+import uvm_pkg::*;
+
+`include "uvm_macros.svh"
+
+module first_prog;
+	class hello_world extends uvm_test;
+	`uvm_component_utils (hello_world)
+	
+	function new(string name="myclass",uvm_component parent);
+		super.new(name,parent);
+		`uvm_info("TEST RUN PHASE", "hello world",UVM_LOW)
+	endfunction
+	
+	virtual task run_phase(uvm_phase phase);
+		`uvm_info("TEST RUN PHASE", "hello world",UVM_LOW)
+	endtask
+	endclass
+
+initial
+begin
+	run_test();
+end
+endmodule
