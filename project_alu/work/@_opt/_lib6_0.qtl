@@ -1,0 +1,702 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/home/student/Rishabh/project_alu
+T_opt
+!s110 1500026197
+V4IQUnICdEVG5cli]nDN8K0
+04 10 4 work tb_top_dut fast 0
+=1-000c2947149a-59689555-4a77e-2df7
+Z1 o-quiet -auto_acc_if_foreign -work work
+Z2 tCvgOpt 0
+n@_opt
+Z3 OL;O;10.6a;65
+T_opt1
+!s110 1499692424
+VYNjk>32R91;mDF[HCGL6e2
+04 6 4 work tb_alu fast 0
+=1-000c2947149a-59637d88-60fdc-eaf
+R1
+R2
+n@_opt1
+R3
+R0
+T_opt2
+!s110 1499690995
+VfAc:3<2VFo`n]B_ER]N020
+04 9 4 work shift_alu fast 0
+=1-000c2947149a-596377f3-30dcf-de1
+R1
+R2
+n@_opt2
+R3
+R0
+valu
+Z4 DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
+Z5 VDg1SIo80bB@j0V0VzS_@n1
+r1
+!s85 0
+31
+!i10b 1
+!s100 >dSbTz<RSX`_^EPbDLM6z2
+IJXmR_c7Do4[0d1OK^hIWD0
+!s105 alu_sv_unit
+S1
+R0
+w1499848945
+8alu.sv
+Falu.sv
+L0 2
+Z6 OL;L;10.6a;65
+Z7 !s108 1500026173.000000
+Z8 !s107 top_dut.sv|tb_top_dut.sv|tb_preprocessor.sv|tb_alu.sv|shift_alu.sv|preprocessor.sv|mux.sv|mux1.sv|dff.sv|arith_alu.sv|alu.sv|
+Z9 !s90 -##implicit##push_minusfile_path##|/home/student/Rishabh/project_alu/vlog.opt|-##implicit##pop_minusfile_path##|-sv|alu.sv|arith_alu.sv|dff.sv|mux1.sv|mux.sv|preprocessor.sv|shift_alu.sv|tb_alu.sv|tb_preprocessor.sv|tb_top_dut.sv|top_dut.sv|
+!i113 0
+Z10 o-sv -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z11 tCoverage 39 Svlog 1 CvgOpt 0
+varith_alu
+R4
+R5
+r1
+!s85 0
+31
+!i10b 1
+!s100 GNiFPlYmd?C:HeUH:`]Jc3
+I;12@a1;JEVl]>jz=YMSmA0
+!s105 arith_alu_sv_unit
+S1
+R0
+w1499498197
+8arith_alu.sv
+Farith_alu.sv
+Z12 L0 39
+R6
+R7
+R8
+R9
+!i113 0
+R10
+R11
+vdff
+R4
+R5
+r1
+!s85 0
+31
+!i10b 1
+!s100 hY8NfjOB>jjElH`jJgmnk1
+I2AWEjPGBmM;WMHKBg=Q?M1
+Z13 !s105 dff_sv_unit
+S1
+R0
+w1499430162
+Z14 8dff.sv
+Z15 Fdff.sv
+L0 1
+R6
+R7
+R8
+R9
+!i113 0
+R10
+R11
+vdff1
+R4
+!s110 1499429831
+!i10b 1
+!s100 ELFUXSK?^OdAi?VI`kzHf0
+I:`4L41F0E[F7dGO3SSoZc3
+R5
+R13
+S1
+R0
+w1498113125
+R14
+R15
+L0 1
+R6
+r1
+!s85 0
+31
+!s108 1499429831.000000
+!s107 dff.sv|
+!s90 -sv|dff.sv|
+!i113 0
+R10
+R2
+vmux
+R4
+R5
+r1
+!s85 0
+31
+!i10b 1
+!s100 e]V7=<9dmf@MM1CA:zAMV2
+IF^AA:if=Pm5_gZ8WQkHVf1
+Z16 !s105 mux_sv_unit
+S1
+R0
+w1499763814
+Z17 8mux.sv
+Z18 Fmux.sv
+L0 3
+R6
+R7
+R8
+R9
+!i113 0
+R10
+R11
+vmux1
+R4
+R5
+r1
+!s85 0
+31
+!i10b 1
+!s100 kU;FHET<3Ik?I?3hbk[H]0
+IdnPYid6^BV9AeTB4GI]181
+!s105 mux1_sv_unit
+S1
+R0
+w1499434206
+8mux1.sv
+Fmux1.sv
+L0 3
+R6
+R7
+R8
+R9
+!i113 0
+R10
+R11
+vmux2to1
+R4
+!s110 1499430132
+!i10b 1
+!s100 5WO@PXJa]NTE1Slj[Z0mE2
+IB_5^gO24Lbz5D74Ye<6SY3
+R5
+R16
+S1
+R0
+w1497879572
+R17
+R18
+L0 3
+R6
+r1
+!s85 0
+31
+!s108 1499430132.000000
+!s107 mux.sv|
+!s90 -sv|mux.sv|
+!i113 0
+R10
+R2
+vpreprocessor
+R4
+R5
+r1
+!s85 0
+31
+!i10b 1
+!s100 6ngm4@5eeDjDSDhm9bY<z0
+I4E9Deb?[LMYDJB[<Y37Jl1
+!s105 preprocessor_sv_unit
+S1
+R0
+w1499763879
+8preprocessor.sv
+Fpreprocessor.sv
+R12
+R6
+R7
+R8
+R9
+!i113 0
+R10
+R11
+vshift_alu
+R4
+R5
+r1
+!s85 0
+31
+!i10b 1
+!s100 9i2]X:BZfo<8?N[7AV:CR0
+I0HV0:01BCi38Q@8EkCOeB3
+!s105 shift_alu_sv_unit
+S1
+R0
+w1500022762
+8shift_alu.sv
+Fshift_alu.sv
+R12
+R6
+R7
+R8
+R9
+!i113 0
+R10
+R11
+vtb_alu
+R4
+Z19 !s110 1500026173
+!i10b 1
+!s100 iF8]bgAag:38`RoO:=G1P2
+I@;BTo3?hlVD9@QzT?O<[J0
+R5
+!s105 tb_alu_sv_unit
+S1
+R0
+w1499764076
+8tb_alu.sv
+Ftb_alu.sv
+R12
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+vtb_preprocessor
+R4
+R19
+!i10b 1
+!s100 kFP3iZVbOO8UeVc;2iY:l3
+I6GPk_6T2@<4mX1O5@fV3`3
+R5
+!s105 tb_preprocessor_sv_unit
+S1
+R0
+w1499764017
+8tb_preprocessor.sv
+Ftb_preprocessor.sv
+R12
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+vtb_top_dut
+R4
+R5
+r1
+!s85 0
+31
+!i10b 1
+!s100 ^S^J`@FG5P5Po5WbWS3S11
+IOUf0Tn1oKcP_keU2N=GDX3
+!s105 tb_top_dut_sv_unit
+S1
+R0
+w1500023141
+8tb_top_dut.sv
+Ftb_top_dut.sv
+R12
+R6
+R7
+R8
+R9
+!i113 0
+R10
+R11
+vtop_dut
+R4
+R5
+r1
+!s85 0
+31
+!i10b 1
+!s100 f?OH`JVc;2`kcb>Jz@N[e2
+IdUoz`RZ4T=^oUBfG<?^af0
+!s105 top_dut_sv_unit
+S1
+R0
+w1499525514
+8top_dut.sv
+Ftop_dut.sv
+L0 2
+R6
+R7
+R8
+R9
+!i113 0
+R10
+R11
+m255
+K4
+z2
+!s8c locked
+!s95 MTI
+cModel Technology Builtin Library
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+d/u/qa/buildsites/10.6p/builds/linux/modeltech
+Xmti_cstdlib
+Z0 DXx4 work 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
+V4XiVoMf1YFHh]FH1?zCVQ3
+r1
+!s85 0
+31
+Z1 OL;L;10.6a;65
+Z2 OP;L;10.6a;65
+!i10b 1
+!s100 m;mJYATadmZnJMG7^1?><2
+I4XiVoMf1YFHh]FH1?zCVQ3
+S1
+Z3 d$MODEL_TECH/..
+Z4 w1489688783
+Z5 8verilog_src/dpi_cpack/dpi_cpackages.sv
+Z6 Fverilog_src/dpi_cpack/dpi_cpackages.sv
+Z7 L0 17
+Z8 OE;L;10.6a;65
+Z9 !s108 1489690498.000000
+Z10 !s107 verilog_src/dpi_cpack/dpi_cpackages.sv|
+Z11 !s90 -debug|-sv|-s|-work|sv_std|-dirpath|$MODEL_TECH/..|verilog_src/dpi_cpack/dpi_cpackages.sv|
+!i113 1
+Z12 o-debug -sv -s -work sv_std -dirpath {$MODEL_TECH/..} -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z13 tCvgOpt 0
+XMTI_CSTDLIB
+Z14 DXx4 work 3 STD 0 22 ZcMPak5P@8aeandK[C>dV0
+V?SI=Ez3dGL:I4jFL8oc`10
+r1
+!s85 0
+31
+R1
+R2
+!i10b 1
+!s100 Mo>5fnoPI`cO[DF2^KH=E2
+I?SI=Ez3dGL:I4jFL8oc`10
+S1
+!s86 1
+R3
+R4
+R5
+R6
+R7
+R8
+R9
+R10
+Z15 !s90 -debug|-u|-sv|-s|-work|sv_std|-dirpath|$MODEL_TECH/..|verilog_src/dpi_cpack/dpi_cpackages.sv|
+!i113 1
+Z16 o-debug -u -sv -s -work sv_std -dirpath {$MODEL_TECH/..} -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R13
+n@m@t@i_@c@s@t@d@l@i@b
+Xmti_cstring
+R0
+V6fza496ObZoBVLJ14U[B01
+r1
+!s85 0
+31
+R1
+R2
+!i10b 1
+!s100 THKYZQ9cE:4a163M1ME=i1
+I6fza496ObZoBVLJ14U[B01
+S1
+R3
+R4
+R5
+R6
+Z17 L0 28
+R8
+R9
+R10
+R11
+!i113 1
+R12
+R13
+XMTI_CSTRING
+R14
+VzFLUm@LW7c7SWCS6k1<lH0
+r1
+!s85 0
+31
+R1
+R2
+!i10b 1
+!s100 L6GP^^R4e0Kz?0<:Fb5;z1
+IzFLUm@LW7c7SWCS6k1<lH0
+S1
+!s86 1
+R3
+R4
+R5
+R6
+R17
+R8
+R9
+R10
+R15
+!i113 1
+R16
+R13
+n@m@t@i_@c@s@t@r@i@n@g
+Xmti_debug
+R0
+V`S5KeF2PTzRIaMn3JK3I[1
+r1
+!s85 0
+31
+R1
+R2
+!i10b 1
+!s100 e<Oo;?bJ_8`DY]gDzTD_A3
+I`S5KeF2PTzRIaMn3JK3I[1
+S1
+R3
+R4
+R5
+R6
+Z18 L0 47
+R8
+R9
+R10
+R11
+!i113 1
+R12
+R13
+XMTI_DEBUG
+R14
+Vk:1cii=K`LWO;HafQOa543
+r1
+!s85 0
+31
+R1
+R2
+!i10b 1
+!s100 1HCenhP=Gk;P90i77POeB1
+Ik:1cii=K`LWO;HafQOa543
+S1
+!s86 1
+R3
+R4
+R5
+R6
+R18
+R8
+R9
+R10
+R15
+!i113 1
+R16
+R13
+n@m@t@i_@d@e@b@u@g
+Xmti_fcover
+R0
+V:CVPdMNFC1GhZPCUdNDT>3
+r1
+!s85 0
+31
+R1
+R2
+!i10b 1
+!s100 BI4_][IRd`0JY_lLgEDF80
+I:CVPdMNFC1GhZPCUdNDT>3
+S1
+R3
+R4
+Z19 8verilog_src/mti_sv/fcover.sv
+Z20 Fverilog_src/mti_sv/fcover.sv
+L0 5
+R8
+R9
+Z21 !s107 verilog_src/mti_sv/fcover.sv|
+!s90 -debug|-sv|-s|-work|sv_std|-dirpath|$MODEL_TECH/..|verilog_src/mti_sv/fcover.sv|
+!i113 1
+R12
+R13
+XMTI_FCOVER
+R14
+V`9>Emb5Rh5zi<;HGn0SZP1
+r1
+!s85 0
+31
+R1
+R2
+!i10b 1
+!s100 >l2@]COIE`Th;B4NX7Gk@3
+I`9>Emb5Rh5zi<;HGn0SZP1
+S1
+!s86 1
+R3
+R4
+R19
+R20
+L0 5
+R8
+R9
+R21
+!s90 -debug|-u|-sv|-s|-work|sv_std|-dirpath|$MODEL_TECH/..|verilog_src/mti_sv/fcover.sv|
+!i113 1
+R16
+R13
+n@m@t@i_@f@c@o@v@e@r
+Xmti_fli
+R0
+VQT@kbgllK[QggAhTk9NBF2
+r1
+!s85 0
+31
+R1
+R2
+!i10b 1
+!s100 :Phg7_BD2gc55?cdk1?WR2
+IQT@kbgllK[QggAhTk9NBF2
+S1
+R3
+R4
+R5
+R6
+L0 4
+R8
+R9
+R10
+R11
+!i113 1
+R12
+R13
+XMTI_FLI
+R14
+VUmUggm=aY5JHkKfzUda3V2
+r1
+!s85 0
+31
+R1
+R2
+!i10b 1
+!s100 l7m^V=N3eC_khKCOJ95:o3
+IUmUggm=aY5JHkKfzUda3V2
+S1
+!s86 1
+R3
+R4
+R5
+R6
+L0 4
+R8
+R9
+R10
+R15
+!i113 1
+R16
+R13
+n@m@t@i_@f@l@i
+Xmti_scdpi
+R0
+V;7PdP2P3]B47_S8M1?dM63
+r1
+!s85 0
+31
+R1
+R2
+!i10b 1
+!s100 gg1o<5<OYfFmFTbih<ffm3
+I;7PdP2P3]B47_S8M1?dM63
+S1
+R3
+R4
+Z22 8verilog_src/dpi_cpack/scdpi.sv
+Z23 Fverilog_src/dpi_cpack/scdpi.sv
+L0 1
+R8
+R9
+Z24 !s107 verilog_src/dpi_cpack/scdpi.sv|
+!s90 -debug|-sv|-s|-work|sv_std|-dirpath|$MODEL_TECH/..|verilog_src/dpi_cpack/scdpi.sv|
+!i113 1
+R12
+R13
+XMTI_SCDPI
+R14
+VCEQHmFSi2G9CK^>I53hHn2
+r1
+!s85 0
+31
+R1
+R2
+!i10b 1
+!s100 G8e@bBMTl4dIdaEO6g2`n0
+ICEQHmFSi2G9CK^>I53hHn2
+S1
+!s86 1
+R3
+R4
+R22
+R23
+L0 1
+R8
+R9
+R24
+!s90 -debug|-u|-sv|-s|-work|sv_std|-dirpath|$MODEL_TECH/..|verilog_src/dpi_cpack/scdpi.sv|
+!i113 1
+R16
+R13
+n@m@t@i_@s@c@d@p@i
+Xstd
+VAD7iAPLo6nTIKk<N0eo=D3
+r1
+!s85 0
+31
+R1
+R2
+!i10b 1
+!s100 mN__PO0]W?5>bVA6^<j:n1
+IAD7iAPLo6nTIKk<N0eo=D3
+S1
+R3
+R4
+Z25 8verilog_src/std/std.sv
+Z26 Fverilog_src/std/std.sv
+L0 6
+R8
+!s108 1489690497.000000
+Z27 !s107 verilog_src/std/std.sv|
+!s90 -debug|-sv|-s|-work|sv_std|-dirpath|$MODEL_TECH/..|verilog_src/std/std.sv|
+!i113 1
+R12
+R13
+XSTD
+VZcMPak5P@8aeandK[C>dV0
+r1
+!s85 0
+31
+R1
+R2
+!i10b 1
+!s100 9aG2>^JKV961YFP]:0deb1
+IZcMPak5P@8aeandK[C>dV0
+S1
+!s86 1
+R3
+R4
+R25
+R26
+L0 6
+R8
+R9
+R27
+!s90 -debug|-u|-sv|-s|-work|sv_std|-dirpath|$MODEL_TECH/..|verilog_src/std/std.sv|
+!i113 1
+R16
+R13
+n@s@t@d

@@ -1,0 +1,9 @@
+var g_data = {'dummy':null,
+'4':'alu.sv',
+'5':'arith_alu.sv',
+'6':'dff.sv',
+'7':'mux.sv',
+'1':'preprocessor.sv',
+'3':'shift_alu.sv',
+'8':'tb_top_dut.sv',
+'2':'top_dut.sv'};

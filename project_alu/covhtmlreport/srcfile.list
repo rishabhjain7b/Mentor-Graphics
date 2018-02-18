@@ -1,0 +1,8 @@
+alu.sv
+arith_alu.sv
+dff.sv
+mux.sv
+preprocessor.sv
+shift_alu.sv
+tb_top_dut.sv
+top_dut.sv

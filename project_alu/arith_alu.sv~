@@ -1,0 +1,133 @@
+// Arithmatic ALU
+
+`define CLK_PERIOD 10
+
+`define REGISTER_WIDTH 32
+`define INSTR_WIDTH 32
+`define IMMEDIATE_WIDTH 16
+
+`define MEM_READ 3'b101
+`define MEM_WRITE 3'b100
+`define ARITH_LOGIC 3'b001
+`define SHIFT_REG 3'b000
+
+// ARITHMETIC 
+`define ADD 3'b000
+`define HADD 3'b001
+`define SUB 3'b010
+`define NOT 3'b011
+`define AND 3'b100
+`define OR 3'b101
+`define XOR 3'b110
+`define LHG 3'b111
+ 
+// SHIFTING 
+`define SHLEFTLOG 3'b000
+`define SHLEFTART 3'b001
+`define SHRGHTLOG 3'b010
+`define SHRGHTART 3'b011
+ 
+// DATA TRANSFER 
+
+`define LOADBYTE 3'b000 
+`define LOADBYTEU 3'b100 
+`define LOADHALF 3'b001
+`define LOADHALFU 3'b101 
+`define LOADWORD 3'b011
+
+
+module arith_alu
+(input clock,
+ input reset,enable,
+ input signed [31:0]aluin1,aluin2,
+ input signed [2:0]alu_opselect,alu_operation,
+ output signed [31:0]aluout_arith,
+ output carry);
+ 
+ reg signed[31:0]w_aluout_arith;
+ logic w_carry,h_carry;
+ logic signed [15:0]h_add;
+  
+ assign aluout_arith=w_aluout_arith,
+ 	carry=w_carry;
+ 	
+ assign {h_carry,h_add}=aluin1[15:0]+aluin2[15:0];
+ 
+always @(posedge clock,negedge reset)
+begin
+	if(!reset)
+	begin
+		w_aluout_arith<=0;
+		w_carry<=0;
+		h_add<=0;
+	end
+	
+	else
+	begin
+		if(!enable)
+		begin
+			w_aluout_arith<=w_aluout_arith;
+			w_carry<=w_carry;
+		end
+		else
+		begin
+			case(alu_opselect[2:0])
+			`ARITH_LOGIC: 
+			begin
+				case(alu_operation[2:0])
+				`ADD: {w_carry,w_aluout_arith}<=aluin1+aluin2;
+				
+				`HADD: begin
+				       w_carry<=h_carry;
+				       w_aluout_arith<={{16{h_add[15]}},h_add};
+				       end
+				
+				`SUB: {w_carry,w_aluout_arith}<=aluin1-aluin2;
+				`NOT: {w_carry,w_aluout_arith}<={1'b0,~aluin2};
+				`AND: {w_carry,w_aluout_arith}<={1'b0,aluin1&aluin2};
+				`OR: {w_carry,w_aluout_arith}<={1'b0,aluin1|aluin2};
+				`XOR: {w_carry,w_aluout_arith}<={1'b0,aluin1^aluin2};
+				`LHG: begin
+					w_carry<=0;
+					w_aluout_arith[31:16]<=aluin2[15:0];
+					w_aluout_arith[15:0]<=16'b0;
+				      end
+				 endcase
+			end
+			
+			`MEM_READ:
+			 begin
+				case(alu_operation[2:0])
+				`LOADBYTE: begin
+						w_carry<=0;
+						w_aluout_arith<={{24{aluin2[7]}},aluin2[7:0]};
+					   end
+				`LOADBYTEU: begin
+						w_carry<=0;
+						w_aluout_arith<={{24{1'b0}},aluin2[7:0]};
+					    end
+				`LOADHALF: begin
+						w_carry<=0;
+						w_aluout_arith<={{16{aluin2[15]}},aluin2[15:0]};
+					   end
+				`LOADHALFU: begin
+						w_carry<=0;
+						w_aluout_arith<={{16{1'b0}},aluin2[15:0]};
+					    end
+				`LOADWORD: begin
+						w_carry<=0;
+						w_aluout_arith<=aluin2;
+					   end
+				default: begin
+						w_carry<=0;
+						w_aluout_arith<=aluin2;
+					   end
+				endcase
+			 end
+				
+			default: {w_carry,w_aluout_arith}<={w_carry,w_aluout_arith};
+			endcase
+		end
+	end
+end
+endmodule

@@ -1,0 +1,342 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/home/student/Rishabh/project_alu
+T_opt
+!s110 1500026197
+V4IQUnICdEVG5cli]nDN8K0
+04 10 4 work tb_top_dut fast 0
+=1-000c2947149a-59689555-4a77e-2df7
+Z1 o-quiet -auto_acc_if_foreign -work work
+Z2 tCvgOpt 0
+n@_opt
+Z3 OL;O;10.6a;65
+T_opt1
+!s110 1499692424
+VYNjk>32R91;mDF[HCGL6e2
+04 6 4 work tb_alu fast 0
+=1-000c2947149a-59637d88-60fdc-eaf
+R1
+R2
+n@_opt1
+R3
+R0
+T_opt2
+!s110 1499690995
+VfAc:3<2VFo`n]B_ER]N020
+04 9 4 work shift_alu fast 0
+=1-000c2947149a-596377f3-30dcf-de1
+R1
+R2
+n@_opt2
+R3
+R0
+valu
+Z4 DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
+Z5 VDg1SIo80bB@j0V0VzS_@n1
+r1
+!s85 0
+31
+!i10b 1
+!s100 >dSbTz<RSX`_^EPbDLM6z2
+IJXmR_c7Do4[0d1OK^hIWD0
+!s105 alu_sv_unit
+S1
+R0
+w1499848945
+8alu.sv
+Falu.sv
+L0 2
+Z6 OL;L;10.6a;65
+Z7 !s108 1500026173.000000
+Z8 !s107 top_dut.sv|tb_top_dut.sv|tb_preprocessor.sv|tb_alu.sv|shift_alu.sv|preprocessor.sv|mux.sv|mux1.sv|dff.sv|arith_alu.sv|alu.sv|
+Z9 !s90 -##implicit##push_minusfile_path##|/home/student/Rishabh/project_alu/vlog.opt|-##implicit##pop_minusfile_path##|-sv|alu.sv|arith_alu.sv|dff.sv|mux1.sv|mux.sv|preprocessor.sv|shift_alu.sv|tb_alu.sv|tb_preprocessor.sv|tb_top_dut.sv|top_dut.sv|
+!i113 0
+Z10 o-sv -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z11 tCoverage 39 Svlog 1 CvgOpt 0
+varith_alu
+R4
+R5
+r1
+!s85 0
+31
+!i10b 1
+!s100 GNiFPlYmd?C:HeUH:`]Jc3
+I;12@a1;JEVl]>jz=YMSmA0
+!s105 arith_alu_sv_unit
+S1
+R0
+w1499498197
+8arith_alu.sv
+Farith_alu.sv
+Z12 L0 39
+R6
+R7
+R8
+R9
+!i113 0
+R10
+R11
+vdff
+R4
+R5
+r1
+!s85 0
+31
+!i10b 1
+!s100 hY8NfjOB>jjElH`jJgmnk1
+I2AWEjPGBmM;WMHKBg=Q?M1
+Z13 !s105 dff_sv_unit
+S1
+R0
+w1499430162
+Z14 8dff.sv
+Z15 Fdff.sv
+L0 1
+R6
+R7
+R8
+R9
+!i113 0
+R10
+R11
+vdff1
+R4
+!s110 1499429831
+!i10b 1
+!s100 ELFUXSK?^OdAi?VI`kzHf0
+I:`4L41F0E[F7dGO3SSoZc3
+R5
+R13
+S1
+R0
+w1498113125
+R14
+R15
+L0 1
+R6
+r1
+!s85 0
+31
+!s108 1499429831.000000
+!s107 dff.sv|
+!s90 -sv|dff.sv|
+!i113 0
+R10
+R2
+vmux
+R4
+R5
+r1
+!s85 0
+31
+!i10b 1
+!s100 e]V7=<9dmf@MM1CA:zAMV2
+IF^AA:if=Pm5_gZ8WQkHVf1
+Z16 !s105 mux_sv_unit
+S1
+R0
+w1499763814
+Z17 8mux.sv
+Z18 Fmux.sv
+L0 3
+R6
+R7
+R8
+R9
+!i113 0
+R10
+R11
+vmux1
+R4
+R5
+r1
+!s85 0
+31
+!i10b 1
+!s100 kU;FHET<3Ik?I?3hbk[H]0
+IdnPYid6^BV9AeTB4GI]181
+!s105 mux1_sv_unit
+S1
+R0
+w1499434206
+8mux1.sv
+Fmux1.sv
+L0 3
+R6
+R7
+R8
+R9
+!i113 0
+R10
+R11
+vmux2to1
+R4
+!s110 1499430132
+!i10b 1
+!s100 5WO@PXJa]NTE1Slj[Z0mE2
+IB_5^gO24Lbz5D74Ye<6SY3
+R5
+R16
+S1
+R0
+w1497879572
+R17
+R18
+L0 3
+R6
+r1
+!s85 0
+31
+!s108 1499430132.000000
+!s107 mux.sv|
+!s90 -sv|mux.sv|
+!i113 0
+R10
+R2
+vpreprocessor
+R4
+R5
+r1
+!s85 0
+31
+!i10b 1
+!s100 6ngm4@5eeDjDSDhm9bY<z0
+I4E9Deb?[LMYDJB[<Y37Jl1
+!s105 preprocessor_sv_unit
+S1
+R0
+w1499763879
+8preprocessor.sv
+Fpreprocessor.sv
+R12
+R6
+R7
+R8
+R9
+!i113 0
+R10
+R11
+vshift_alu
+R4
+R5
+r1
+!s85 0
+31
+!i10b 1
+!s100 9i2]X:BZfo<8?N[7AV:CR0
+I0HV0:01BCi38Q@8EkCOeB3
+!s105 shift_alu_sv_unit
+S1
+R0
+w1500022762
+8shift_alu.sv
+Fshift_alu.sv
+R12
+R6
+R7
+R8
+R9
+!i113 0
+R10
+R11
+vtb_alu
+R4
+Z19 !s110 1500026173
+!i10b 1
+!s100 iF8]bgAag:38`RoO:=G1P2
+I@;BTo3?hlVD9@QzT?O<[J0
+R5
+!s105 tb_alu_sv_unit
+S1
+R0
+w1499764076
+8tb_alu.sv
+Ftb_alu.sv
+R12
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+vtb_preprocessor
+R4
+R19
+!i10b 1
+!s100 kFP3iZVbOO8UeVc;2iY:l3
+I6GPk_6T2@<4mX1O5@fV3`3
+R5
+!s105 tb_preprocessor_sv_unit
+S1
+R0
+w1499764017
+8tb_preprocessor.sv
+Ftb_preprocessor.sv
+R12
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+vtb_top_dut
+R4
+R5
+r1
+!s85 0
+31
+!i10b 1
+!s100 ^S^J`@FG5P5Po5WbWS3S11
+IOUf0Tn1oKcP_keU2N=GDX3
+!s105 tb_top_dut_sv_unit
+S1
+R0
+w1500023141
+8tb_top_dut.sv
+Ftb_top_dut.sv
+R12
+R6
+R7
+R8
+R9
+!i113 0
+R10
+R11
+vtop_dut
+R4
+R5
+r1
+!s85 0
+31
+!i10b 1
+!s100 f?OH`JVc;2`kcb>Jz@N[e2
+IdUoz`RZ4T=^oUBfG<?^af0
+!s105 top_dut_sv_unit
+S1
+R0
+w1499525514
+8top_dut.sv
+Ftop_dut.sv
+L0 2
+R6
+R7
+R8
+R9
+!i113 0
+R10
+R11
