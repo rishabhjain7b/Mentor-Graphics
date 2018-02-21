@@ -1,0 +1,13 @@
+
+`include "fetch_packet.sv"
+`include "fetch_intf.sv"
+`include "fetch_rintf.sv"
+`include "fetch_generator.sv"
+`include "fetch_driver.sv"
+`include "fetch_coverage.sv"
+`include "fetch.sv"
+`include "fetch_dummy.sv"
+`include "fetch_monitor.sv"
+`include "fetch_scoreboard.sv"
+`include "fetch_environment.sv"
+`include "fetch_test.sv"

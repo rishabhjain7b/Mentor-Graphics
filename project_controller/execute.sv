@@ -1,0 +1,286 @@
+
+module execute(clock, reset, E_Control, IR, npc, W_Control_in, Mem_Control_in, VSR1, VSR2, enable_execute,  W_Control_out, Mem_Control_out, NZP, aluout, pcout, sr1, sr2, dr, M_Data);
+
+input clock, reset, enable_execute;
+input[1:0]W_Control_in;						
+input Mem_Control_in;
+input [5:0]E_Control;
+input [15:0]IR;
+input [15:0]npc;
+input [15:0]VSR1, VSR2;
+/* 
+input bypass_alu_1,bypass_alu_2,bypass_mem_1,bypass_mem_2;
+input Mem_Bypass_Val;
+output [15:0]IR_Exec;
+*/
+output [15:0]aluout,pcout;
+output [1:0]W_Control_out;
+output	Mem_Control_out;
+output [2:0]NZP;
+output [2:0]sr1, sr2, dr;
+output [15:0]M_Data;
+   
+reg [2:0]sr1, sr2, dr;
+reg [1:0]W_Control_out;
+reg Mem_Control_out;
+reg [15:0]M_Data;
+reg [15:0]pcout;
+
+wire [15:0]offset11, offset9, offset6, imm5, trapvect8;
+wire [1:0]pcselect1, alu_control, alu_control_temp;
+wire pcselect2, op2select;
+reg [15:0]addrin1, addrin2, aluin1_temp, aluin2_temp;
+wire alucarry; 		
+wire [15:0]VSR1_int, VSR2_int;
+wire alu_or_pc; 
+wire [15:0]aluin1, aluin2;
+reg [2:0]NZP;
+
+//NZP block   
+always @ (posedge clock)
+begin
+	if(reset)
+	begin
+		NZP <= 3'b000;        // NZP = 3'b001; use of non blocking is recommended to implement sequential logic
+	end
+	else if(enable_execute)
+	begin
+		if(IR[13:12]== 00)
+		begin
+			if(IR[15:14] == 2'b00)
+			begin
+				NZP <=  IR[11:9];
+			end
+			else if(IR[15:14] == 2'b11)
+			begin
+				NZP <= 3'b000;
+			end
+			else
+			begin
+				NZP <= 3'b000;
+			end
+		end
+		else
+		begin
+			NZP <= 3'b000;
+		end
+	end
+	else 
+	begin
+		NZP <= 3'b000;
+	end
+end
+
+// IR block   
+always @(IR) 
+begin
+	case(IR[13:12])
+	2'b00: 
+	begin
+		// use of blocking assignment is recommended for combinational logic
+		sr1=IR[8:6];
+	        sr2=3'd0; 
+	end	
+	2'b01: 
+	begin 
+		sr1=IR[8:6];
+		sr2=IR[2:0];
+		//Incorrect assignment statement sr2<=IR[3:1];
+	end
+	2'b10: 
+	begin
+		sr1=IR[8:6];  
+	        sr2=3'd0;    
+	        //sr2=IR[2:0];
+		//sr2=3'd1;		
+	end
+	2'b11: 
+	begin
+		sr1=IR[8:6];    
+	        sr2=3'd0;
+	        //sr2=IR[11:9];      	       
+	end
+	endcase 
+end
+
+//dr block     
+always @(posedge clock) 
+begin
+	if(reset)
+ 	begin
+ 		dr <=0;
+ 	end
+ 	else if (enable_execute)
+ 	begin
+ 		case(IR[13:12])
+		2'b00: 
+		begin
+			dr<=3'd0;       
+			//dr<=IR[11:9];
+		end	
+		
+		
+		2'b01: 
+		begin
+			//dr<=IR[10:8];   
+		 	dr<=IR[11:9];
+		end
+		
+		2'b10: 
+		begin
+			dr<=IR[11:9];
+			//dr<=IR[12:10]; 			
+		end
+		
+		2'b11: 
+		begin
+			dr<=3'd0;    
+			//dr<=IR[11:9];      
+		end
+	        endcase
+	end
+end
+
+always @ (posedge clock)
+begin
+	if(reset)
+	begin
+		W_Control_out<=0;
+	     	Mem_Control_out<=0;
+	     	M_Data<=0;
+	end
+		
+	else if (enable_execute)
+	begin
+		W_Control_out<=W_Control_in;
+	     	Mem_Control_out<=Mem_Control_in;
+	       	M_Data<=VSR2_int;
+	end	  		 
+end
+   
+   
+always @(VSR1_int) aluin1_temp=VSR1_int;
+
+always @(op2select,VSR2_int,imm5)
+begin
+	if(op2select)
+       	aluin2_temp=VSR2_int;
+    	else
+ 	aluin2_temp=imm5;
+end
+
+always @(pcselect1,offset11,offset9,offset6)
+begin
+	case(pcselect1)
+        0: addrin1=offset11;
+        1: addrin1=offset9;
+        2: addrin1=offset6;
+        3: addrin1=0;
+        endcase
+end
+   
+always @(pcselect2,npc,VSR1_int,IR)
+begin
+	if(pcselect2)
+	begin
+		addrin2=npc;
+	end
+	else addrin2=VSR1_int;
+end
+
+always @(posedge clock)
+begin
+	if (reset)
+	begin
+		pcout <= 0;
+        end
+        else if (enable_execute)
+        begin
+                pcout <= addrin1 + addrin2;
+        end
+end   
+
+assign {alu_control_temp, pcselect1, pcselect2, op2select}=E_Control;
+   
+//assign {alu_control_temp, pcselect2, pcselect1, op2select}=E_Control;   ///---WRONG ASSIGNMENT---///
+   
+assign VSR1_int = VSR1;
+   
+assign VSR2_int = VSR2;
+
+assign	aluin1= aluin1_temp;
+   
+assign	aluin2= aluin2_temp;
+
+assign 	alu_control = alu_control_temp; 
+
+//module ALU(clock, reset, aluin1, aluin2, alu_control, enable_execute, aluout, alucarry);
+   
+ALU alu (clock, reset, aluin1, aluin2, alu_control, enable_execute, aluout, alucarry);
+
+//module extension(IR, offset11, offset9, offset6, imm5);
+
+extension ex (IR, offset11, offset9, offset6, imm5); 
+
+endmodule
+
+
+//ALU block
+
+module ALU(clock, reset, aluin1, aluin2, alu_control, enable_execute, aluout, alucarry);
+input clock, reset;
+input [15:0]aluin1, aluin2;
+input [1:0]alu_control;
+input enable_execute;
+output [15:0]aluout;
+output alucarry;
+   
+reg [15:0]aluout;
+reg alucarry;
+
+always @(posedge clock)
+begin
+	if (reset)
+        begin
+        	alucarry<=0;
+        	aluout<=0;
+        end
+        else if (enable_execute)
+        begin
+        	case(alu_control)
+        	0: {alucarry,aluout}<=  aluin1+ aluin2;
+		1: {alucarry,aluout}<= {1'b0, aluin1&aluin2};
+		2: {alucarry,aluout}<= {1'b0, ~aluin1};
+		//1: {alucarry,aluout}<= {1'b0 ,{aluin1&{aluin2[15:7] ,aluin2[5], aluin2[6], aluin2[4:0]}}};
+    	        default:
+    	        begin
+    	        	{alucarry,aluout}<= {17{1'b0}};
+			//{alucarry,aluout}<= ~(aluin1^aluin2);  
+   	  	end
+   	  	endcase
+	end	
+end
+endmodule 
+
+
+// extension module
+
+module extension(IR, offset11, offset9, offset6, imm5);
+input [15:0]IR;
+output [15:0]offset11, offset9, offset6, imm5;
+
+assign offset11={{5{IR[10]}}, IR[10:0]};	
+   
+assign offset9={{7{IR[8]}}, IR[8:0]};
+ 
+assign offset6={{10{IR[5]}}, IR[5:0]};
+   
+assign imm5={{11{IR[4]}}, IR[4:0]};
+   
+//assign imm5={{12{IR[3]}}, IR[3:0]};  
+  
+//assign trapvect8={{8{IR[7]}}, IR[7:0]};
+
+//assign offset9={{8{IR[7]}}, IR[7:0]};  
+endmodule 
+

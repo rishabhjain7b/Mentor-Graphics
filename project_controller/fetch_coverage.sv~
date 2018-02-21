@@ -1,0 +1,23 @@
+class coverage;
+//bit clock;
+virtual intf i;
+
+covergroup cg @(posedge i.clock);
+BR: coverpoint i.br_taken;
+NPC: coverpoint i.npc{bins s2 = {[16'h3000:16'h9000]};}
+PC: coverpoint i.pc{bins s3 = {[16'h3000:16'h9000]};}
+//INSTR: coverpoint i.instrmem_rd;
+TADDR: coverpoint i.taddr{bins s1 = {[16'h3000:16'h9000]};}
+CROSS: cross i.enable_fetch,i.enable_updatePC;
+endgroup
+
+function new (virtual intf i);
+this.i = i ;
+cg = new;
+endfunction
+
+task sample1();
+cg.sample();
+endtask
+
+endclass

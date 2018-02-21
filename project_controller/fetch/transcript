@@ -1,0 +1,394 @@
+# //  Questa Sim-64
+# //  Version 10.6a linux_x86_64 Mar 16 2017
+# //
+# //  Copyright 1991-2017 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# vsim -novopt -coverage fetch_top 
+# Start time: 23:13:37 on Jul 24,2017
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# Refreshing /home/student/Rishabh/project_controller/work.fetch_top
+# Refreshing /home/student/Rishabh/project_controller/work.fetch_top_sv_unit
+# Loading sv_std.std
+# Loading work.fetch_top_sv_unit
+# Loading work.fetch_top
+# Refreshing /home/student/Rishabh/project_controller/work.intf
+# Loading work.intf
+# Refreshing /home/student/Rishabh/project_controller/work.rintf
+# Loading work.rintf
+# Refreshing /home/student/Rishabh/project_controller/work.fetch_test
+# Loading work.fetch_test
+# Refreshing /home/student/Rishabh/project_controller/work.fetch
+# Loading work.fetch
+# Refreshing /home/student/Rishabh/project_controller/work.fetch_dummy
+# Loading work.fetch_dummy
+run -all
+# --FETCH--enable_updatePC = 0 enable_fetch = 0 pc=xxxx 
+#  design is ok
+#                   10enable_updatePC=0 | enable_fetch=1 | taddr=9194 | br_taken=0 | instrmem_rd=0 | pc=0000 | npc=0000 
+# --FETCH--enable_updatePC = 0 enable_fetch = 1 pc=xxxx 
+#  design is ok
+#                   20enable_updatePC=0 | enable_fetch=0 | taddr=b838 | br_taken=0 | instrmem_rd=1 | pc=0000 | npc=0000 
+# --FETCH--enable_updatePC = 0 enable_fetch = 0 pc=xxxx 
+#  design is ok
+#                   30enable_updatePC=0 | enable_fetch=1 | taddr=72f3 | br_taken=1 | instrmem_rd=0 | pc=0000 | npc=0000 
+# --FETCH--enable_updatePC = 0 enable_fetch = 1 pc=xxxx 
+#  design is ok
+#                   40enable_updatePC=0 | enable_fetch=0 | taddr=96ed | br_taken=0 | instrmem_rd=1 | pc=0000 | npc=0000 
+# --FETCH--enable_updatePC = 0 enable_fetch = 0 pc=xxxx 
+#  design is ok
+#                   50enable_updatePC=0 | enable_fetch=1 | taddr=5971 | br_taken=1 | instrmem_rd=0 | pc=0000 | npc=0000 
+# --FETCH--enable_updatePC = 0 enable_fetch = 1 pc=xxxx 
+#  design is ok
+#                   60enable_updatePC=0 | enable_fetch=1 | taddr=6a9a | br_taken=0 | instrmem_rd=1 | pc=0000 | npc=0000 
+# --FETCH--enable_updatePC = 0 enable_fetch = 1 pc=xxxx 
+#  design is ok
+#                   70enable_updatePC=1 | enable_fetch=0 | taddr=f75c | br_taken=1 | instrmem_rd=1 | pc=0000 | npc=0000 
+# ** Info: enable_updatePC = 1 enable_fetch = 0 pc=xxxx
+#    Time: 75 ns  Scope: fetch_top.DUT File: fetch.sv Line: 26
+#  design is ok
+#                   80enable_updatePC=0 | enable_fetch=1 | taddr=9d3e | br_taken=1 | instrmem_rd=0 | pc=f75c | npc=f75d 
+# --FETCH--enable_updatePC = 0 enable_fetch = 1 pc=f75c 
+#  design is ok
+#                   90enable_updatePC=1 | enable_fetch=0 | taddr=e998 | br_taken=0 | instrmem_rd=1 | pc=f75c | npc=f75d 
+# ** Info: enable_updatePC = 1 enable_fetch = 0 pc=f75c
+#    Time: 95 ns  Scope: fetch_top.DUT File: fetch.sv Line: 26
+#  design is ok
+#                  100enable_updatePC=1 | enable_fetch=0 | taddr=f3ae | br_taken=0 | instrmem_rd=0 | pc=f75d | npc=f75e 
+# ** Info: enable_updatePC = 1 enable_fetch = 0 pc=f75d
+#    Time: 105 ns  Scope: fetch_top.DUT File: fetch.sv Line: 26
+#  design is ok
+#                  110enable_updatePC=1 | enable_fetch=0 | taddr=1f1b | br_taken=1 | instrmem_rd=0 | pc=3000 | npc=3001 
+# ** Info: enable_updatePC = 1 enable_fetch = 0 pc=3000
+#    Time: 115 ns  Scope: fetch_top.DUT File: fetch.sv Line: 26
+#  design is ok
+#                  120enable_updatePC=1 | enable_fetch=0 | taddr=329c | br_taken=0 | instrmem_rd=0 | pc=3000 | npc=3001 
+# ** Info: enable_updatePC = 1 enable_fetch = 0 pc=3000
+#    Time: 125 ns  Scope: fetch_top.DUT File: fetch.sv Line: 26
+#  design is ok
+#                  130enable_updatePC=1 | enable_fetch=0 | taddr=fb9b | br_taken=0 | instrmem_rd=0 | pc=3000 | npc=3001 
+# ** Info: enable_updatePC = 1 enable_fetch = 0 pc=3000
+#    Time: 135 ns  Scope: fetch_top.DUT File: fetch.sv Line: 26
+#  design is ok
+#                  140enable_updatePC=1 | enable_fetch=1 | taddr=a6b9 | br_taken=1 | instrmem_rd=0 | pc=3000 | npc=3001 
+# ** Info: enable_updatePC = 1 enable_fetch = 1 pc=3000
+#    Time: 145 ns  Scope: fetch_top.DUT File: fetch.sv Line: 26
+#  design is ok
+#                  150enable_updatePC=0 | enable_fetch=0 | taddr=1909 | br_taken=1 | instrmem_rd=1 | pc=3000 | npc=3001 
+# --FETCH--enable_updatePC = 0 enable_fetch = 0 pc=3000 
+#  design is ok
+#                  160enable_updatePC=0 | enable_fetch=0 | taddr=3504 | br_taken=0 | instrmem_rd=0 | pc=3000 | npc=3001 
+# --FETCH--enable_updatePC = 0 enable_fetch = 0 pc=3000 
+#  design is ok
+#                  170enable_updatePC=0 | enable_fetch=0 | taddr=0794 | br_taken=1 | instrmem_rd=0 | pc=3000 | npc=3001 
+# --FETCH--enable_updatePC = 0 enable_fetch = 0 pc=3000 
+#  design is ok
+#                  180enable_updatePC=1 | enable_fetch=1 | taddr=f0bc | br_taken=0 | instrmem_rd=0 | pc=3000 | npc=3001 
+# ** Info: enable_updatePC = 1 enable_fetch = 1 pc=3000
+#    Time: 185 ns  Scope: fetch_top.DUT File: fetch.sv Line: 26
+#  design is ok
+#                  190enable_updatePC=1 | enable_fetch=1 | taddr=3cc8 | br_taken=1 | instrmem_rd=1 | pc=3000 | npc=3001 
+# ** Info: enable_updatePC = 1 enable_fetch = 1 pc=3000
+#    Time: 195 ns  Scope: fetch_top.DUT File: fetch.sv Line: 26
+#  design is ok
+#                  200enable_updatePC=1 | enable_fetch=1 | taddr=d4c9 | br_taken=1 | instrmem_rd=1 | pc=3000 | npc=3001 
+# ** Info: enable_updatePC = 1 enable_fetch = 1 pc=3000
+#    Time: 205 ns  Scope: fetch_top.DUT File: fetch.sv Line: 26
+#  design is ok
+#                  210enable_updatePC=1 | enable_fetch=0 | taddr=a68f | br_taken=1 | instrmem_rd=1 | pc=d4c9 | npc=d4ca 
+# ** Info: enable_updatePC = 1 enable_fetch = 0 pc=d4c9
+#    Time: 215 ns  Scope: fetch_top.DUT File: fetch.sv Line: 26
+#  design is ok
+#                  220enable_updatePC=0 | enable_fetch=1 | taddr=183c | br_taken=0 | instrmem_rd=0 | pc=a68f | npc=a690 
+# --FETCH--enable_updatePC = 0 enable_fetch = 1 pc=a68f 
+#  design is ok
+#                  230enable_updatePC=1 | enable_fetch=0 | taddr=7f89 | br_taken=0 | instrmem_rd=1 | pc=a68f | npc=a690 
+# ** Info: enable_updatePC = 1 enable_fetch = 0 pc=a68f
+#    Time: 235 ns  Scope: fetch_top.DUT File: fetch.sv Line: 26
+#  design is ok
+#                  240enable_updatePC=0 | enable_fetch=0 | taddr=ac76 | br_taken=1 | instrmem_rd=0 | pc=a690 | npc=a691 
+# --FETCH--enable_updatePC = 0 enable_fetch = 0 pc=a690 
+#  design is ok
+#                  250enable_updatePC=0 | enable_fetch=1 | taddr=38be | br_taken=1 | instrmem_rd=0 | pc=a690 | npc=a691 
+# --FETCH--enable_updatePC = 0 enable_fetch = 1 pc=a690 
+#  design is ok
+#                  260enable_updatePC=1 | enable_fetch=0 | taddr=eab1 | br_taken=0 | instrmem_rd=1 | pc=a690 | npc=a691 
+# ** Info: enable_updatePC = 1 enable_fetch = 0 pc=a690
+#    Time: 265 ns  Scope: fetch_top.DUT File: fetch.sv Line: 26
+#  design is ok
+#                  270enable_updatePC=0 | enable_fetch=0 | taddr=a3ec | br_taken=1 | instrmem_rd=0 | pc=a691 | npc=a692 
+# --FETCH--enable_updatePC = 0 enable_fetch = 0 pc=a691 
+#  design is ok
+#                  280enable_updatePC=1 | enable_fetch=1 | taddr=2d24 | br_taken=0 | instrmem_rd=0 | pc=a691 | npc=a692 
+# ** Info: enable_updatePC = 1 enable_fetch = 1 pc=a691
+#    Time: 285 ns  Scope: fetch_top.DUT File: fetch.sv Line: 26
+#  design is ok
+#                  290enable_updatePC=1 | enable_fetch=0 | taddr=88ef | br_taken=0 | instrmem_rd=1 | pc=a692 | npc=a693 
+# ** Info: enable_updatePC = 1 enable_fetch = 0 pc=a692
+#    Time: 295 ns  Scope: fetch_top.DUT File: fetch.sv Line: 26
+#  design is ok
+#                  300enable_updatePC=1 | enable_fetch=0 | taddr=cb99 | br_taken=1 | instrmem_rd=0 | pc=a693 | npc=a694 
+# ** Info: enable_updatePC = 1 enable_fetch = 0 pc=a693
+#    Time: 305 ns  Scope: fetch_top.DUT File: fetch.sv Line: 26
+#  design is ok
+#                  310enable_updatePC=0 | enable_fetch=0 | taddr=11d4 | br_taken=0 | instrmem_rd=0 | pc=3000 | npc=3001 
+# --FETCH--enable_updatePC = 0 enable_fetch = 0 pc=3000 
+#  design is ok
+#                  320enable_updatePC=0 | enable_fetch=0 | taddr=8698 | br_taken=0 | instrmem_rd=0 | pc=3000 | npc=3001 
+# --FETCH--enable_updatePC = 0 enable_fetch = 0 pc=3000 
+#  design is ok
+#                  330enable_updatePC=1 | enable_fetch=1 | taddr=058a | br_taken=0 | instrmem_rd=0 | pc=3000 | npc=3001 
+# ** Info: enable_updatePC = 1 enable_fetch = 1 pc=3000
+#    Time: 335 ns  Scope: fetch_top.DUT File: fetch.sv Line: 26
+#  design is ok
+#                  340enable_updatePC=0 | enable_fetch=0 | taddr=610f | br_taken=0 | instrmem_rd=1 | pc=3000 | npc=3001 
+# --FETCH--enable_updatePC = 0 enable_fetch = 0 pc=3000 
+#  design is ok
+#                  350enable_updatePC=0 | enable_fetch=0 | taddr=54c2 | br_taken=0 | instrmem_rd=0 | pc=3000 | npc=3001 
+# --FETCH--enable_updatePC = 0 enable_fetch = 0 pc=3000 
+#  design is ok
+#                  360enable_updatePC=1 | enable_fetch=0 | taddr=658f | br_taken=1 | instrmem_rd=0 | pc=3000 | npc=3001 
+# ** Info: enable_updatePC = 1 enable_fetch = 0 pc=3000
+#    Time: 365 ns  Scope: fetch_top.DUT File: fetch.sv Line: 26
+#  design is ok
+#                  370enable_updatePC=1 | enable_fetch=1 | taddr=9dfb | br_taken=0 | instrmem_rd=0 | pc=3000 | npc=3001 
+# ** Info: enable_updatePC = 1 enable_fetch = 1 pc=3000
+#    Time: 375 ns  Scope: fetch_top.DUT File: fetch.sv Line: 26
+#  design is ok
+#                  380enable_updatePC=0 | enable_fetch=0 | taddr=e677 | br_taken=0 | instrmem_rd=1 | pc=3000 | npc=3001 
+# --FETCH--enable_updatePC = 0 enable_fetch = 0 pc=3000 
+#  design is ok
+#                  390enable_updatePC=1 | enable_fetch=0 | taddr=7d36 | br_taken=0 | instrmem_rd=0 | pc=3000 | npc=3001 
+# ** Info: enable_updatePC = 1 enable_fetch = 0 pc=3000
+#    Time: 395 ns  Scope: fetch_top.DUT File: fetch.sv Line: 26
+#  design is ok
+#                  400enable_updatePC=0 | enable_fetch=1 | taddr=1f07 | br_taken=1 | instrmem_rd=0 | pc=3000 | npc=3001 
+# --FETCH--enable_updatePC = 0 enable_fetch = 1 pc=3000 
+#  design is ok
+#                  410enable_updatePC=1 | enable_fetch=1 | taddr=b4e8 | br_taken=1 | instrmem_rd=1 | pc=3000 | npc=3001 
+# ** Info: enable_updatePC = 1 enable_fetch = 1 pc=3000
+#    Time: 415 ns  Scope: fetch_top.DUT File: fetch.sv Line: 26
+#  design is ok
+#                  420enable_updatePC=1 | enable_fetch=1 | taddr=600b | br_taken=0 | instrmem_rd=1 | pc=b4e8 | npc=b4e9 
+# ** Info: enable_updatePC = 1 enable_fetch = 1 pc=b4e8
+#    Time: 425 ns  Scope: fetch_top.DUT File: fetch.sv Line: 26
+#  design is ok
+#                  430enable_updatePC=1 | enable_fetch=0 | taddr=b53f | br_taken=1 | instrmem_rd=1 | pc=b4e9 | npc=b4ea 
+# ** Info: enable_updatePC = 1 enable_fetch = 0 pc=b4e9
+#    Time: 435 ns  Scope: fetch_top.DUT File: fetch.sv Line: 26
+#  design is ok
+#                  440enable_updatePC=0 | enable_fetch=1 | taddr=d113 | br_taken=0 | instrmem_rd=0 | pc=b53f | npc=b540 
+# --FETCH--enable_updatePC = 0 enable_fetch = 1 pc=b53f 
+#  design is ok
+#                  450enable_updatePC=0 | enable_fetch=1 | taddr=fb7e | br_taken=0 | instrmem_rd=1 | pc=b53f | npc=b540 
+# --FETCH--enable_updatePC = 0 enable_fetch = 1 pc=b53f 
+#  design is ok
+#                  460enable_updatePC=1 | enable_fetch=1 | taddr=0437 | br_taken=0 | instrmem_rd=1 | pc=b53f | npc=b540 
+# ** Info: enable_updatePC = 1 enable_fetch = 1 pc=b53f
+#    Time: 465 ns  Scope: fetch_top.DUT File: fetch.sv Line: 26
+#  design is ok
+#                  470enable_updatePC=1 | enable_fetch=0 | taddr=7453 | br_taken=1 | instrmem_rd=1 | pc=b540 | npc=b541 
+# ** Info: enable_updatePC = 1 enable_fetch = 0 pc=b540
+#    Time: 475 ns  Scope: fetch_top.DUT File: fetch.sv Line: 26
+#  design is ok
+#                  480enable_updatePC=1 | enable_fetch=1 | taddr=993e | br_taken=0 | instrmem_rd=0 | pc=7453 | npc=7454 
+# ** Info: enable_updatePC = 1 enable_fetch = 1 pc=7453
+#    Time: 485 ns  Scope: fetch_top.DUT File: fetch.sv Line: 26
+#  design is ok
+#                  490enable_updatePC=0 | enable_fetch=0 | taddr=a51e | br_taken=1 | instrmem_rd=1 | pc=7454 | npc=7455 
+# --FETCH--enable_updatePC = 0 enable_fetch = 0 pc=7454 
+#  design is ok
+#                  500enable_updatePC=0 | enable_fetch=0 | taddr=f9ee | br_taken=1 | instrmem_rd=0 | pc=7454 | npc=7455 
+# --FETCH--enable_updatePC = 0 enable_fetch = 0 pc=7454 
+#  design is ok
+#                  510enable_updatePC=0 | enable_fetch=1 | taddr=2d6a | br_taken=1 | instrmem_rd=0 | pc=3000 | npc=3001 
+# --FETCH--enable_updatePC = 0 enable_fetch = 1 pc=3000 
+#  design is ok
+#                  520enable_updatePC=0 | enable_fetch=1 | taddr=7efe | br_taken=1 | instrmem_rd=1 | pc=3000 | npc=3001 
+# --FETCH--enable_updatePC = 0 enable_fetch = 1 pc=3000 
+#  design is ok
+#                  530enable_updatePC=0 | enable_fetch=1 | taddr=17f0 | br_taken=1 | instrmem_rd=1 | pc=3000 | npc=3001 
+# --FETCH--enable_updatePC = 0 enable_fetch = 1 pc=3000 
+#  design is ok
+#                  540enable_updatePC=0 | enable_fetch=0 | taddr=9a39 | br_taken=0 | instrmem_rd=1 | pc=3000 | npc=3001 
+# --FETCH--enable_updatePC = 0 enable_fetch = 0 pc=3000 
+#  design is ok
+#                  550enable_updatePC=0 | enable_fetch=1 | taddr=1abb | br_taken=0 | instrmem_rd=0 | pc=3000 | npc=3001 
+# --FETCH--enable_updatePC = 0 enable_fetch = 1 pc=3000 
+#  design is ok
+#                  560enable_updatePC=0 | enable_fetch=1 | taddr=e35e | br_taken=0 | instrmem_rd=1 | pc=3000 | npc=3001 
+# --FETCH--enable_updatePC = 0 enable_fetch = 1 pc=3000 
+#  design is ok
+#                  570enable_updatePC=0 | enable_fetch=0 | taddr=9567 | br_taken=1 | instrmem_rd=1 | pc=3000 | npc=3001 
+# --FETCH--enable_updatePC = 0 enable_fetch = 0 pc=3000 
+#  design is ok
+#                  580enable_updatePC=1 | enable_fetch=1 | taddr=3d9e | br_taken=0 | instrmem_rd=0 | pc=3000 | npc=3001 
+# ** Info: enable_updatePC = 1 enable_fetch = 1 pc=3000
+#    Time: 585 ns  Scope: fetch_top.DUT File: fetch.sv Line: 26
+#  design is ok
+#                  590enable_updatePC=1 | enable_fetch=0 | taddr=cf2a | br_taken=1 | instrmem_rd=1 | pc=3000 | npc=3001 
+# ** Info: enable_updatePC = 1 enable_fetch = 0 pc=3000
+#    Time: 595 ns  Scope: fetch_top.DUT File: fetch.sv Line: 26
+#  design is ok
+#                  600enable_updatePC=1 | enable_fetch=0 | taddr=9573 | br_taken=0 | instrmem_rd=0 | pc=3000 | npc=3001 
+# ** Info: enable_updatePC = 1 enable_fetch = 0 pc=3000
+#    Time: 605 ns  Scope: fetch_top.DUT File: fetch.sv Line: 26
+#  design is ok
+#                  610enable_updatePC=1 | enable_fetch=0 | taddr=caed | br_taken=1 | instrmem_rd=0 | pc=3001 | npc=3002 
+# ** Info: enable_updatePC = 1 enable_fetch = 0 pc=3001
+#    Time: 615 ns  Scope: fetch_top.DUT File: fetch.sv Line: 26
+#  design is ok
+#                  620enable_updatePC=0 | enable_fetch=0 | taddr=6d29 | br_taken=0 | instrmem_rd=0 | pc=caed | npc=caee 
+# --FETCH--enable_updatePC = 0 enable_fetch = 0 pc=caed 
+#  design is ok
+#                  630enable_updatePC=0 | enable_fetch=0 | taddr=b041 | br_taken=0 | instrmem_rd=0 | pc=caed | npc=caee 
+# --FETCH--enable_updatePC = 0 enable_fetch = 0 pc=caed 
+#  design is ok
+#                  640enable_updatePC=0 | enable_fetch=1 | taddr=7d25 | br_taken=0 | instrmem_rd=0 | pc=caed | npc=caee 
+# --FETCH--enable_updatePC = 0 enable_fetch = 1 pc=caed 
+#  design is ok
+#                  650enable_updatePC=1 | enable_fetch=1 | taddr=e4e4 | br_taken=1 | instrmem_rd=1 | pc=caed | npc=caee 
+# ** Info: enable_updatePC = 1 enable_fetch = 1 pc=caed
+#    Time: 655 ns  Scope: fetch_top.DUT File: fetch.sv Line: 26
+#  design is ok
+#                  660enable_updatePC=1 | enable_fetch=0 | taddr=2f13 | br_taken=1 | instrmem_rd=1 | pc=e4e4 | npc=e4e5 
+# ** Info: enable_updatePC = 1 enable_fetch = 0 pc=e4e4
+#    Time: 665 ns  Scope: fetch_top.DUT File: fetch.sv Line: 26
+#  design is ok
+#                  670enable_updatePC=1 | enable_fetch=0 | taddr=f470 | br_taken=0 | instrmem_rd=0 | pc=2f13 | npc=2f14 
+# ** Info: enable_updatePC = 1 enable_fetch = 0 pc=2f13
+#    Time: 675 ns  Scope: fetch_top.DUT File: fetch.sv Line: 26
+#  design is ok
+#                  680enable_updatePC=0 | enable_fetch=0 | taddr=cbcf | br_taken=0 | instrmem_rd=0 | pc=2f14 | npc=2f15 
+# --FETCH--enable_updatePC = 0 enable_fetch = 0 pc=2f14 
+#  design is ok
+#                  690enable_updatePC=1 | enable_fetch=1 | taddr=4f43 | br_taken=0 | instrmem_rd=0 | pc=2f14 | npc=2f15 
+# ** Info: enable_updatePC = 1 enable_fetch = 1 pc=2f14
+#    Time: 695 ns  Scope: fetch_top.DUT File: fetch.sv Line: 26
+#  design is ok
+#                  700enable_updatePC=1 | enable_fetch=0 | taddr=e9f3 | br_taken=0 | instrmem_rd=1 | pc=2f15 | npc=2f16 
+# ** Info: enable_updatePC = 1 enable_fetch = 0 pc=2f15
+#    Time: 705 ns  Scope: fetch_top.DUT File: fetch.sv Line: 26
+#  design is ok
+#                  710enable_updatePC=0 | enable_fetch=1 | taddr=2e48 | br_taken=0 | instrmem_rd=0 | pc=3000 | npc=3001 
+# --FETCH--enable_updatePC = 0 enable_fetch = 1 pc=3000 
+#  design is ok
+#                  720enable_updatePC=1 | enable_fetch=1 | taddr=ba3e | br_taken=1 | instrmem_rd=1 | pc=3000 | npc=3001 
+# ** Info: enable_updatePC = 1 enable_fetch = 1 pc=3000
+#    Time: 725 ns  Scope: fetch_top.DUT File: fetch.sv Line: 26
+#  design is ok
+#                  730enable_updatePC=1 | enable_fetch=0 | taddr=7c9b | br_taken=1 | instrmem_rd=1 | pc=3000 | npc=3001 
+# ** Info: enable_updatePC = 1 enable_fetch = 0 pc=3000
+#    Time: 735 ns  Scope: fetch_top.DUT File: fetch.sv Line: 26
+#  design is ok
+#                  740enable_updatePC=0 | enable_fetch=0 | taddr=1781 | br_taken=1 | instrmem_rd=0 | pc=3000 | npc=3001 
+# --FETCH--enable_updatePC = 0 enable_fetch = 0 pc=3000 
+#  design is ok
+#                  750enable_updatePC=1 | enable_fetch=1 | taddr=4aff | br_taken=1 | instrmem_rd=0 | pc=3000 | npc=3001 
+# ** Info: enable_updatePC = 1 enable_fetch = 1 pc=3000
+#    Time: 755 ns  Scope: fetch_top.DUT File: fetch.sv Line: 26
+#  design is ok
+#                  760enable_updatePC=1 | enable_fetch=0 | taddr=5f2c | br_taken=0 | instrmem_rd=1 | pc=3000 | npc=3001 
+# ** Info: enable_updatePC = 1 enable_fetch = 0 pc=3000
+#    Time: 765 ns  Scope: fetch_top.DUT File: fetch.sv Line: 26
+#  design is ok
+#                  770enable_updatePC=1 | enable_fetch=1 | taddr=0809 | br_taken=0 | instrmem_rd=0 | pc=3000 | npc=3001 
+# ** Info: enable_updatePC = 1 enable_fetch = 1 pc=3000
+#    Time: 775 ns  Scope: fetch_top.DUT File: fetch.sv Line: 26
+#  design is ok
+#                  780enable_updatePC=1 | enable_fetch=0 | taddr=485a | br_taken=1 | instrmem_rd=1 | pc=3000 | npc=3001 
+# ** Info: enable_updatePC = 1 enable_fetch = 0 pc=3000
+#    Time: 785 ns  Scope: fetch_top.DUT File: fetch.sv Line: 26
+#  design is ok
+#                  790enable_updatePC=0 | enable_fetch=0 | taddr=6657 | br_taken=0 | instrmem_rd=0 | pc=3000 | npc=3001 
+# --FETCH--enable_updatePC = 0 enable_fetch = 0 pc=3000 
+#  design is ok
+#                  800enable_updatePC=1 | enable_fetch=0 | taddr=d7bd | br_taken=0 | instrmem_rd=0 | pc=3000 | npc=3001 
+# ** Info: enable_updatePC = 1 enable_fetch = 0 pc=3000
+#    Time: 805 ns  Scope: fetch_top.DUT File: fetch.sv Line: 26
+#  design is ok
+#                  810enable_updatePC=0 | enable_fetch=1 | taddr=420d | br_taken=0 | instrmem_rd=0 | pc=3001 | npc=3002 
+# --FETCH--enable_updatePC = 0 enable_fetch = 1 pc=3001 
+#  design is ok
+#                  820enable_updatePC=0 | enable_fetch=1 | taddr=0a64 | br_taken=1 | instrmem_rd=1 | pc=3001 | npc=3002 
+# --FETCH--enable_updatePC = 0 enable_fetch = 1 pc=3001 
+#  design is ok
+#                  830enable_updatePC=0 | enable_fetch=0 | taddr=ada8 | br_taken=0 | instrmem_rd=1 | pc=3001 | npc=3002 
+# --FETCH--enable_updatePC = 0 enable_fetch = 0 pc=3001 
+#  design is ok
+#                  840enable_updatePC=1 | enable_fetch=1 | taddr=cb2a | br_taken=0 | instrmem_rd=0 | pc=3001 | npc=3002 
+# ** Info: enable_updatePC = 1 enable_fetch = 1 pc=3001
+#    Time: 845 ns  Scope: fetch_top.DUT File: fetch.sv Line: 26
+#  design is ok
+#                  850enable_updatePC=1 | enable_fetch=1 | taddr=b7e7 | br_taken=1 | instrmem_rd=1 | pc=3002 | npc=3003 
+# ** Info: enable_updatePC = 1 enable_fetch = 1 pc=3002
+#    Time: 855 ns  Scope: fetch_top.DUT File: fetch.sv Line: 26
+#  design is ok
+#                  860enable_updatePC=0 | enable_fetch=0 | taddr=9f24 | br_taken=0 | instrmem_rd=1 | pc=b7e7 | npc=b7e8 
+# --FETCH--enable_updatePC = 0 enable_fetch = 0 pc=b7e7 
+#  design is ok
+#                  870enable_updatePC=1 | enable_fetch=1 | taddr=f88d | br_taken=1 | instrmem_rd=0 | pc=b7e7 | npc=b7e8 
+# ** Info: enable_updatePC = 1 enable_fetch = 1 pc=b7e7
+#    Time: 875 ns  Scope: fetch_top.DUT File: fetch.sv Line: 26
+#  design is ok
+#                  880enable_updatePC=1 | enable_fetch=1 | taddr=d26e | br_taken=1 | instrmem_rd=1 | pc=f88d | npc=f88e 
+# ** Info: enable_updatePC = 1 enable_fetch = 1 pc=f88d
+#    Time: 885 ns  Scope: fetch_top.DUT File: fetch.sv Line: 26
+#  design is ok
+#                  890enable_updatePC=0 | enable_fetch=1 | taddr=3cb6 | br_taken=0 | instrmem_rd=1 | pc=d26e | npc=d26f 
+# --FETCH--enable_updatePC = 0 enable_fetch = 1 pc=d26e 
+#  design is ok
+#                  900enable_updatePC=1 | enable_fetch=0 | taddr=9651 | br_taken=0 | instrmem_rd=1 | pc=d26e | npc=d26f 
+# ** Info: enable_updatePC = 1 enable_fetch = 0 pc=d26e
+#    Time: 905 ns  Scope: fetch_top.DUT File: fetch.sv Line: 26
+#  design is ok
+#                  910enable_updatePC=1 | enable_fetch=1 | taddr=51c4 | br_taken=1 | instrmem_rd=0 | pc=3000 | npc=3001 
+# ** Info: enable_updatePC = 1 enable_fetch = 1 pc=3000
+#    Time: 915 ns  Scope: fetch_top.DUT File: fetch.sv Line: 26
+#  design is ok
+#                  920enable_updatePC=1 | enable_fetch=1 | taddr=a092 | br_taken=1 | instrmem_rd=1 | pc=3000 | npc=3001 
+# ** Info: enable_updatePC = 1 enable_fetch = 1 pc=3000
+#    Time: 925 ns  Scope: fetch_top.DUT File: fetch.sv Line: 26
+#  design is ok
+#                  930enable_updatePC=1 | enable_fetch=1 | taddr=bdb0 | br_taken=0 | instrmem_rd=1 | pc=3000 | npc=3001 
+# ** Info: enable_updatePC = 1 enable_fetch = 1 pc=3000
+#    Time: 935 ns  Scope: fetch_top.DUT File: fetch.sv Line: 26
+#  design is ok
+#                  940enable_updatePC=1 | enable_fetch=1 | taddr=6061 | br_taken=1 | instrmem_rd=1 | pc=3000 | npc=3001 
+# ** Info: enable_updatePC = 1 enable_fetch = 1 pc=3000
+#    Time: 945 ns  Scope: fetch_top.DUT File: fetch.sv Line: 26
+#  design is ok
+#                  950enable_updatePC=0 | enable_fetch=0 | taddr=60d5 | br_taken=1 | instrmem_rd=1 | pc=3000 | npc=3001 
+# --FETCH--enable_updatePC = 0 enable_fetch = 0 pc=3000 
+#  design is ok
+#                  960enable_updatePC=0 | enable_fetch=0 | taddr=5d9d | br_taken=0 | instrmem_rd=0 | pc=3000 | npc=3001 
+# --FETCH--enable_updatePC = 0 enable_fetch = 0 pc=3000 
+#  design is ok
+#                  970enable_updatePC=0 | enable_fetch=0 | taddr=3107 | br_taken=0 | instrmem_rd=0 | pc=3000 | npc=3001 
+# --FETCH--enable_updatePC = 0 enable_fetch = 0 pc=3000 
+#  design is ok
+#                  980enable_updatePC=0 | enable_fetch=0 | taddr=57dc | br_taken=0 | instrmem_rd=0 | pc=3000 | npc=3001 
+# --FETCH--enable_updatePC = 0 enable_fetch = 0 pc=3000 
+#  design is ok
+#                  990enable_updatePC=1 | enable_fetch=0 | taddr=5841 | br_taken=0 | instrmem_rd=0 | pc=3000 | npc=3001 
+# ** Info: enable_updatePC = 1 enable_fetch = 0 pc=3000
+#    Time: 995 ns  Scope: fetch_top.DUT File: fetch.sv Line: 26
+#  design is ok
+#                 1000enable_updatePC=0 | enable_fetch=1 | taddr=70e8 | br_taken=0 | instrmem_rd=0 | pc=3000 | npc=3001 
+# ** Note: implicit $finish from program    : fetch_scoreboard.sv(22)
+#    Time: 1 us  Iteration: 1  Instance: /fetch_top/TEST
+# 1
+# Simulation stop requested.
+coverage report -html -htmldir covhtmlreport -details -assert -directive -cvg -code bcefst -threshL 50 -threshH 90
+# Report created in covhtmlreport/index.html
+
+# End time: 23:14:27 on Jul 24,2017, Elapsed time: 0:00:50
+# Errors: 0, Warnings: 1
