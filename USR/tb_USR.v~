@@ -1,0 +1,31 @@
+module tb_USR;
+parameter n = 4
+reg [n-1:0]pin;
+reg sin,clk,rst,ctrl;
+reg [2:0]sel;
+wire [n-1:0]pout;
+wire sout;
+
+initial
+begin
+clk = 1'b0;
+end
+always 
+#5 clk = ~clk;
+
+
+initial
+begin
+#3 rst = 0;		// To reset the USR
+#4 rst = 1;
+#2 sel=3'd1;
+ctrl =0 ;
+#10 sin = 1;
+#10 sin = 0;
+#10 sin = 1;
+#10 sin = 1;
+ctrl = 1;
+end
+
+endmodule
+

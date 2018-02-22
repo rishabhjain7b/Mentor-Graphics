@@ -1,0 +1,122 @@
+# //  Questa Sim-64
+# //  Version 10.6a linux_x86_64 Mar 16 2017
+# //
+# //  Copyright 1991-2017 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+vsim work.tb_USR
+# vsim work.tb_USR 
+# Start time: 05:18:39 on Jul 01,2017
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.tb_USR(fast)
+vsim work.tb_USR
+# End time: 05:18:44 on Jul 01,2017, Elapsed time: 0:00:05
+# Errors: 0, Warnings: 0
+# vsim work.tb_USR 
+# Start time: 05:18:44 on Jul 01,2017
+# ** Note: (vsim-8009) Loading existing optimized design _opt1
+# Loading work.tb_USR(fast)
+vsim -coverage work.tb_USR
+# End time: 05:18:53 on Jul 01,2017, Elapsed time: 0:00:09
+# Errors: 0, Warnings: 0
+# vsim -coverage work.tb_USR 
+# Start time: 05:18:53 on Jul 01,2017
+# ** Note: (vsim-8009) Loading existing optimized design _opt1
+# Loading work.tb_USR(fast)
+# ** Warning: (vsim-8634) Code was not compiled with coverage options.
+run -all
+# ** Note: $stop    : /home/student/Desktop/Verilog/Assignment/USR/tb_USR.v(82)
+#    Time: 900 ns  Iteration: 0  Instance: /tb_USR
+# Break at /home/student/Desktop/Verilog/Assignment/USR/tb_USR.v line 82
+coverage report -html -htmldir covhtmlreport -assert -directive -cvg -code bcefst -threshL 50 -threshH 90
+# Report created in covhtmlreport/index.html
+coverage report -html -htmldir covhtmlreport -details -assert -directive -cvg -code bcefst -threshL 50 -threshH 90
+# Report created in covhtmlreport/index.html
+# Modified modelsim.ini
+vsim -coverage work.tb_USR
+# End time: 05:20:08 on Jul 01,2017, Elapsed time: 0:01:15
+# Errors: 0, Warnings: 1
+# vsim -coverage work.tb_USR 
+# Start time: 05:20:08 on Jul 01,2017
+# ** Note: (vsim-8009) Loading existing optimized design _opt1
+# Loading work.tb_USR(fast)
+# ** Warning: (vsim-8634) Code was not compiled with coverage options.
+run -all
+# ** Note: $stop    : /home/student/Desktop/Verilog/Assignment/USR/tb_USR.v(82)
+#    Time: 900 ns  Iteration: 0  Instance: /tb_USR
+# Break at /home/student/Desktop/Verilog/Assignment/USR/tb_USR.v line 82
+coverage report -html -htmldir covhtmlreport -details -assert -directive -cvg -code bcefst -threshL 50 -threshH 90
+# Report created in covhtmlreport/index.html
+add wave *
+# (vish-4014) No objects found matching '*'.
+# Modified modelsim.ini
+vsim -coverage work.tb_USR
+# End time: 05:22:50 on Jul 01,2017, Elapsed time: 0:02:42
+# Errors: 1, Warnings: 1
+# vsim -coverage work.tb_USR 
+# Start time: 05:22:50 on Jul 01,2017
+# ** Note: (vsim-8009) Loading existing optimized design _opt1
+# Loading work.tb_USR(fast)
+# ** Warning: (vsim-8634) Code was not compiled with coverage options.
+add wave *
+# (vish-4014) No objects found matching '*'.
+vlog -reportprogress 300 -work work /home/student/Desktop/Verilog/Assignment/USR/USR.v
+# QuestaSim-64 vlog 10.6a Compiler 2017.03 Mar 16 2017
+# Start time: 05:24:04 on Jul 01,2017
+# vlog -reportprogress 300 -work work /home/student/Desktop/Verilog/Assignment/USR/USR.v 
+# -- Compiling module USR
+# 
+# Top level modules:
+# 	USR
+# End time: 05:24:04 on Jul 01,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work /home/student/Desktop/Verilog/Assignment/USR/USR.v
+# QuestaSim-64 vlog 10.6a Compiler 2017.03 Mar 16 2017
+# Start time: 05:24:04 on Jul 01,2017
+# vlog -reportprogress 300 -work work /home/student/Desktop/Verilog/Assignment/USR/USR.v 
+# -- Compiling module USR
+# 
+# Top level modules:
+# 	USR
+# End time: 05:24:04 on Jul 01,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work /home/student/Desktop/Verilog/Assignment/USR/tb_USR.v
+# QuestaSim-64 vlog 10.6a Compiler 2017.03 Mar 16 2017
+# Start time: 05:24:17 on Jul 01,2017
+# vlog -reportprogress 300 -work work /home/student/Desktop/Verilog/Assignment/USR/tb_USR.v 
+# -- Compiling module tb_USR
+# ** Warning: /home/student/Desktop/Verilog/Assignment/USR/tb_USR.v(56): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# ** Warning: /home/student/Desktop/Verilog/Assignment/USR/tb_USR.v(61): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# ** Warning: /home/student/Desktop/Verilog/Assignment/USR/tb_USR.v(70): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# ** Warning: /home/student/Desktop/Verilog/Assignment/USR/tb_USR.v(75): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# 
+# Top level modules:
+# 	tb_USR
+# End time: 05:24:17 on Jul 01,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 4
+vsim -coverage work.tb_USR
+# End time: 05:24:34 on Jul 01,2017, Elapsed time: 0:01:44
+# Errors: 1, Warnings: 5
+# vsim -coverage work.tb_USR 
+# Start time: 05:24:34 on Jul 01,2017
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.tb_USR(fast)
+# Loading work.siso(fast)
+# Loading work.sipo(fast)
+# Loading work.pipo(fast)
+# Loading work.piso(fast)
+add wave *
+run -all
+# ** Note: $stop    : /home/student/Desktop/Verilog/Assignment/USR/tb_USR.v(82)
+#    Time: 900 ns  Iteration: 0  Instance: /tb_USR
+# Break in Module tb_USR at /home/student/Desktop/Verilog/Assignment/USR/tb_USR.v line 82
+coverage report -html -htmldir covhtmlreport -details -assert -directive -cvg -code bcefst -threshL 50 -threshH 90
+# Report created in covhtmlreport/index.html

@@ -1,0 +1,44 @@
+var g_data = {
+b3:[{dummy:0},
+{anchor:'cvg29',items:[{z:'if(!rst)',f:'USR.v',l:'29',c:'G',p:'100.00'}
+,{cr:'c',t:'I',z:'if(!rst)',f:'USR.v',l:'29',h:'5',c:'g'}
+,{cr:'c',t:'E',z:'else',f:'USR.v',l:'37',h:'28',c:'g'}
+]},
+{anchor:'cvg30',items:[{z:'case(sel)',f:'USR.v',l:'38',c:'R',p:'44.44'}
+,{cr:'c',t:'T',z:'siso :	begin enable <= 4\'d1;',f:'USR.v',l:'39',h:'7',c:'g'}
+,{cr:'c',t:'T',z:'sipo : begin',f:'USR.v',l:'46',h:'6',c:'g'}
+,{cr:'c',t:'T',z:'pipo : begin',f:'USR.v',l:'52',h:'4',c:'g'}
+,{cr:'c',t:'T',z:'piso : begin',f:'USR.v',l:'58',h:'11',c:'g'}
+,{cr:'m',t:'T',z:'rol : begin',f:'USR.v',l:'64',h:'0',c:'r'}
+,{cr:'m',t:'T',z:'ror : begin',f:'USR.v',l:'69',h:'0',c:'r'}
+,{cr:'m',t:'T',z:'ls : ',f:'USR.v',l:'74',h:'0',c:'r'}
+,{cr:'m',t:'T',z:'rs : 		pout <= buffout>>1; ',f:'USR.v',l:'77',h:'0',c:'r'}
+,{cr:'m',t:'A',z:'case(sel)',f:'USR.v',l:'38',h:'0',c:'r'}
+]},
+{anchor:'cvg31',items:[{z:'	if(ctrl)',f:'USR.v',l:'40',c:'G',p:'100.00'}
+,{cr:'c',t:'I',z:'	if(ctrl)',f:'USR.v',l:'40',h:'6',c:'g'}
+,{cr:'c',t:'A',z:'	if(ctrl)',f:'USR.v',l:'40',h:'1',c:'g'}
+]}],
+b28:[{dummy:0},
+{anchor:'cvg29',items:[{z:'if(!rst)',f:'USR.v',l:'29',c:'G',p:'100.00'}
+,{cr:'c',t:'I',z:'if(!rst)',f:'USR.v',l:'29',h:'5',c:'g'}
+,{cr:'c',t:'E',z:'else',f:'USR.v',l:'37',h:'28',c:'g'}
+]},
+{anchor:'cvg30',items:[{z:'case(sel)',f:'USR.v',l:'38',c:'R',p:'44.44'}
+,{cr:'c',t:'T',z:'siso :	begin enable <= 4\'d1;',f:'USR.v',l:'39',h:'7',c:'g'}
+,{cr:'c',t:'T',z:'sipo : begin',f:'USR.v',l:'46',h:'6',c:'g'}
+,{cr:'c',t:'T',z:'pipo : begin',f:'USR.v',l:'52',h:'4',c:'g'}
+,{cr:'c',t:'T',z:'piso : begin',f:'USR.v',l:'58',h:'11',c:'g'}
+,{cr:'m',t:'T',z:'rol : begin',f:'USR.v',l:'64',h:'0',c:'r'}
+,{cr:'m',t:'T',z:'ror : begin',f:'USR.v',l:'69',h:'0',c:'r'}
+,{cr:'m',t:'T',z:'ls : ',f:'USR.v',l:'74',h:'0',c:'r'}
+,{cr:'m',t:'T',z:'rs : 		pout <= buffout>>1; ',f:'USR.v',l:'77',h:'0',c:'r'}
+,{cr:'m',t:'A',z:'case(sel)',f:'USR.v',l:'38',h:'0',c:'r'}
+]},
+{anchor:'cvg31',items:[{z:'	if(ctrl)',f:'USR.v',l:'40',c:'G',p:'100.00'}
+,{cr:'c',t:'I',z:'	if(ctrl)',f:'USR.v',l:'40',h:'6',c:'g'}
+,{cr:'c',t:'A',z:'	if(ctrl)',f:'USR.v',l:'40',h:'1',c:'g'}
+]}],
+dummyEnd:0
+};
+processBranchesData(g_data);

@@ -1,0 +1,153 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/home/student/Desktop/Verilog/Assignment/USR
+T_opt
+!s110 1498651499
+VHX_dVLoTijo[M[m86Zm0A2
+04 3 4 work USR fast 0
+=1-000c2947149a-59539b6b-b10ef-1080
+Z1 o-quiet -auto_acc_if_foreign -work work
+Z2 tCvgOpt 0
+n@_opt
+Z3 OL;O;10.6a;65
+R0
+T_opt1
+!s110 1498911874
+V>PVQ?NMo0U_BRozVP4MV]1
+04 6 4 work tb_USR fast 0
+=1-000c2947149a-59579482-79eff-13cf
+R1
+R2
+n@_opt1
+R3
+vpipo
+Z4 VDg1SIo80bB@j0V0VzS_@n1
+r1
+!s85 0
+31
+!i10b 1
+!s100 kZIBM@mQ3JQT<@Ud`YKW71
+IFlJE3MPZ1c9bdQLn9V0VR2
+R0
+w1498588584
+8/home/student/Desktop/Verilog/Assignment/USR/pipo.v
+F/home/student/Desktop/Verilog/Assignment/USR/pipo.v
+L0 1
+Z5 OL;L;10.6a;65
+!s108 1498656553.000000
+!s107 /home/student/Desktop/Verilog/Assignment/USR/pipo.v|
+!s90 -reportprogress|300|-work|work|/home/student/Desktop/Verilog/Assignment/USR/pipo.v|
+!i113 0
+Z6 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R2
+vpiso
+R4
+r1
+!s85 0
+31
+!i10b 1
+!s100 JK6k927[z8V53JzZnMQPD2
+I[QXM?@9lLHi@8E9::8@Vh1
+R0
+w1498588852
+8/home/student/Desktop/Verilog/Assignment/USR/piso.v
+F/home/student/Desktop/Verilog/Assignment/USR/piso.v
+L0 1
+R5
+!s108 1498656555.000000
+!s107 /home/student/Desktop/Verilog/Assignment/USR/piso.v|
+!s90 -reportprogress|300|-work|work|/home/student/Desktop/Verilog/Assignment/USR/piso.v|
+!i113 0
+R6
+R2
+vsipo
+R4
+r1
+!s85 0
+31
+!i10b 1
+!s100 n8>Ci`S0X>VI>G_lcman;0
+IAVD6n;H<DIll@8m3gVi3:0
+R0
+w1498656395
+8/home/student/Desktop/Verilog/Assignment/USR/sipo.v
+F/home/student/Desktop/Verilog/Assignment/USR/sipo.v
+L0 1
+R5
+!s108 1498656556.000000
+!s107 /home/student/Desktop/Verilog/Assignment/USR/sipo.v|
+!s90 -reportprogress|300|-work|work|/home/student/Desktop/Verilog/Assignment/USR/sipo.v|
+!i113 0
+R6
+R2
+vsiso
+R4
+r1
+!s85 0
+31
+!i10b 1
+!s100 J<BzDPE7VRlQg^FBDI?>g0
+IS]mngg4=Amg_KGT[0;SLA3
+R0
+w1498584621
+8/home/student/Desktop/Verilog/Assignment/USR/siso.v
+F/home/student/Desktop/Verilog/Assignment/USR/siso.v
+L0 1
+R5
+!s108 1498656557.000000
+!s107 /home/student/Desktop/Verilog/Assignment/USR/siso.v|
+!s90 -reportprogress|300|-work|work|/home/student/Desktop/Verilog/Assignment/USR/siso.v|
+!i113 0
+R6
+R2
+vtb_USR
+!s110 1498911857
+!i10b 1
+!s100 `d8OTYTNQ`82l;m=2T<[52
+I2JU?<[8fYEmH:NdYWi5=62
+R4
+R0
+w1498657099
+8/home/student/Desktop/Verilog/Assignment/USR/tb_USR.v
+F/home/student/Desktop/Verilog/Assignment/USR/tb_USR.v
+L0 1
+R5
+r1
+!s85 0
+31
+!s108 1498911857.000000
+!s107 /home/student/Desktop/Verilog/Assignment/USR/tb_USR.v|
+!s90 -##implicit##push_minusfile_path##|/home/student/Desktop/Verilog/Assignment/USR/vlog.opt|-##implicit##pop_minusfile_path##|-reportprogress|300|-work|work|/home/student/Desktop/Verilog/Assignment/USR/tb_USR.v|
+!i113 0
+R6
+Z7 tCoverage 35 CvgOpt 0
+ntb_@u@s@r
+vUSR
+!s110 1498911844
+!i10b 1
+!s100 AfQGDF>7Zz?G30JG9zk?D0
+I2VEYRoido?NS9YG?@NK:b3
+R4
+R0
+w1498648144
+8/home/student/Desktop/Verilog/Assignment/USR/USR.v
+F/home/student/Desktop/Verilog/Assignment/USR/USR.v
+L0 1
+R5
+r1
+!s85 0
+31
+!s108 1498911844.000000
+!s107 /home/student/Desktop/Verilog/Assignment/USR/USR.v|
+!s90 -##implicit##push_minusfile_path##|/home/student/Desktop/Verilog/Assignment/USR/vlog.opt|-##implicit##pop_minusfile_path##|-reportprogress|300|-work|work|/home/student/Desktop/Verilog/Assignment/USR/USR.v|
+!i113 0
+R6
+R7
+n@u@s@r

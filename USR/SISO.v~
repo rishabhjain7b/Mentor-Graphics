@@ -1,0 +1,13 @@
+module siso
+(input i,clk,rst,control,			//control = 0 1 shifting input to output in 1 clock cycle
+output reg o);
+
+always @(posedge clk)
+begin
+if(!rst)
+o<=0;
+else if(control)
+o<=i;
+end
+
+endmodule
