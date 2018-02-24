@@ -1,0 +1,5 @@
+var g_data = {'dummy':{null},
+'work.ALU_nbit':{h:'3',s:1,b:1,t:1,z:1},
+'/tb_ALU/alu':{h:'124',s:1,b:1,t:1,z:1},
+'work.tb_ALU':{h:'2',s:1,t:1,z:1},
+'/tb_ALU':{h:'4',s:1,t:1,z:1}};

@@ -1,0 +1,95 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/home/student/Desktop/Verilog/Assignment/ALU
+T_opt
+!s110 1498910368
+V38zh><mREaZ:>7QYKSJ9;0
+04 6 4 work tb_ALU fast 0
+=1-000c2947149a-59578ea0-42dfc-121b
+Z1 o-quiet -auto_acc_if_foreign -work work
+Z2 tCvgOpt 0
+n@_opt
+Z3 OL;O;10.6a;65
+T_opt1
+!s110 1498907849
+VkFlEX=XQ[:GL>3[JYOc_e1
+04 8 4 work ALU_nbit fast 0
+=1-000c2947149a-595784c9-ac294-1027
+R1
+R2
+n@_opt1
+R3
+R0
+vALU
+!s110 1498907225
+!i10b 1
+!s100 all0U]jASVXL]4fem?>3K3
+ITZ0UTV`MP<<IFl[`0Bh[o3
+Z4 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1498907194
+8tb_ALU.v
+Ftb_ALU.v
+L0 1
+Z5 OL;L;10.6a;65
+r1
+!s85 0
+31
+!s108 1498907225.000000
+!s107 tb_ALU.v|
+!s90 tb_ALU.v|
+!i113 0
+o-L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R2
+n@a@l@u
+vALU_nbit
+!s110 1498910360
+!i10b 1
+!s100 06mcn:O7Pb:bDNf<IhUoD1
+IbdVeUh:k4_8SIM2U[LhVj0
+R4
+R0
+w1498909722
+8/home/student/Desktop/Verilog/Assignment/ALU/ALU_nbit.v
+F/home/student/Desktop/Verilog/Assignment/ALU/ALU_nbit.v
+L0 3
+R5
+r1
+!s85 0
+31
+!s108 1498910360.000000
+!s107 /home/student/Desktop/Verilog/Assignment/ALU/ALU_nbit.v|
+!s90 -##implicit##push_minusfile_path##|/home/student/Desktop/Verilog/Assignment/ALU/vlog.opt|-##implicit##pop_minusfile_path##|-reportprogress|300|-work|work|/home/student/Desktop/Verilog/Assignment/ALU/ALU_nbit.v|
+!i113 0
+Z6 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z7 tVlog01Compat 1 Coverage 67 CvgOpt 0
+n@a@l@u_nbit
+vtb_ALU
+!s110 1498910361
+!i10b 1
+!s100 J15D7^7IVIa:RCXZIoV=@3
+I?E_HTfPP5N5ZV4_3G>WhW0
+R4
+R0
+w1498910354
+8/home/student/Desktop/Verilog/Assignment/ALU/tb_ALU.v
+F/home/student/Desktop/Verilog/Assignment/ALU/tb_ALU.v
+L0 1
+R5
+r1
+!s85 0
+31
+!s108 1498910361.000000
+!s107 /home/student/Desktop/Verilog/Assignment/ALU/tb_ALU.v|
+!s90 -##implicit##push_minusfile_path##|/home/student/Desktop/Verilog/Assignment/ALU/vlog.opt|-##implicit##pop_minusfile_path##|-reportprogress|300|-work|work|/home/student/Desktop/Verilog/Assignment/ALU/tb_ALU.v|
+!i113 0
+R6
+R7
+ntb_@a@l@u

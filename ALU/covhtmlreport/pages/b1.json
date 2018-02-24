@@ -1,0 +1,28 @@
+var g_data = {
+b3:[{dummy:0},
+{anchor:'cvg125',items:[{z:'	case(sel)',f:'ALU_nbit.v',l:'20',c:'G',p:'100.00'}
+,{cr:'c',t:'T',z:'		ADD: {co,o} = a+b;',f:'ALU_nbit.v',l:'21',h:'268',c:'g'}
+,{cr:'c',t:'T',z:'		SUB: {co,o} = a-b;',f:'ALU_nbit.v',l:'22',h:'269',c:'g'}
+,{cr:'c',t:'T',z:'		INR: {co,o} = a+1\'b1;',f:'ALU_nbit.v',l:'23',h:'269',c:'g'}
+,{cr:'c',t:'T',z:'		DCR: {co,o} = b-1\'b1;',f:'ALU_nbit.v',l:'24',h:'269',c:'g'}
+,{cr:'c',t:'T',z:'		AND:begin ',f:'ALU_nbit.v',l:'25',h:'266',c:'g'}
+,{cr:'c',t:'T',z:'		OR:begin ',f:'ALU_nbit.v',l:'29',h:'266',c:'g'}
+,{cr:'c',t:'T',z:'		XOR:begin ',f:'ALU_nbit.v',l:'33',h:'272',c:'g'}
+,{cr:'c',t:'T',z:'		CMP:begin ',f:'ALU_nbit.v',l:'37',h:'269',c:'g'}
+,{cr:'c',t:'T',z:'		default: {co,o}={(n+1){1\'bx}};',f:'ALU_nbit.v',l:'41',h:'1',c:'g'}
+]}],
+b124:[{dummy:0},
+{anchor:'cvg125',items:[{z:'	case(sel)',f:'ALU_nbit.v',l:'20',c:'G',p:'100.00'}
+,{cr:'c',t:'T',z:'		ADD: {co,o} = a+b;',f:'ALU_nbit.v',l:'21',h:'268',c:'g'}
+,{cr:'c',t:'T',z:'		SUB: {co,o} = a-b;',f:'ALU_nbit.v',l:'22',h:'269',c:'g'}
+,{cr:'c',t:'T',z:'		INR: {co,o} = a+1\'b1;',f:'ALU_nbit.v',l:'23',h:'269',c:'g'}
+,{cr:'c',t:'T',z:'		DCR: {co,o} = b-1\'b1;',f:'ALU_nbit.v',l:'24',h:'269',c:'g'}
+,{cr:'c',t:'T',z:'		AND:begin ',f:'ALU_nbit.v',l:'25',h:'266',c:'g'}
+,{cr:'c',t:'T',z:'		OR:begin ',f:'ALU_nbit.v',l:'29',h:'266',c:'g'}
+,{cr:'c',t:'T',z:'		XOR:begin ',f:'ALU_nbit.v',l:'33',h:'272',c:'g'}
+,{cr:'c',t:'T',z:'		CMP:begin ',f:'ALU_nbit.v',l:'37',h:'269',c:'g'}
+,{cr:'c',t:'T',z:'		default: {co,o}={(n+1){1\'bx}};',f:'ALU_nbit.v',l:'41',h:'1',c:'g'}
+]}],
+dummyEnd:0
+};
+processBranchesData(g_data);
